@@ -7,12 +7,141 @@ table 'Barra de Progresso'
 			FORMAT(SELECTEDVALUE(pop_residente_2022[populacao_residente_2022]), "#,##0")
 			
 			```
-		displayFolder: Barra de progresso - População
+		displayFolder: Medidas
 		lineageTag: adda151a-7356-4c0b-a85a-891d988ba2ac
+
+	measure 'No pais' = SUM('Barra de Progresso'[No País])
+		formatString: #,0
+		displayFolder: Medidas
+		lineageTag: 3daa87ec-a5f6-41c3-b222-a9a3a6631d2e
+
+	measure 'Barra Progresso - NO PAÍS' = ```
+			
+			
+			
+			VAR vValor =            
+			    [Posição no País] 
+			
+			VAR vValor_formatado =      
+			    FORMAT( vValor, "0" ) 
+			
+			VAR vMeta =            
+			    [% Posição no País]
+			
+			--------------------------------
+			-- FORMATAÇÕES   
+			--------------------------------
+			
+			VAR vFonte = "Cambria "
+			
+			VAR vRotulo_categoria_texto = [Município] & " - " & FORMAT( [Posição no País], "0")
+			/*VAR vRotulo_categoria_texto = [Município]"Rank Atual: "*/
+			VAR vRotulo_categoria_cor = "#0075A2"
+			VAR vRotulo_categoria_tam = 12
+			
+			
+			VAR vRotulo_dados_cor = "withe"
+			VAR vRotulo_dados_tam = 12
+			VAR vRotulo_dados_peso = 650
+			VAR vRotulo_dados_posicao = 65
+			
+			
+			VAR vBarra_altura = 10
+			
+			VAR vBarra_progresso_cor = "#0075A2"
+			
+			VAR vBarra_fundo_cor = "#0075A2"
+			VAR vBarra_fundo_opacidade = 9
+			
+			VAR vLinha_meta_larg = 3
+			VAR vLinha_meta_cor = "#3f3f3f"
+			
+			
+			
+			
+			
+			RETURN 
+			
+			"data:image/svg+xml;utf8,<svg width='200' height='70' viewBox='0 0 200 70' fill='none' xmlns='http://www.w3.org/2000/svg'><rect id='f001' x='0' y='37' width='190' height='" & vBarra_altura & "' fill='" & vBarra_fundo_cor & "'
+			opacity='0." & vBarra_fundo_opacidade& "' /><rect id='f002' x='0' y='37' width='" & MIN( 190,  MAX( 0, ROUND( 131 * vValor, 0 ) ) )  & "' height='" & vBarra_altura & "' fill='" & vBarra_progresso_cor & "' /><text id='f003' fill='" & vRotulo_categoria_cor & "' font-family='" & vFonte & "' font-size='" & vRotulo_categoria_tam & "' font-weight='400'><tspan x='0' y='28'> " & vRotulo_categoria_texto & "</tspan></text><text id='f004' fill='" & vRotulo_dados_cor& "' font-family='" & vFonte & "' font-size='" & vRotulo_dados_tam & "' font-weight='" & vRotulo_dados_peso & "'><tspan x='" & vRotulo_dados_posicao & "' y='28'>" & vValor_formatado & "</tspan></text><rect id='f005' x='" & MIN( 190,  MAX( 0, ROUND( 131 * vMeta , 0 ) ) )  & " ' y='32' width='" & vLinha_meta_larg & "' height='" & vBarra_altura + 10 & "' fill='" & vLinha_meta_cor & "' /></svg>"
+			```
+		displayFolder: Medidas
+		lineageTag: 7bba3073-f3ed-43c5-a218-6e53cbfba6e0
+
+	measure 'Barra Progresso - No Estado' = ```
+			
+			
+			
+			VAR vValor =            
+			    [Posição no Estado] 
+			
+			VAR vValor_formatado =      
+			    FORMAT( vValor, "0" ) 
+			
+			VAR vMeta =            
+			    [% Posição no Estado]
+			
+			--------------------------------
+			-- FORMATAÇÕES   
+			--------------------------------
+			
+			VAR vFonte = "Cambria "
+			
+			VAR vRotulo_categoria_texto = [Município] & " - " & FORMAT( [Posição no Estado], "0")
+			/*VAR vRotulo_categoria_texto = [Município]"Rank Atual: "*/
+			VAR vRotulo_categoria_cor = "#0075A2"
+			VAR vRotulo_categoria_tam = 12
+			
+			
+			VAR vRotulo_dados_cor = "withe"
+			VAR vRotulo_dados_tam = 12
+			VAR vRotulo_dados_peso = 650
+			VAR vRotulo_dados_posicao = 65
+			
+			
+			VAR vBarra_altura = 10
+			
+			VAR vBarra_progresso_cor = "#0075A2"
+			
+			VAR vBarra_fundo_cor = "#0075A2"
+			VAR vBarra_fundo_opacidade = 9
+			
+			VAR vLinha_meta_larg = 3
+			VAR vLinha_meta_cor = "#3f3f3f"
+			
+			
+			
+			
+			
+			RETURN 
+			
+			"data:image/svg+xml;utf8,<svg width='200' height='70' viewBox='0 0 200 70' fill='none' xmlns='http://www.w3.org/2000/svg'><rect id='f001' x='0' y='37' width='190' height='" & vBarra_altura & "' fill='" & vBarra_fundo_cor & "'
+			opacity='0." & vBarra_fundo_opacidade& "' /><rect id='f002' x='0' y='37' width='" & MIN( 190,  MAX( 0, ROUND( 131 * vValor, 0 ) ) )  & "' height='" & vBarra_altura & "' fill='" & vBarra_progresso_cor & "' /><text id='f003' fill='" & vRotulo_categoria_cor & "' font-family='" & vFonte & "' font-size='" & vRotulo_categoria_tam & "' font-weight='400'><tspan x='0' y='28'> " & vRotulo_categoria_texto & "</tspan></text><text id='f004' fill='" & vRotulo_dados_cor& "' font-family='" & vFonte & "' font-size='" & vRotulo_dados_tam & "' font-weight='" & vRotulo_dados_peso & "'><tspan x='" & vRotulo_dados_posicao & "' y='28'>" & vValor_formatado & "</tspan></text><rect id='f005' x='" & MIN( 190,  MAX( 0, ROUND( 131 * vMeta , 0 ) ) )  & " ' y='32' width='" & vLinha_meta_larg & "' height='" & vBarra_altura + 10 & "' fill='" & vLinha_meta_cor & "' /></svg>"
+			```
+		displayFolder: Medidas
+		lineageTag: 93a054e8-0b45-427e-ba2d-89443a50c2b6
+
+	measure '% Posição no Estado' =
+			
+			DIVIDE([Posição no Estado], [No Estado_])
+		displayFolder: Medidas
+		lineageTag: fcb74ddf-1325-4b63-99cb-c69565f909f0
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'No Estado_' = SELECTEDVALUE('Barra de Progresso'[No Estado])
+		formatString: 0
+		displayFolder: Medidas
+		lineageTag: 15b62098-720d-47cf-a141-cfdc48573066
+
+	measure Texto1 = "Comparando a outros municípios"
+		displayFolder: Medidas
+		lineageTag: 9933f504-2695-4cf6-8233-b27906786913
 
 	column code_muni
 		dataType: int64
 		formatString: 0
+		displayFolder: Colunas
 		lineageTag: c6886574-a72c-430a-8b97-67a652013d75
 		summarizeBy: none
 		sourceColumn: code_muni
@@ -22,6 +151,7 @@ table 'Barra de Progresso'
 	column 'No País'
 		dataType: int64
 		formatString: 0
+		displayFolder: Colunas
 		lineageTag: a8b6dc4c-0843-4292-856a-9128152d2880
 		summarizeBy: sum
 		sourceColumn: No País
@@ -31,6 +161,7 @@ table 'Barra de Progresso'
 	column 'No Estado'
 		dataType: int64
 		formatString: 0
+		displayFolder: Colunas
 		lineageTag: 6c5afc6c-1469-48b5-8b04-44f0dbbd5793
 		summarizeBy: sum
 		sourceColumn: No Estado

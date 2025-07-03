@@ -1,8 +1,17 @@
 table densidade_demografica
 	lineageTag: 74716fde-ee87-40e2-876c-7e2f1058c2ef
 
+	measure 'Densidade Demográfica' = ```
+			
+			"Densidade demográfica censo 2022: " & 
+			FORMAT(SELECTEDVALUE(densidade_demografica[densidade_demografica]), "0.00")
+			```
+		displayFolder: Medidas
+		lineageTag: 3fc20179-e3a1-4e88-8b49-27800fe2fd2f
+
 	column code_muni
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: 6581cd83-30aa-41bb-9a15-54449cbf9d6e
 		summarizeBy: none
 		sourceColumn: code_muni
@@ -11,6 +20,7 @@ table densidade_demografica
 
 	column densidade_demografica
 		dataType: double
+		displayFolder: Colunas
 		lineageTag: 12f9c94b-d5b4-4424-a109-4f285f0e5839
 		summarizeBy: sum
 		sourceColumn: densidade_demografica

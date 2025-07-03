@@ -10,13 +10,12 @@ annotation __PBI_TimeIntelligenceEnabled = 0
 
 annotation PBIDesktopVersion = 2.144.1155.0 (25.06)+46435b07013d2a234d7fd007083a9e70b8e79f1c
 
-annotation PBI_QueryOrder = ["Tabela1","Barra de Progresso","_Medidas","pop_residente_2022","pib_per_capita","densidade_demografica","receitas_fiscais_externas","idh_2010","pib_mun","rais_2023","mpe_2025","estimativas_sidra","municipio"]
+annotation PBI_QueryOrder = ["Tabela1","Barra de Progresso","pop_residente_2022","pib_per_capita","densidade_demografica","receitas_fiscais_externas","idh_2010","pib_mun","rais_2023","mpe_2025","estimativas_sidra","municipio"]
 
 annotation PBI_ProTooling = ["DevMode"]
 
 ref table Tabela1
 ref table 'Barra de Progresso'
-ref table _Medidas
 ref table pop_residente_2022
 ref table pib_per_capita
 ref table densidade_demografica

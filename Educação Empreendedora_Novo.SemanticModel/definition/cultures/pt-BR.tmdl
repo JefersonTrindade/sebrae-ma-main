@@ -2008,7 +2008,7 @@ cultureInfo pt-BR
 			    "tabela_1.posição_no_país": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "_Medidas",
+			          "ConceptualEntity": "pop_residente_2022",
 			          "ConceptualProperty": "Posição no País"
 			        }
 			      },
@@ -2034,7 +2034,7 @@ cultureInfo pt-BR
 			    "tabela_1.posição_no_estado": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "_Medidas",
+			          "ConceptualEntity": "pop_residente_2022",
 			          "ConceptualProperty": "Posição no Estado"
 			        }
 			      },
@@ -2484,7 +2484,7 @@ cultureInfo pt-BR
 			    "barra_de_progresso.no_pais": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "_Medidas",
+			          "ConceptualEntity": "Barra de Progresso",
 			          "ConceptualProperty": "No pais"
 			        }
 			      },
@@ -2520,7 +2520,7 @@ cultureInfo pt-BR
 			    "barra_de_progresso.barra_progresso": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "_Medidas",
+			          "ConceptualEntity": "Barra de Progresso",
 			          "ConceptualProperty": "Barra Progresso - NO PAÍS"
 			        }
 			      },
@@ -2542,7 +2542,7 @@ cultureInfo pt-BR
 			    "barra_de_progresso.município": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "_Medidas",
+			          "ConceptualEntity": "municipio",
 			          "ConceptualProperty": "Município"
 			        }
 			      },

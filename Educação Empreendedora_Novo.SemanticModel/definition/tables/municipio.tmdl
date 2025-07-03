@@ -1,8 +1,13 @@
 table municipio
 	lineageTag: e5c56f78-e172-4ef5-bde1-2cbb691cee27
 
+	measure Município = SELECTEDVALUE(municipio[municipio])
+		displayFolder: Medidas
+		lineageTag: d9d4ca15-48d9-4d11-8f92-f75dca9e7ef6
+
 	column code_muni
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: 062cc64b-349b-4d60-b039-1bcc9b191d62
 		summarizeBy: none
 		sourceColumn: code_muni
@@ -11,6 +16,7 @@ table municipio
 
 	column municipio
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: 9e21086b-a766-455a-98ca-942936958ce5
 		summarizeBy: none
 		sourceColumn: municipio
@@ -19,6 +25,7 @@ table municipio
 
 	column nm_candidato
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: 4ca3ee55-511b-449d-872f-46378357227d
 		summarizeBy: none
 		sourceColumn: nm_candidato
@@ -27,6 +34,7 @@ table municipio
 
 	column ds_genero
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: 6d55f63e-132a-4506-aff2-159b374ff463
 		summarizeBy: none
 		sourceColumn: ds_genero
@@ -35,6 +43,7 @@ table municipio
 
 	column unidade_negocios
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: 57b6fcb9-7fad-419d-9d80-fe7f6f9154be
 		summarizeBy: none
 		sourceColumn: unidade_negocios

@@ -3,6 +3,7 @@ table pib_per_capita
 
 	column code_muni
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: 01c98129-5568-4aaa-b7b3-5dad4277734d
 		summarizeBy: none
 		sourceColumn: code_muni
@@ -11,6 +12,7 @@ table pib_per_capita
 
 	column pib_per_capita
 		dataType: double
+		displayFolder: Colunas
 		lineageTag: 2bc44e40-ddf4-496c-817f-a7830c93b159
 		summarizeBy: sum
 		sourceColumn: pib_per_capita
@@ -22,6 +24,7 @@ table pib_per_capita
 	column posicao_na_pib_per_capita
 		dataType: int64
 		formatString: 0
+		displayFolder: Colunas
 		lineageTag: 5b3680e3-36c5-4bd7-95b7-7e00b494db9e
 		summarizeBy: sum
 		sourceColumn: posicao_na_pib_per_capita
@@ -31,6 +34,7 @@ table pib_per_capita
 	column posicao_estadual_pib_per_capita
 		dataType: int64
 		formatString: 0
+		displayFolder: Colunas
 		lineageTag: 4f53ac9f-e99d-4b90-a3e1-eeff2dfc2e8b
 		summarizeBy: sum
 		sourceColumn: posicao_estadual_pib_per_capita

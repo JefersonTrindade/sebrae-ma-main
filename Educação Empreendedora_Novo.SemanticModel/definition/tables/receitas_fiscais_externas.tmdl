@@ -3,6 +3,7 @@ table receitas_fiscais_externas
 
 	column municipio
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: 5fad6226-1e68-47ae-a7bd-720fcbc7160d
 		summarizeBy: none
 		sourceColumn: municipio
@@ -11,6 +12,7 @@ table receitas_fiscais_externas
 
 	column prop_receitas_fiscais_externo
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: 45b89018-17c2-4401-8af1-ded578eebb2a
 		summarizeBy: none
 		sourceColumn: prop_receitas_fiscais_externo

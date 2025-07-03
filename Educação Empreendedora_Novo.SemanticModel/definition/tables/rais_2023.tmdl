@@ -3,6 +3,7 @@ table rais_2023
 
 	column code_muni_6
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: b718cc8a-8a20-4601-9a14-e15d39997c57
 		summarizeBy: none
 		sourceColumn: code_muni_6
@@ -12,6 +13,7 @@ table rais_2023
 	column empregos_formais
 		dataType: int64
 		formatString: 0
+		displayFolder: Colunas
 		lineageTag: 7802db01-0b58-4235-a4d3-fbe7ec054658
 		summarizeBy: sum
 		sourceColumn: empregos_formais
@@ -20,6 +22,7 @@ table rais_2023
 
 	column remuneracao
 		dataType: double
+		displayFolder: Colunas
 		lineageTag: 8641357b-dfcb-4d61-ac4d-63fb685a5bc2
 		summarizeBy: none
 		sourceColumn: remuneracao
@@ -30,6 +33,7 @@ table rais_2023
 
 	column v_salario_medio_sm
 		dataType: double
+		displayFolder: Colunas
 		lineageTag: 7ea369f0-bbfd-49ea-bcd9-5233a8617fad
 		summarizeBy: sum
 		sourceColumn: v_salario_medio_sm
@@ -41,6 +45,7 @@ table rais_2023
 	column rais_ranking_na_salario_medio_sm
 		dataType: int64
 		formatString: 0
+		displayFolder: Colunas
 		lineageTag: f61a131d-6002-4f6d-b721-89e8c2076f69
 		summarizeBy: sum
 		sourceColumn: rais_ranking_na_salario_medio_sm

@@ -3,6 +3,7 @@ table pib_mun
 
 	column code_muni
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: 361e7fae-878c-4ea5-9b91-9b18713faf83
 		summarizeBy: none
 		sourceColumn: code_muni
@@ -11,6 +12,7 @@ table pib_mun
 
 	column pib_total_mil_reais
 		dataType: double
+		displayFolder: Colunas
 		lineageTag: e8b0aad9-4e74-44a0-a155-93f7fdd5c593
 		summarizeBy: sum
 		sourceColumn: pib_total_mil_reais
@@ -21,6 +23,7 @@ table pib_mun
 
 	column perc_pib_agropecuaria
 		dataType: double
+		displayFolder: Colunas
 		lineageTag: a0e4c4fe-0782-4a0c-83a3-2dd4843cabd3
 		summarizeBy: sum
 		sourceColumn: perc_pib_agropecuaria
@@ -31,6 +34,7 @@ table pib_mun
 
 	column perc_pib_industria
 		dataType: double
+		displayFolder: Colunas
 		lineageTag: 44414299-0768-4d76-a06d-4ef9c9b2dc46
 		summarizeBy: sum
 		sourceColumn: perc_pib_industria
@@ -41,6 +45,7 @@ table pib_mun
 
 	column perc_pib_servicos
 		dataType: double
+		displayFolder: Colunas
 		lineageTag: 9795332c-9955-48f3-9c50-fb8c67ca9c8c
 		summarizeBy: sum
 		sourceColumn: perc_pib_servicos
@@ -51,6 +56,7 @@ table pib_mun
 
 	column perc_pib_adm_publica
 		dataType: double
+		displayFolder: Colunas
 		lineageTag: 73590d86-b1cc-46ab-9539-1dca90f91718
 		summarizeBy: sum
 		sourceColumn: perc_pib_adm_publica
@@ -61,6 +67,7 @@ table pib_mun
 
 	column perc_pib_impostos
 		dataType: double
+		displayFolder: Colunas
 		lineageTag: 40be2581-be29-49ae-82a0-c65d9cfa6603
 		summarizeBy: sum
 		sourceColumn: perc_pib_impostos

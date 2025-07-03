@@ -3,6 +3,7 @@ table estimativas_sidra
 
 	column nivel_territorial_codigo
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: 9163d0e3-f6b4-4a16-bb7c-6f33c975d312
 		summarizeBy: none
 		sourceColumn: nivel_territorial_codigo
@@ -11,6 +12,7 @@ table estimativas_sidra
 
 	column nivel_territorial
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: e07b30f3-da55-49be-aaf4-53c1b15322a5
 		summarizeBy: none
 		sourceColumn: nivel_territorial
@@ -19,6 +21,7 @@ table estimativas_sidra
 
 	column unidade_medida_codigo
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: 16e59af6-b388-4f86-8507-8cac49ae5fb2
 		summarizeBy: none
 		sourceColumn: unidade_medida_codigo
@@ -27,6 +30,7 @@ table estimativas_sidra
 
 	column unidade_medida
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: 8338d70b-eb15-40e6-a518-c74b2beb35db
 		summarizeBy: none
 		sourceColumn: unidade_medida
@@ -35,6 +39,7 @@ table estimativas_sidra
 
 	column valor
 		dataType: double
+		displayFolder: Colunas
 		lineageTag: a722fff7-5fcf-4bca-9ea1-ce89350bd77d
 		summarizeBy: sum
 		sourceColumn: valor
@@ -45,6 +50,7 @@ table estimativas_sidra
 
 	column uf_codigo
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: d0a100f4-2a1d-4fa9-bf8e-67f2d074eaab
 		summarizeBy: none
 		sourceColumn: uf_codigo
@@ -53,6 +59,7 @@ table estimativas_sidra
 
 	column uf
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: 54445b65-4860-41fa-8014-f04aadd17c3d
 		summarizeBy: none
 		sourceColumn: uf
@@ -62,6 +69,7 @@ table estimativas_sidra
 	column variavel_codigo
 		dataType: int64
 		formatString: 0
+		displayFolder: Colunas
 		lineageTag: 7a701bd7-4672-4cf6-b918-f690db1c338d
 		summarizeBy: sum
 		sourceColumn: variavel_codigo
@@ -70,6 +78,7 @@ table estimativas_sidra
 
 	column variavel
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: ba721f5c-5675-444d-8dc3-e687f9f124aa
 		summarizeBy: none
 		sourceColumn: variavel
@@ -79,6 +88,7 @@ table estimativas_sidra
 	column ano_codigo
 		dataType: int64
 		formatString: 0
+		displayFolder: Colunas
 		lineageTag: 21be17fc-f1c9-4a16-874b-095f9a4ab29c
 		summarizeBy: sum
 		sourceColumn: ano_codigo
@@ -88,6 +98,7 @@ table estimativas_sidra
 	column ano
 		dataType: int64
 		formatString: 0
+		displayFolder: Colunas
 		lineageTag: 61929874-0eee-4e5e-8807-bf7f9ba1d81c
 		summarizeBy: sum
 		sourceColumn: ano
@@ -96,6 +107,7 @@ table estimativas_sidra
 
 	column sexo_codigo
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: 77d3ee0e-bad7-4848-acc5-ff6edd525742
 		summarizeBy: none
 		sourceColumn: sexo_codigo
@@ -104,6 +116,7 @@ table estimativas_sidra
 
 	column sexo
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: 86820719-0b59-4105-b7c1-924e7f77661f
 		summarizeBy: none
 		sourceColumn: sexo
@@ -112,6 +125,7 @@ table estimativas_sidra
 
 	column idade_codigo
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: 3cf3eee0-55a7-4e64-88d3-3afb169a2cdd
 		summarizeBy: none
 		sourceColumn: idade_codigo
@@ -120,6 +134,7 @@ table estimativas_sidra
 
 	column idade
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: c48c57d2-bbdc-441e-ac06-d7a7961886d1
 		summarizeBy: none
 		sourceColumn: idade
@@ -129,6 +144,7 @@ table estimativas_sidra
 	column ano_referencia_codigo
 		dataType: int64
 		formatString: 0
+		displayFolder: Colunas
 		lineageTag: 0338b435-2919-486b-8aee-828cf04c9f19
 		summarizeBy: sum
 		sourceColumn: ano_referencia_codigo
@@ -138,6 +154,7 @@ table estimativas_sidra
 	column ano_referencia
 		dataType: int64
 		formatString: 0
+		displayFolder: Colunas
 		lineageTag: a27d9704-8c3c-4a76-8ab7-0ac1165ea9dd
 		summarizeBy: sum
 		sourceColumn: ano_referencia

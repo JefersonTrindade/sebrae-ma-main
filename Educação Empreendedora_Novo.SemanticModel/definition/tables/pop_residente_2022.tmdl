@@ -1,8 +1,19 @@
 table pop_residente_2022
 	lineageTag: 5463c112-eeda-403a-aea9-3138ac6c8c3f
 
+	measure 'Posição no Estado' = SUM(pop_residente_2022[posicao_estadual_populacional])
+		formatString: 0
+		displayFolder: Medidas
+		lineageTag: 15a506bb-0b20-4dc0-85bc-f267346bf74d
+
+	measure 'Posição no País' = SELECTEDVALUE(pop_residente_2022[posicao_nacional_populacional])
+		formatString: 0
+		displayFolder: Medidas
+		lineageTag: 2d01ab31-944f-4a8a-be18-aec78bfa6191
+
 	column code_muni
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: 348576c5-41cf-4036-a60c-7e8da71ba137
 		summarizeBy: none
 		sourceColumn: code_muni
@@ -11,6 +22,7 @@ table pop_residente_2022
 
 	column municipio
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: dd155969-06af-4907-b744-0374442c9617
 		summarizeBy: none
 		sourceColumn: municipio
@@ -20,6 +32,7 @@ table pop_residente_2022
 	column populacao_residente_2022
 		dataType: int64
 		formatString: 0
+		displayFolder: Colunas
 		lineageTag: f0693406-006f-4925-9265-0b69ea4b0a7d
 		summarizeBy: sum
 		sourceColumn: populacao_residente_2022
@@ -29,6 +42,7 @@ table pop_residente_2022
 	column posicao_nacional_populacional
 		dataType: int64
 		formatString: 0
+		displayFolder: Colunas
 		lineageTag: f455be75-a699-4aa9-a124-f2801e3e0de9
 		summarizeBy: sum
 		sourceColumn: posicao_nacional_populacional
@@ -38,6 +52,7 @@ table pop_residente_2022
 	column posicao_estadual_populacional
 		dataType: int64
 		formatString: 0
+		displayFolder: Colunas
 		lineageTag: 0e291aa0-5e1a-4e65-b89a-ffbf921cd632
 		summarizeBy: sum
 		sourceColumn: posicao_estadual_populacional

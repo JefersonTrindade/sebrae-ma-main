@@ -1,0 +1,5131 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "tabela_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tabela 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Tabela1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.code_muni": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "code_muni"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "code muni": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "code_muni": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "muni": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "id muni": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "key muni": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.município": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "MUNICÍPIO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "município": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.nm_candidato": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "NM_CANDIDATO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nm candidato": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NM_CANDIDATO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.ds_genero": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "DS_GENERO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ds genero": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DS_GENERO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.unidade_negocio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "Unidade_Negocios"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "unidade negocio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Unidade_Negocios": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Unidade Negocios": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.code_muni_6": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "code_muni_6"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "code muni 6": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "code_muni_6": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "muni 6": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "id muni 6": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "key muni 6": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.população_residente_2022": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "PopulaçãoResidente2022"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "população residente 2022": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PopulaçãoResidente2022": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.posição_nacional_populacional": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "Posição Nacional Populacional"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "posição nacional populacional": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.posição_estadual_populacional": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "Posição Estadual Populacional"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "posição estadual populacional": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.PIB_per_capita": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "PIB per capita"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "PIB per capita": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.posição_NA_PIB_per_capita": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "Posição NA PIB per capita"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "posição NA PIB per capita": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.posição_estadual_PIB_per_capita": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "Posição Estadual PIB per capita"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "posição estadual PIB per capita": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.valor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "Valor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "courage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "bravery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "heroism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fearlessness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "boldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "gallantry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "lionheartedness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pluck": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "spirit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "nerve": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.idh": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "IDH"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "idh": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.posição_nacional_IDH": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "Posição Nacional IDH"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "posição nacional IDH": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.posição_estadual_IDH": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "Posição Estadual IDH"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "posição estadual IDH": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.produto_interno_bruto__a_preços_correntes_R_1_000": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "Produto Interno Bruto,  a preços correntes (R$ 1.000)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "produto interno bruto,  a preços correntes (R$ 1.000)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "produto interno bruto,  a preço corrente (R$ 1.000)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "produto interno bruto,  a preços correntes": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "produto interno bruto, a preços correntes (R$ 1.000)": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "produto interno bruto, a preço corrente (R$ 1.000)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.perc_pib_agropecuaria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "perc pib agropecuaria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "perc pib agropecuaria": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.perc_pib_industria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "perc pib industria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "perc pib industria": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.perc_pib_servico": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "perc pib servicos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "perc pib servico": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.perc_pib_adm_publica": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "perc pib adm publica"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "perc pib adm publica": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.perc_pib_imposto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "perc pib impostos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "perc pib imposto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.mei": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "MEI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mei": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "ME"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.epp": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "EPP"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "epp": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.mpe": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "MPE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mpe": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.perc_mpe_estado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "perc_mpe_estado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "perc mpe estado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "perc_mpe_estado": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.perc_agropecuaria_mpe": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "perc_agropecuaria_mpe"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "perc agropecuaria mpe": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "perc_agropecuaria_mpe": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.perc_industria_mpe": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "perc_industria_mpe"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "perc industria mpe": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "perc_industria_mpe": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.perc_construcao_mpe": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "perc_construcao_mpe"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "perc construcao mpe": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "perc_construcao_mpe": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.perc_comercio_mpe": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "perc_comercio_mpe"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "perc comercio mpe": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "perc_comercio_mpe": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.perc_servicos_mpe": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "perc_servicos_mpe"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "perc servicos mpe": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "perc servico mpe": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "perc_servicos_mpe": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.v_sexo_prefeito": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "V_SEXO_PREFEITO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "v sexo prefeito": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "V_SEXO_PREFEITO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.RANKING_perc_PIB_estado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "RANKING_perc_PIB_estado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "RANKING perc PIB estado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "RANKING_perc_PIB_estado": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.empregos_formais": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "EmpregosFormais"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "empregos formais": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "emprego formais": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "EmpregosFormais": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.remuneracao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "Remuneracao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "remuneracao": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.v_salario_medio_sm": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "V_SALARIO_MEDIO_SM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "v salario medio sm": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "V_SALARIO_MEDIO_SM": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.rais_ranking_na_salario_medio_sm": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "RAIS_RANKING_NA_SALARIO_MEDIO_SM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rais ranking na salario medio sm": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rai ranking na salario medio sm": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "RAIS_RANKING_NA_SALARIO_MEDIO_SM": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.rais_ranking_uf_salario_medio_sm": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "RAIS_RANKING_UF_SALARIO_MEDIO_SM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rais ranking uf salario medio sm": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rai ranking uf salario medio sm": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "RAIS_RANKING_UF_SALARIO_MEDIO_SM": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.perce_pop_mercado_de_trabalho": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "PercePopMercadoDeTrabalho"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "perce pop mercado de trabalho": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PercePopMercadoDeTrabalho": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.v_link_mun": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "V_LINK_MUN"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "v link mun": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "V_LINK_MUN": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "v connection mun": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "v relation mun": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "v association mun": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "v relationship mun": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "v linkage mun": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "v nexus mun": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "v tie mun": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "v bond mun": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "v yoke mun": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.v_prefeito_mun": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "V_PREFEITO_MUN"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "v prefeito mun": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "V_PREFEITO_MUN": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.percpib_estado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "percpibEstado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "percpib estado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percpibEstado": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.setor_top_1_va": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "SETOR_TOP_1_VA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "setor top 1 va": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SETOR_TOP_1_VA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "setor best 1 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor first 1 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor leading 1 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor maximum 1 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor peak 1 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor upper 1 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.setor_top_2_va": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "SETOR_TOP_2_VA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "setor top 2 va": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SETOR_TOP_2_VA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "setor best 2 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor first 2 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor leading 2 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor maximum 2 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor peak 2 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor upper 2 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.setor_top_3_va": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "SETOR_TOP_3_VA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "setor top 3 va": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SETOR_TOP_3_VA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "setor best 3 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor first 3 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor leading 3 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor maximum 3 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor peak 3 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor upper 3 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.setor_top_4_va": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "SETOR_TOP_4_VA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "setor top 4 va": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SETOR_TOP_4_VA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "setor best 4 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor first 4 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor leading 4 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor maximum 4 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor peak 4 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor upper 4 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.setor_top_5_va": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "SETOR_TOP_5_VA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "setor top 5 va": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SETOR_TOP_5_VA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "setor best 5 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor first 5 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor leading 5 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor maximum 5 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor peak 5 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "setor upper 5 va": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.setor_top_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "SETOR_TOP_1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "setor top 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SETOR_TOP_1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "setor best 1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor first 1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor leading 1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor maximum 1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor peak 1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor upper 1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.setor_top_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "SETOR_TOP_2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "setor top 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SETOR_TOP_2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "setor best 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor first 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor leading 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor maximum 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor peak 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor upper 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.setor_top_3": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "SETOR_TOP_3"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "setor top 3": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SETOR_TOP_3": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "setor best 3": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor first 3": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor leading 3": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor maximum 3": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor peak 3": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor upper 3": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.setor_top_4": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "SETOR_TOP_4"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "setor top 4": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SETOR_TOP_4": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "setor best 4": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor first 4": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor leading 4": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor maximum 4": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor peak 4": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor upper 4": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.setor_top_5": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "SETOR_TOP_5"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "setor top 5": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SETOR_TOP_5": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "setor best 5": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor first 5": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor leading 5": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor maximum 5": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor peak 5": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "setor upper 5": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.posição_no_país": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Posição no País"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "posição no país": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "posição number país": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.posição_no_estado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Posição no Estado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "posição no estado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "posição number estado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.populão_residente_2022": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "populão residente 2022"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "populão residente 2022": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.total_bar": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "Total bar"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total bar": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate bar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "overall bar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.subheader": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "subheader"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "subheader": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.header": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "Header"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "header": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "shot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "goal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "slogan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "legend": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "headpiece": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "description": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "heading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "caption": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.category": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "Nome_municipio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "category": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.posição_no_país1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "% Posição no País"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% posição no país": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage posição no país": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "pct posição no país": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "% posição number país": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "barra_de_progresso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Barra de Progresso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "barra de progresso": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "barra_de_progresso.code_muni": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Barra de Progresso",
+			          "ConceptualProperty": "code_muni"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "code muni": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "code_muni": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "muni": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "id muni": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "key muni": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "barra_de_progresso.no_país": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Barra de Progresso",
+			          "ConceptualProperty": "No País"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "no país": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "país": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "number país": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "barra_de_progresso.no_estado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Barra de Progresso",
+			          "ConceptualProperty": "No Estado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "no estado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "estado": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "number estado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "barra_de_progresso.no_pais": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "No pais"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "no pais": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "number pais": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "No país": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "barra_de_progresso.barra_progresso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Barra Progresso - NO PAÍS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "barra progresso": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "progresso": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "barra_de_progresso.município": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Município"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "município": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.pessoas__posição_no_país": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "Pessoas - Posição no País"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pessoas - posição no país": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pessoas posição no país": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "pessoa - posição number país": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "pessoa posição number país": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "tabela_1.resumo_populacional": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabela1",
+			          "ConceptualProperty": "Resumo_Populacional"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "resumo populacional": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Resumo_Populacional": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "barra_de_progresso.populacao_censo_texto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Barra de Progresso",
+			          "ConceptualProperty": "Populacao_Censo_Texto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "populacao censo texto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Populacao_Censo_Texto": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "barra_de_progresso_has_tabela_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Barra de Progresso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "barra_de_progresso": {
+			          "Target": {
+			            "Entity": "barra_de_progresso"
+			          }
+			        },
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "barra_de_progresso"
+			            },
+			            "Object": {
+			              "Role": "tabela_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "barra_de_progresso_have_tabela_1"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_dim_municipio": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "dim_municipio": {
+			          "Target": {
+			            "Entity": "dim_municipio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "dim_municipio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_dim_municipios"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_barra_de_progresso": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "barra_de_progresso": {
+			          "Target": {
+			            "Entity": "barra_de_progresso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_barra_de_progresso"
+			        }
+			      ]
+			    },
+			    "barra_de_progresso_has_populacao_censo_texto": {
+			      "Binding": {
+			        "ConceptualEntity": "Barra de Progresso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "barra_de_progresso": {
+			          "Target": {
+			            "Entity": "barra_de_progresso"
+			          }
+			        },
+			        "barra_de_progresso.populacao_censo_texto": {
+			          "Target": {
+			            "Entity": "barra_de_progresso.populacao_censo_texto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "barra_de_progresso"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso.populacao_censo_texto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "barra_de_progresso_have_populacao_censo_texto"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_densidade_demografica": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.densidade_demografica": {
+			          "Target": {
+			            "Entity": "tabela_1.densidade_demografica"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.densidade_demografica"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_densidade_demografica"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_resumo_populacional": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.resumo_populacional": {
+			          "Target": {
+			            "Entity": "tabela_1.resumo_populacional"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.resumo_populacional"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_resumo_populacional"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_pessoas__posição_no_país": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.pessoas__posição_no_país": {
+			          "Target": {
+			            "Entity": "tabela_1.pessoas__posição_no_país"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.pessoas__posição_no_país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_pessoas__posição_no_país"
+			        }
+			      ]
+			    },
+			    "barra_de_progresso_has_município": {
+			      "Binding": {
+			        "ConceptualEntity": "Barra de Progresso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "barra_de_progresso": {
+			          "Target": {
+			            "Entity": "barra_de_progresso"
+			          }
+			        },
+			        "barra_de_progresso.município": {
+			          "Target": {
+			            "Entity": "barra_de_progresso.município"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "barra_de_progresso"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso.município"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "barra_de_progresso_have_município"
+			        }
+			      ]
+			    },
+			    "barra_de_progresso_has_barra_progresso": {
+			      "Binding": {
+			        "ConceptualEntity": "Barra de Progresso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "barra_de_progresso": {
+			          "Target": {
+			            "Entity": "barra_de_progresso"
+			          }
+			        },
+			        "barra_de_progresso.barra_progresso": {
+			          "Target": {
+			            "Entity": "barra_de_progresso.barra_progresso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "barra_de_progresso"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso.barra_progresso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "barra_de_progresso_have_barra_progresso"
+			        }
+			      ]
+			    },
+			    "barra_de_progresso_has_no_pais": {
+			      "Binding": {
+			        "ConceptualEntity": "Barra de Progresso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "barra_de_progresso": {
+			          "Target": {
+			            "Entity": "barra_de_progresso"
+			          }
+			        },
+			        "barra_de_progresso.no_pais": {
+			          "Target": {
+			            "Entity": "barra_de_progresso.no_pais"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "barra_de_progresso"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso.no_pais"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "barra_de_progresso_have_no_pais"
+			        }
+			      ]
+			    },
+			    "barra_de_progresso_has_no_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "Barra de Progresso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "barra_de_progresso": {
+			          "Target": {
+			            "Entity": "barra_de_progresso"
+			          }
+			        },
+			        "barra_de_progresso.no_estado": {
+			          "Target": {
+			            "Entity": "barra_de_progresso.no_estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "barra_de_progresso"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso.no_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "barra_de_progresso_have_no_estado"
+			        }
+			      ]
+			    },
+			    "barra_de_progresso_has_no_país": {
+			      "Binding": {
+			        "ConceptualEntity": "Barra de Progresso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "barra_de_progresso": {
+			          "Target": {
+			            "Entity": "barra_de_progresso"
+			          }
+			        },
+			        "barra_de_progresso.no_país": {
+			          "Target": {
+			            "Entity": "barra_de_progresso.no_país"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "barra_de_progresso"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso.no_país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "barra_de_progresso_have_no_país"
+			        }
+			      ]
+			    },
+			    "barra_de_progresso_has_code_muni": {
+			      "Binding": {
+			        "ConceptualEntity": "Barra de Progresso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "barra_de_progresso": {
+			          "Target": {
+			            "Entity": "barra_de_progresso"
+			          }
+			        },
+			        "barra_de_progresso.code_muni": {
+			          "Target": {
+			            "Entity": "barra_de_progresso.code_muni"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "barra_de_progresso"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso.code_muni"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "barra_de_progresso_have_code_munis"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_posição_no_país1": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.posição_no_país1": {
+			          "Target": {
+			            "Entity": "tabela_1.posição_no_país1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.posição_no_país1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have__posição_no_país"
+			        }
+			      ]
+			    },
+			    "barra_de_progresso_has_tabela_1_posição_no_país1": {
+			      "Binding": {
+			        "ConceptualEntity": "Barra de Progresso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "barra_de_progresso": {
+			          "Target": {
+			            "Entity": "barra_de_progresso"
+			          }
+			        },
+			        "tabela_1.posição_no_país1": {
+			          "Target": {
+			            "Entity": "tabela_1.posição_no_país1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "barra_de_progresso"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.posição_no_país1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "barra_de_progresso_have__posição_no_país"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_category": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.category": {
+			          "Target": {
+			            "Entity": "tabela_1.category"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.category"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_category"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_header": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.header": {
+			          "Target": {
+			            "Entity": "tabela_1.header"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.header"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_header"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_subheader": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.subheader": {
+			          "Target": {
+			            "Entity": "tabela_1.subheader"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.subheader"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_subheader"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_total_bar": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.total_bar": {
+			          "Target": {
+			            "Entity": "tabela_1.total_bar"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.total_bar"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_total_bar"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_populão_residente_2022": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.populão_residente_2022": {
+			          "Target": {
+			            "Entity": "tabela_1.populão_residente_2022"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.populão_residente_2022"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_populão_residente_2022"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_posição_no_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.posição_no_estado": {
+			          "Target": {
+			            "Entity": "tabela_1.posição_no_estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.posição_no_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_posição_no_estado"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_posição_no_país": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.posição_no_país": {
+			          "Target": {
+			            "Entity": "tabela_1.posição_no_país"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.posição_no_país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_posição_no_país"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_setor_top_5": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.setor_top_5": {
+			          "Target": {
+			            "Entity": "tabela_1.setor_top_5"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.setor_top_5"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_setor_top_5"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_setor_top_4": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.setor_top_4": {
+			          "Target": {
+			            "Entity": "tabela_1.setor_top_4"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.setor_top_4"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_setor_top_4"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_setor_top_3": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.setor_top_3": {
+			          "Target": {
+			            "Entity": "tabela_1.setor_top_3"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.setor_top_3"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_setor_top_3"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_setor_top_2": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.setor_top_2": {
+			          "Target": {
+			            "Entity": "tabela_1.setor_top_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.setor_top_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_setor_top_2"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_setor_top_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.setor_top_1": {
+			          "Target": {
+			            "Entity": "tabela_1.setor_top_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.setor_top_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_setor_top_1"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_setor_top_5_va": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.setor_top_5_va": {
+			          "Target": {
+			            "Entity": "tabela_1.setor_top_5_va"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.setor_top_5_va"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_setor_top_5_va"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_setor_top_4_va": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.setor_top_4_va": {
+			          "Target": {
+			            "Entity": "tabela_1.setor_top_4_va"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.setor_top_4_va"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_setor_top_4_va"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_setor_top_3_va": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.setor_top_3_va": {
+			          "Target": {
+			            "Entity": "tabela_1.setor_top_3_va"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.setor_top_3_va"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_setor_top_3_va"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_setor_top_2_va": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.setor_top_2_va": {
+			          "Target": {
+			            "Entity": "tabela_1.setor_top_2_va"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.setor_top_2_va"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_setor_top_2_va"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_setor_top_1_va": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.setor_top_1_va": {
+			          "Target": {
+			            "Entity": "tabela_1.setor_top_1_va"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.setor_top_1_va"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_setor_top_1_va"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_percpib_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.percpib_estado": {
+			          "Target": {
+			            "Entity": "tabela_1.percpib_estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.percpib_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_percpib_estado"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_v_prefeito_mun": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.v_prefeito_mun": {
+			          "Target": {
+			            "Entity": "tabela_1.v_prefeito_mun"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.v_prefeito_mun"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_v_prefeito_mun"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_v_link_mun": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.v_link_mun": {
+			          "Target": {
+			            "Entity": "tabela_1.v_link_mun"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.v_link_mun"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_v_link_mun"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_perce_pop_mercado_de_trabalho": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.perce_pop_mercado_de_trabalho": {
+			          "Target": {
+			            "Entity": "tabela_1.perce_pop_mercado_de_trabalho"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.perce_pop_mercado_de_trabalho"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_perce_pop_mercado_de_trabalhos"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_rais_ranking_uf_salario_medio_sm": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.rais_ranking_uf_salario_medio_sm": {
+			          "Target": {
+			            "Entity": "tabela_1.rais_ranking_uf_salario_medio_sm"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.rais_ranking_uf_salario_medio_sm"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_rais_ranking_uf_salario_medio_sm"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_rais_ranking_na_salario_medio_sm": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.rais_ranking_na_salario_medio_sm": {
+			          "Target": {
+			            "Entity": "tabela_1.rais_ranking_na_salario_medio_sm"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.rais_ranking_na_salario_medio_sm"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_rais_ranking_na_salario_medio_sm"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_v_salario_medio_sm": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.v_salario_medio_sm": {
+			          "Target": {
+			            "Entity": "tabela_1.v_salario_medio_sm"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.v_salario_medio_sm"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_v_salario_medio_sm"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_remuneracao": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.remuneracao": {
+			          "Target": {
+			            "Entity": "tabela_1.remuneracao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.remuneracao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_remuneracaos"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_empregos_formais": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.empregos_formais": {
+			          "Target": {
+			            "Entity": "tabela_1.empregos_formais"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.empregos_formais"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_empregos_formaises"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_RANKING_perc_PIB_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.RANKING_perc_PIB_estado": {
+			          "Target": {
+			            "Entity": "tabela_1.RANKING_perc_PIB_estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.RANKING_perc_PIB_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_RANKING_perc_PIB_estado"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_v_sexo_prefeito": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.v_sexo_prefeito": {
+			          "Target": {
+			            "Entity": "tabela_1.v_sexo_prefeito"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.v_sexo_prefeito"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_v_sexo_prefeito"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_perc_servicos_mpe": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.perc_servicos_mpe": {
+			          "Target": {
+			            "Entity": "tabela_1.perc_servicos_mpe"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.perc_servicos_mpe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_perc_servicos_mpes"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_perc_comercio_mpe": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.perc_comercio_mpe": {
+			          "Target": {
+			            "Entity": "tabela_1.perc_comercio_mpe"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.perc_comercio_mpe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_perc_comercio_mpes"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_perc_construcao_mpe": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.perc_construcao_mpe": {
+			          "Target": {
+			            "Entity": "tabela_1.perc_construcao_mpe"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.perc_construcao_mpe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_perc_construcao_mpes"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_perc_industria_mpe": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.perc_industria_mpe": {
+			          "Target": {
+			            "Entity": "tabela_1.perc_industria_mpe"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.perc_industria_mpe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_perc_industria_mpes"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_perc_agropecuaria_mpe": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.perc_agropecuaria_mpe": {
+			          "Target": {
+			            "Entity": "tabela_1.perc_agropecuaria_mpe"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.perc_agropecuaria_mpe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_perc_agropecuaria_mpes"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_perc_mpe_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.perc_mpe_estado": {
+			          "Target": {
+			            "Entity": "tabela_1.perc_mpe_estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.perc_mpe_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_perc_mpe_estado"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_mpe": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.mpe": {
+			          "Target": {
+			            "Entity": "tabela_1.mpe"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.mpe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_mpes"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_epp": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.epp": {
+			          "Target": {
+			            "Entity": "tabela_1.epp"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.epp"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_epps"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.me": {
+			          "Target": {
+			            "Entity": "tabela_1.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_me"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_mei": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.mei": {
+			          "Target": {
+			            "Entity": "tabela_1.mei"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.mei"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_mei"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_perc_pib_imposto": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.perc_pib_imposto": {
+			          "Target": {
+			            "Entity": "tabela_1.perc_pib_imposto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.perc_pib_imposto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_perc_pib_impostos"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_perc_pib_adm_publica": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.perc_pib_adm_publica": {
+			          "Target": {
+			            "Entity": "tabela_1.perc_pib_adm_publica"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.perc_pib_adm_publica"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_perc_pib_adm_publicas"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_perc_pib_servico": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.perc_pib_servico": {
+			          "Target": {
+			            "Entity": "tabela_1.perc_pib_servico"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.perc_pib_servico"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_perc_pib_servicos"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_perc_pib_industria": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.perc_pib_industria": {
+			          "Target": {
+			            "Entity": "tabela_1.perc_pib_industria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.perc_pib_industria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_perc_pib_industrias"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_perc_pib_agropecuaria": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.perc_pib_agropecuaria": {
+			          "Target": {
+			            "Entity": "tabela_1.perc_pib_agropecuaria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.perc_pib_agropecuaria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_perc_pib_agropecuarias"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_produto_interno_bruto__a_preços_correntes_R_1_000": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.produto_interno_bruto__a_preços_correntes_R_1_000": {
+			          "Target": {
+			            "Entity": "tabela_1.produto_interno_bruto__a_preços_correntes_R_1_000"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.produto_interno_bruto__a_preços_correntes_R_1_000"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_produto_interno_bruto__a_preços_correntes_R_1_000"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_posição_estadual_IDH": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.posição_estadual_IDH": {
+			          "Target": {
+			            "Entity": "tabela_1.posição_estadual_IDH"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.posição_estadual_IDH"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_posição_estadual_IDHs"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_posição_nacional_IDH": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.posição_nacional_IDH": {
+			          "Target": {
+			            "Entity": "tabela_1.posição_nacional_IDH"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.posição_nacional_IDH"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_posição_nacional_IDHs"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_idh": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.idh": {
+			          "Target": {
+			            "Entity": "tabela_1.idh"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.idh"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_idhs"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_valor": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.valor": {
+			          "Target": {
+			            "Entity": "tabela_1.valor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.valor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_valor"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_posição_estadual_PIB_per_capita": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.posição_estadual_PIB_per_capita": {
+			          "Target": {
+			            "Entity": "tabela_1.posição_estadual_PIB_per_capita"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.posição_estadual_PIB_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_posição_estadual_PIB_per_capita"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_posição_NA_PIB_per_capita": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.posição_NA_PIB_per_capita": {
+			          "Target": {
+			            "Entity": "tabela_1.posição_NA_PIB_per_capita"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.posição_NA_PIB_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_posição_NA_PIB_per_capita"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_PIB_per_capita": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.PIB_per_capita": {
+			          "Target": {
+			            "Entity": "tabela_1.PIB_per_capita"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.PIB_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_PIB_per_capita"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_posição_estadual_populacional": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.posição_estadual_populacional": {
+			          "Target": {
+			            "Entity": "tabela_1.posição_estadual_populacional"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.posição_estadual_populacional"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_posição_estadual_populacionals"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_posição_nacional_populacional": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.posição_nacional_populacional": {
+			          "Target": {
+			            "Entity": "tabela_1.posição_nacional_populacional"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.posição_nacional_populacional"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_posição_nacional_populacionals"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_população_residente_2022": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.população_residente_2022": {
+			          "Target": {
+			            "Entity": "tabela_1.população_residente_2022"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.população_residente_2022"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_população_residente_2022"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_code_muni_6": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.code_muni_6": {
+			          "Target": {
+			            "Entity": "tabela_1.code_muni_6"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.code_muni_6"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_code_muni_6"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_unidade_negocio": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.unidade_negocio": {
+			          "Target": {
+			            "Entity": "tabela_1.unidade_negocio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.unidade_negocio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_unidade_negocios"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_ds_genero": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.ds_genero": {
+			          "Target": {
+			            "Entity": "tabela_1.ds_genero"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.ds_genero"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_ds_generos"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_nm_candidato": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.nm_candidato": {
+			          "Target": {
+			            "Entity": "tabela_1.nm_candidato"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.nm_candidato"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_nm_candidatos"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_município": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.município": {
+			          "Target": {
+			            "Entity": "tabela_1.município"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.município"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_municípios"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_code_muni": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "tabela_1.code_muni": {
+			          "Target": {
+			            "Entity": "tabela_1.code_muni"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "tabela_1.code_muni"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_code_munis"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

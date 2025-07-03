@@ -1,0 +1,59 @@
+table pop_residente_2022
+	lineageTag: 5463c112-eeda-403a-aea9-3138ac6c8c3f
+
+	column code_muni
+		dataType: string
+		lineageTag: 348576c5-41cf-4036-a60c-7e8da71ba137
+		summarizeBy: none
+		sourceColumn: code_muni
+
+		annotation SummarizationSetBy = Automatic
+
+	column municipio
+		dataType: string
+		lineageTag: dd155969-06af-4907-b744-0374442c9617
+		summarizeBy: none
+		sourceColumn: municipio
+
+		annotation SummarizationSetBy = Automatic
+
+	column populacao_residente_2022
+		dataType: int64
+		formatString: 0
+		lineageTag: f0693406-006f-4925-9265-0b69ea4b0a7d
+		summarizeBy: sum
+		sourceColumn: populacao_residente_2022
+
+		annotation SummarizationSetBy = Automatic
+
+	column posicao_nacional_populacional
+		dataType: int64
+		formatString: 0
+		lineageTag: f455be75-a699-4aa9-a124-f2801e3e0de9
+		summarizeBy: sum
+		sourceColumn: posicao_nacional_populacional
+
+		annotation SummarizationSetBy = Automatic
+
+	column posicao_estadual_populacional
+		dataType: int64
+		formatString: 0
+		lineageTag: 0e291aa0-5e1a-4e65-b89a-ffbf921cd632
+		summarizeBy: sum
+		sourceColumn: posicao_estadual_populacional
+
+		annotation SummarizationSetBy = Automatic
+
+	partition pop_residente_2022 = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database("10.11.4.21", "dw_uim"),
+				    dbo_pop_residente_2022 = Source{[Schema="dbo",Item="pop_residente_2022"]}[Data]
+				in
+				    dbo_pop_residente_2022
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

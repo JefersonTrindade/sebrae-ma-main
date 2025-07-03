@@ -1,0 +1,52 @@
+table idh_2010
+	lineageTag: a6600dee-252a-45e0-a4f5-0b0cba2a5d98
+
+	column code_muni
+		dataType: string
+		lineageTag: e9a869c2-2387-4c5e-ac97-50d43a056e6a
+		summarizeBy: none
+		sourceColumn: code_muni
+
+		annotation SummarizationSetBy = Automatic
+
+	column idh
+		dataType: double
+		lineageTag: 5918984b-e246-48ef-adc5-2b423b4ec121
+		summarizeBy: sum
+		sourceColumn: idh
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column posicao_nacional_idh
+		dataType: int64
+		formatString: 0
+		lineageTag: 4eacdd52-2450-4179-9a15-62b7be9e4ce7
+		summarizeBy: sum
+		sourceColumn: posicao_nacional_idh
+
+		annotation SummarizationSetBy = Automatic
+
+	column posicao_estadual_idh
+		dataType: int64
+		formatString: 0
+		lineageTag: 945fcf81-8517-42a2-b7ee-87e222a1d722
+		summarizeBy: sum
+		sourceColumn: posicao_estadual_idh
+
+		annotation SummarizationSetBy = Automatic
+
+	partition idh_2010 = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database("10.11.4.21", "dw_uim"),
+				    dbo_idh_2010 = Source{[Schema="dbo",Item="idh_2010"]}[Data]
+				in
+				    dbo_idh_2010
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Educação Empreendedora_Novo"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "a4c58b90-7603-4591-ad22-1210a2dfe5be"
+  }
+}

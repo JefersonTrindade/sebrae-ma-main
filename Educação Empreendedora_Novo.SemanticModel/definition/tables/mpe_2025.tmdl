@@ -1,0 +1,94 @@
+table mpe_2025
+	lineageTag: 9b3842f4-cdbd-4ab5-aa66-39ea370024e9
+
+	column code_muni
+		dataType: string
+		lineageTag: 5953a925-737e-4a10-9c01-48954899dc00
+		summarizeBy: none
+		sourceColumn: code_muni
+
+		annotation SummarizationSetBy = Automatic
+
+	column mpe
+		dataType: double
+		lineageTag: 04561b45-d02a-4ef9-a2d8-52f165ca6137
+		summarizeBy: sum
+		sourceColumn: mpe
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column perc_mpe_estado
+		dataType: double
+		lineageTag: f81eb6ef-023e-45de-9f34-e82c4a039d4a
+		summarizeBy: sum
+		sourceColumn: perc_mpe_estado
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column perc_agropecuaria_mpe
+		dataType: double
+		lineageTag: f6b7df72-4c0c-4fcd-a391-d6c6b472e3c0
+		summarizeBy: sum
+		sourceColumn: perc_agropecuaria_mpe
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column perc_industria_mpe
+		dataType: double
+		lineageTag: 7b8fa36e-64c9-4180-a6a4-32f3a30f6ba5
+		summarizeBy: sum
+		sourceColumn: perc_industria_mpe
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column perc_construcao_mpe
+		dataType: double
+		lineageTag: 14df3c24-327e-4e8c-9946-2cd515b13219
+		summarizeBy: sum
+		sourceColumn: perc_construcao_mpe
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column perc_comercio_mpe
+		dataType: double
+		lineageTag: 6ef7335a-cabf-4c3c-a893-1db197b1b0d6
+		summarizeBy: sum
+		sourceColumn: perc_comercio_mpe
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column perc_servicos_mpe
+		dataType: double
+		lineageTag: 14042a6e-670a-41d6-9f8d-dc4ec2f557ac
+		summarizeBy: sum
+		sourceColumn: perc_servicos_mpe
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition mpe_2025 = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database("10.11.4.21", "dw_uim"),
+				    dbo_mpe_2025 = Source{[Schema="dbo",Item="mpe_2025"]}[Data]
+				in
+				    dbo_mpe_2025
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

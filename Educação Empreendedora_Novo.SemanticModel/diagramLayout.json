@@ -1,0 +1,191 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 361.84316301843216,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 2130.076301625651,
+            "y": 0
+          },
+          "nodeIndex": "Tabela1",
+          "nodeLineageTag": "8ed5fdf7-3f6c-4a4a-8ff6-c4a828aaba2d",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 2498.8223286514744,
+            "y": 243.31604511062773
+          },
+          "nodeIndex": "Barra de Progresso",
+          "nodeLineageTag": "ed5600c2-e850-43db-aaef-3ad711dd8429",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 8
+        },
+        {
+          "location": {
+            "x": 3219.7482655912195,
+            "y": 150.02926853300818
+          },
+          "nodeIndex": "_Medidas",
+          "nodeLineageTag": "915f8f46-b90a-4597-91b7-df471c4b68da",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 844.03648944876909,
+            "y": 236.23096381161261
+          },
+          "nodeIndex": "densidade_demografica",
+          "nodeLineageTag": "74716fde-ee87-40e2-876c-7e2f1058c2ef",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 2805.0870448162209,
+            "y": 402.94504733176512
+          },
+          "nodeIndex": "estimativas_sidra",
+          "nodeLineageTag": "5a1611fb-6b7c-4753-8ebe-839cc433538a",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 1140.8223286514744,
+            "y": 324.31604511062773
+          },
+          "nodeIndex": "idh_2010",
+          "nodeLineageTag": "a6600dee-252a-45e0-a4f5-0b0cba2a5d98",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 10
+        },
+        {
+          "location": {
+            "x": 607.67076902764666,
+            "y": 229.2745915217412
+          },
+          "nodeIndex": "mpe_2025",
+          "nodeLineageTag": "9b3842f4-cdbd-4ab5-aa66-39ea370024e9",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 11
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 534.07418821061174
+          },
+          "nodeIndex": "pib_mun",
+          "nodeLineageTag": "f7e8e4cd-bdd3-4c0d-a3be-1f049d6e3fbe",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 13
+        },
+        {
+          "location": {
+            "x": 12.07757243474947,
+            "y": 0
+          },
+          "nodeIndex": "pib_per_capita",
+          "nodeLineageTag": "1b7918e1-4251-426b-8024-62131294f905",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 335.76376447591616,
+            "y": 250.54135191489155
+          },
+          "nodeIndex": "pop_residente_2022",
+          "nodeLineageTag": "5463c112-eeda-403a-aea9-3138ac6c8c3f",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 12
+        },
+        {
+          "location": {
+            "x": 1424.8223286514744,
+            "y": 312.31604511062773
+          },
+          "nodeIndex": "rais_2023",
+          "nodeLineageTag": "6bf06640-41fd-4f16-9f94-a7ad0e8a9ad5",
+          "size": {
+            "height": 280.58515857615748,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 1708.8223286514744,
+            "y": 348.31604511062773
+          },
+          "nodeIndex": "receitas_fiscais_externas",
+          "nodeLineageTag": "144ee226-17d8-4491-995c-0d0309919f97",
+          "size": {
+            "height": 145,
+            "width": 289.614157757376
+          },
+          "zIndex": 7
+        },
+        {
+          "location": {
+            "x": 1229.9357916979136,
+            "y": 779.4637448070639
+          },
+          "nodeIndex": "municipio",
+          "nodeLineageTag": "e5c56f78-e172-4ef5-bde1-2cbb691cee27",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 9
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 63.287087723234059,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}

@@ -1,0 +1,32 @@
+table receitas_fiscais_externas
+	lineageTag: 144ee226-17d8-4491-995c-0d0309919f97
+
+	column municipio
+		dataType: string
+		lineageTag: 5fad6226-1e68-47ae-a7bd-720fcbc7160d
+		summarizeBy: none
+		sourceColumn: municipio
+
+		annotation SummarizationSetBy = Automatic
+
+	column prop_receitas_fiscais_externo
+		dataType: string
+		lineageTag: 45b89018-17c2-4401-8af1-ded578eebb2a
+		summarizeBy: none
+		sourceColumn: prop_receitas_fiscais_externo
+
+		annotation SummarizationSetBy = Automatic
+
+	partition receitas_fiscais_externas = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database("10.11.4.21", "dw_uim"),
+				    dbo_receitas_fiscais_externas = Source{[Schema="dbo",Item="receitas_fiscais_externas"]}[Data]
+				in
+				    dbo_receitas_fiscais_externas
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

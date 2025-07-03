@@ -1,0 +1,52 @@
+table municipio
+	lineageTag: e5c56f78-e172-4ef5-bde1-2cbb691cee27
+
+	column code_muni
+		dataType: string
+		lineageTag: 062cc64b-349b-4d60-b039-1bcc9b191d62
+		summarizeBy: none
+		sourceColumn: code_muni
+
+		annotation SummarizationSetBy = Automatic
+
+	column municipio
+		dataType: string
+		lineageTag: 9e21086b-a766-455a-98ca-942936958ce5
+		summarizeBy: none
+		sourceColumn: municipio
+
+		annotation SummarizationSetBy = Automatic
+
+	column nm_candidato
+		dataType: string
+		lineageTag: 4ca3ee55-511b-449d-872f-46378357227d
+		summarizeBy: none
+		sourceColumn: nm_candidato
+
+		annotation SummarizationSetBy = Automatic
+
+	column ds_genero
+		dataType: string
+		lineageTag: 6d55f63e-132a-4506-aff2-159b374ff463
+		summarizeBy: none
+		sourceColumn: ds_genero
+
+		annotation SummarizationSetBy = Automatic
+
+	column unidade_negocios
+		dataType: string
+		lineageTag: 57b6fcb9-7fad-419d-9d80-fe7f6f9154be
+		summarizeBy: none
+		sourceColumn: unidade_negocios
+
+		annotation SummarizationSetBy = Automatic
+
+	partition municipio = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database("10.11.4.21", "dw_uim"),
+				    dbo_municipio = Source{[Schema="dbo",Item="municipio"]}[Data]
+				in
+				    dbo_municipio
+

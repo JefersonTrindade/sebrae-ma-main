@@ -1,0 +1,58 @@
+table 'Barra de Progresso'
+	lineageTag: ed5600c2-e850-43db-aaef-3ad711dd8429
+
+	measure Populacao_Censo_Texto = ```
+			
+			"População no último censo 2022: " & 
+			FORMAT(SELECTEDVALUE(pop_residente_2022[populacao_residente_2022]), "#,##0")
+			
+			```
+		displayFolder: Barra de progresso - População
+		lineageTag: adda151a-7356-4c0b-a85a-891d988ba2ac
+
+	column code_muni
+		dataType: int64
+		formatString: 0
+		lineageTag: c6886574-a72c-430a-8b97-67a652013d75
+		summarizeBy: none
+		sourceColumn: code_muni
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'No País'
+		dataType: int64
+		formatString: 0
+		lineageTag: a8b6dc4c-0843-4292-856a-9128152d2880
+		summarizeBy: sum
+		sourceColumn: No País
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'No Estado'
+		dataType: int64
+		formatString: 0
+		lineageTag: 6c5afc6c-1469-48b5-8b04-44f0dbbd5793
+		summarizeBy: sum
+		sourceColumn: No Estado
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Barra de Progresso' = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\Jeferson\Downloads\MKT-Digital_git_fabric\BaseFinal2.xlsx"), null, true),
+				    Tabela1_Table = Fonte{[Item="Tabela1",Kind="Table"]}[Data],
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Tabela1_Table,{{"code_muni", Int64.Type}, {"MUNICÍPIO", type text}, {"NM_CANDIDATO", type text}, {"DS_GENERO", type text}, {"Unidade_Negocios", type text}, {"code_muni_6", Int64.Type}, {"PopulaçãoResidente2022", Int64.Type}, {"Posição Nacional Populacional", Int64.Type}, {"Posição Estadual Populacional", Int64.Type}, {"PIB per capita", type number}, {"Posição NA PIB per capita", Int64.Type}, {"Posição Estadual PIB per capita", Int64.Type}, {"Valor", type number}, {"IDH", type number}, {"Posição Nacional IDH", Int64.Type}, {"Posição Estadual IDH", Int64.Type}, {"Produto Interno Bruto,  a preços correntes (R$ 1.000)", type number}, {"perc pib agropecuaria", type number}, {"perc pib industria", type number}, {"perc pib servicos", type number}, {"perc pib adm publica", type number}, {"perc pib impostos", type number}, {"MEI", Int64.Type}, {"ME", Int64.Type}, {"EPP", Int64.Type}, {"MPE", Int64.Type}, {"perc_mpe_estado", type number}, {"perc_agropecuaria_mpe", type number}, {"perc_industria_mpe", type number}, {"perc_construcao_mpe", type number}, {"perc_comercio_mpe", type number}, {"perc_servicos_mpe", type number}, {"V_SEXO_PREFEITO", type text}, {"RANKING_perc_PIB_estado", Int64.Type}, {"EmpregosFormais", Int64.Type}, {"Remuneracao", type number}, {"V_SALARIO_MEDIO_SM", type number}, {"RAIS_RANKING_NA_SALARIO_MEDIO_SM", Int64.Type}, {"RAIS_RANKING_UF_SALARIO_MEDIO_SM", Int64.Type}, {"PercePopMercadoDeTrabalho", type number}, {"V_LINK_MUN", type text}, {"V_PREFEITO_MUN", type text}, {"percpibEstado", type number}, {"SETOR_TOP_1_VA", type number}, {"SETOR_TOP_2_VA", type number}, {"SETOR_TOP_3_VA", type number}, {"SETOR_TOP_4_VA", type number}, {"SETOR_TOP_5_VA", type number}, {"SETOR_TOP_1", type text}, {"SETOR_TOP_2", type text}, {"SETOR_TOP_3", type text}, {"SETOR_TOP_4", type text}, {"SETOR_TOP_5", type text}}),
+				    #"Outras Colunas Removidas" = Table.SelectColumns(#"Tipo Alterado",{"code_muni"}),
+				    #"Coluna Condicional Adicionada" = Table.AddColumn(#"Outras Colunas Removidas", "Personalizar", each if [code_muni] > 1 then 5571 else null),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Coluna Condicional Adicionada",{{"Personalizar", "No País"}}),
+				    #"Coluna Condicional Adicionada1" = Table.AddColumn(#"Colunas Renomeadas", "No Estado", each if [code_muni] > 1 then 217 else null),
+				    #"Tipo Alterado1" = Table.TransformColumnTypes(#"Coluna Condicional Adicionada1",{{"No País", Int64.Type}, {"No Estado", Int64.Type}})
+				in
+				    #"Tipo Alterado1"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,53 @@
+relationship AutoDetected_b8fd5ed8-bc69-4356-b898-0624a5aedae2
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: rais_2023.remuneracao
+	toColumn: Tabela1.Remuneracao
+
+relationship c37463d8-3e17-c61d-2f35-fe7c848e676b
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'Barra de Progresso'.code_muni
+	toColumn: municipio.code_muni
+
+relationship 286eea16-c419-3c23-32db-b4cbdab276b9
+	fromColumn: municipio.unidade_negocios
+	toColumn: receitas_fiscais_externas.municipio
+
+relationship 45283e75-1de7-80c2-8be7-e52a68ec9e67
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: idh_2010.code_muni
+	toColumn: municipio.code_muni
+
+relationship d173e515-3e6a-8d46-f1c0-79971ba8a425
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: densidade_demografica.code_muni
+	toColumn: municipio.code_muni
+
+relationship b1e29aff-5fc6-41a6-a5a0-460a06802382
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: mpe_2025.code_muni
+	toColumn: municipio.code_muni
+
+relationship fae92145-131a-6e8a-3d31-3b83f18b9602
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: pop_residente_2022.code_muni
+	toColumn: municipio.code_muni
+
+relationship 8edda78a-d0ed-a004-9102-323770dff58d
+	isActive: false
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: pib_per_capita.code_muni
+	toColumn: municipio.code_muni
+
+relationship d44ce2c0-589d-1a07-e8fb-d17ca98198cb
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: pib_mun.code_muni
+	toColumn: municipio.code_muni
+

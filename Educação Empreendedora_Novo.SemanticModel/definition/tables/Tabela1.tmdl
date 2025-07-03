@@ -1,0 +1,569 @@
+table Tabela1
+	lineageTag: 8ed5fdf7-3f6c-4a4a-8ff6-c4a828aaba2d
+
+	measure 'populão residente 2022' = SUM(Tabela1[PopulaçãoResidente2022])
+		formatString: 0
+		displayFolder: Barra de progresso - População
+		lineageTag: a56d754a-aa16-43d1-b97e-5699b8aa8a6c
+
+	measure 'Total bar' = 1
+		formatString: 0
+		lineageTag: 634b3c49-7f44-4f37-bc89-1af7ae3ec466
+
+	measure subheader = 0.5
+		lineageTag: fd679086-f2d8-4f46-9e78-a21b7e3c0deb
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Header = -0.001
+		lineageTag: e2fdadb0-19fc-43bd-aee9-b2f23a202dbe
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Nome_municipio = SELECTEDVALUE(Tabela1[MUNICÍPIO])
+		displayFolder: Barra de progresso - População
+		lineageTag: fb4cf1d0-8309-40f9-a02a-7ac8896ad233
+
+	measure '% Posição no País' = ```
+			
+			DIVIDE([Posição no País], [No pais])
+			
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Barra de progresso - População
+		lineageTag: f8da3f6b-6ab6-48cf-912f-c40acce68a37
+
+	measure 'Pessoas - Posição no País' = ```
+			
+			FORMAT(SUM(Tabela1[Posição Nacional Populacional]), "N0", "pt-BR") & " Pessoas"
+			
+			```
+		displayFolder: Barra de progresso - População
+		lineageTag: 7e7dd6ba-f8ff-47a9-8146-8d5498b19097
+
+	measure Resumo_Populacional = ```
+			
+			VAR Populacao = SELECTEDVALUE(pop_residente_2022[populacao_residente_2022])
+			VAR Densidade = SELECTEDVALUE(densidade_demografica[densidade_demografica])
+			VAR PosicaoEstado_Pop = SELECTEDVALUE(pop_residente_2022[posicao_estadual_populacional])
+			VAR PosicaoEstado_Dens = SELECTEDVALUE(rais_2023[rais_ranking_na_salario_medio_sm])
+			VAR PosicaoPais_Pop = 217
+			VAR PosicaoPais_Dens = SELECTEDVALUE(pop_residente_2022[posicao_nacional_populacional])
+			VAR TotalMunicipiosUF = 217
+			VAR TotalMunicipiosBR = 5570
+			
+			RETURN
+			"Em 2022, a população era de " & FORMAT(Populacao, "#,##0") & 
+			" habitantes e a densidade demográfica era de " & FORMAT(Densidade, "0.00") & 
+			" habitantes por quilômetro quadrado. Na comparação com outros municípios do estado, ficava nas posições " & 
+			PosicaoEstado_Pop & " e " & PosicaoEstado_Dens & " de " & TotalMunicipiosUF & 
+			". Já na comparação com municípios de todo o país, ficava nas posições " & 
+			PosicaoPais_Dens & " de " & TotalMunicipiosBR & "."
+			
+			```
+		displayFolder: Barra de progresso - População
+		lineageTag: f9a04301-55a7-4150-a7e1-faec11f512dc
+
+	column code_muni
+		dataType: int64
+		formatString: 0
+		lineageTag: bd32ee8f-7b7b-42f1-a710-b5f294c29a00
+		summarizeBy: sum
+		sourceColumn: code_muni
+
+		annotation SummarizationSetBy = Automatic
+
+	column MUNICÍPIO
+		dataType: string
+		lineageTag: 74b8ad69-7a98-4ac9-a25a-1135a80ba5a5
+		summarizeBy: none
+		sourceColumn: MUNICÍPIO
+
+		annotation SummarizationSetBy = Automatic
+
+	column NM_CANDIDATO
+		dataType: string
+		lineageTag: e55d5470-73dc-4fd2-ae37-3db2921d8111
+		summarizeBy: none
+		sourceColumn: NM_CANDIDATO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DS_GENERO
+		dataType: string
+		lineageTag: 02d1fe90-7094-48f3-bdf3-1b4e46db364a
+		summarizeBy: none
+		sourceColumn: DS_GENERO
+
+		annotation SummarizationSetBy = Automatic
+
+	column Unidade_Negocios
+		dataType: string
+		lineageTag: fb3a35ba-ed19-48db-a91f-07fa87326e90
+		summarizeBy: none
+		sourceColumn: Unidade_Negocios
+
+		annotation SummarizationSetBy = Automatic
+
+	column code_muni_6
+		dataType: int64
+		formatString: 0
+		lineageTag: 5625f5d9-7478-4535-91e6-1a291d7146d8
+		summarizeBy: sum
+		sourceColumn: code_muni_6
+
+		annotation SummarizationSetBy = Automatic
+
+	column PopulaçãoResidente2022
+		dataType: int64
+		formatString: 0
+		lineageTag: ab5cb86b-5688-4ebd-9b2a-3e8926d6c453
+		summarizeBy: sum
+		sourceColumn: PopulaçãoResidente2022
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Posição Nacional Populacional'
+		dataType: int64
+		formatString: 0
+		lineageTag: bf19546a-e450-4dec-88d4-e0e3ec82178c
+		summarizeBy: sum
+		sourceColumn: Posição Nacional Populacional
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Posição Estadual Populacional'
+		dataType: int64
+		formatString: 0
+		lineageTag: e2618c15-e9af-4c29-bf43-8a3a2e03d151
+		summarizeBy: sum
+		sourceColumn: Posição Estadual Populacional
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'PIB per capita'
+		dataType: double
+		lineageTag: a871ddfe-7173-4435-b5db-2a9491400e54
+		summarizeBy: sum
+		sourceColumn: PIB per capita
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Posição NA PIB per capita'
+		dataType: int64
+		formatString: 0
+		lineageTag: f8614051-14f1-4b36-9157-a7ebb6aba17b
+		summarizeBy: sum
+		sourceColumn: Posição NA PIB per capita
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Posição Estadual PIB per capita'
+		dataType: int64
+		formatString: 0
+		lineageTag: 9cea9aa8-051d-427f-b30d-e85080e60804
+		summarizeBy: sum
+		sourceColumn: Posição Estadual PIB per capita
+
+		annotation SummarizationSetBy = Automatic
+
+	column Valor
+		dataType: double
+		lineageTag: 1edb30ee-0433-427a-9917-74e7181e6f98
+		summarizeBy: sum
+		sourceColumn: Valor
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column IDH
+		dataType: double
+		lineageTag: 8ab803de-8c84-4e27-854a-1ede5e36594d
+		summarizeBy: sum
+		sourceColumn: IDH
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Posição Nacional IDH'
+		dataType: int64
+		formatString: 0
+		lineageTag: 0ef392b5-0665-43e2-bef5-bf47075c46bb
+		summarizeBy: sum
+		sourceColumn: Posição Nacional IDH
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Posição Estadual IDH'
+		dataType: int64
+		formatString: 0
+		lineageTag: 350dda2d-835e-4c23-882e-a1e8c577042d
+		summarizeBy: sum
+		sourceColumn: Posição Estadual IDH
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Produto Interno Bruto,  a preços correntes (R$ 1.000)'
+		dataType: double
+		lineageTag: c8a5e208-361c-4569-852a-d4f043ac5fc9
+		summarizeBy: sum
+		sourceColumn: Produto Interno Bruto,  a preços correntes (R$ 1.000)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'perc pib agropecuaria'
+		dataType: double
+		lineageTag: c6637a3b-d091-4ae3-a98b-e77aede9d6f1
+		summarizeBy: sum
+		sourceColumn: perc pib agropecuaria
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'perc pib industria'
+		dataType: double
+		lineageTag: feccb7e1-4837-4bf5-9d8e-a8aef85d7b79
+		summarizeBy: sum
+		sourceColumn: perc pib industria
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'perc pib servicos'
+		dataType: double
+		lineageTag: 6c4cb146-f36d-4b59-9e9e-1a2f2943e617
+		summarizeBy: sum
+		sourceColumn: perc pib servicos
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'perc pib adm publica'
+		dataType: double
+		lineageTag: f7efb6d5-fd25-4177-9674-aae941837b13
+		summarizeBy: sum
+		sourceColumn: perc pib adm publica
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'perc pib impostos'
+		dataType: double
+		lineageTag: a4313c01-2499-449a-a5fa-575cc422b20f
+		summarizeBy: sum
+		sourceColumn: perc pib impostos
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column MEI
+		dataType: int64
+		formatString: 0
+		lineageTag: 63d687fc-9639-4805-bd6d-edab9d541ba6
+		summarizeBy: sum
+		sourceColumn: MEI
+
+		annotation SummarizationSetBy = Automatic
+
+	column ME
+		dataType: int64
+		formatString: 0
+		lineageTag: f5233707-a09d-43fc-8836-35f771c994c5
+		summarizeBy: sum
+		sourceColumn: ME
+
+		annotation SummarizationSetBy = Automatic
+
+	column EPP
+		dataType: int64
+		formatString: 0
+		lineageTag: 2f4d52ab-838e-4835-b104-c893697fe81c
+		summarizeBy: sum
+		sourceColumn: EPP
+
+		annotation SummarizationSetBy = Automatic
+
+	column MPE
+		dataType: int64
+		formatString: 0
+		lineageTag: 86b80a66-15b2-4d08-a2e3-b0a6f1b5bbf2
+		summarizeBy: sum
+		sourceColumn: MPE
+
+		annotation SummarizationSetBy = Automatic
+
+	column perc_mpe_estado
+		dataType: double
+		lineageTag: 4d1dffd2-9a9a-40f3-a3d6-8ed6181b8344
+		summarizeBy: sum
+		sourceColumn: perc_mpe_estado
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column perc_agropecuaria_mpe
+		dataType: double
+		lineageTag: df3d606d-0702-4212-b7b5-b01ddcf36b1e
+		summarizeBy: sum
+		sourceColumn: perc_agropecuaria_mpe
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column perc_industria_mpe
+		dataType: double
+		lineageTag: 6c8b9798-60a3-404d-8e79-712b8f5e2038
+		summarizeBy: sum
+		sourceColumn: perc_industria_mpe
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column perc_construcao_mpe
+		dataType: double
+		lineageTag: 860b3846-a8ea-44d4-af7e-90cbffbe9c18
+		summarizeBy: sum
+		sourceColumn: perc_construcao_mpe
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column perc_comercio_mpe
+		dataType: double
+		lineageTag: ef3826d6-1241-4073-944f-0f41143c860e
+		summarizeBy: sum
+		sourceColumn: perc_comercio_mpe
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column perc_servicos_mpe
+		dataType: double
+		lineageTag: fd453bc0-d4a6-40c9-9b25-58877886c654
+		summarizeBy: sum
+		sourceColumn: perc_servicos_mpe
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column V_SEXO_PREFEITO
+		dataType: string
+		lineageTag: 226129f9-2b5a-4e60-b728-b8ce56a22830
+		summarizeBy: none
+		sourceColumn: V_SEXO_PREFEITO
+
+		annotation SummarizationSetBy = Automatic
+
+	column RANKING_perc_PIB_estado
+		dataType: int64
+		formatString: 0
+		lineageTag: 5c392478-3f48-40b8-90d3-fc27aa9aceca
+		summarizeBy: sum
+		sourceColumn: RANKING_perc_PIB_estado
+
+		annotation SummarizationSetBy = Automatic
+
+	column EmpregosFormais
+		dataType: int64
+		formatString: 0
+		lineageTag: b0a46c81-e48a-4a12-9e55-4a0c6d055d49
+		summarizeBy: sum
+		sourceColumn: EmpregosFormais
+
+		annotation SummarizationSetBy = Automatic
+
+	column Remuneracao
+		dataType: double
+		lineageTag: df58f73a-cb1d-42c7-8b8b-60077993a15f
+		summarizeBy: none
+		sourceColumn: Remuneracao
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column V_SALARIO_MEDIO_SM
+		dataType: double
+		lineageTag: 09e514b6-eafa-48ef-98c7-fb2e69032bb2
+		summarizeBy: sum
+		sourceColumn: V_SALARIO_MEDIO_SM
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column RAIS_RANKING_NA_SALARIO_MEDIO_SM
+		dataType: int64
+		formatString: 0
+		lineageTag: 0972d732-640c-45f8-81f3-224c2535736a
+		summarizeBy: sum
+		sourceColumn: RAIS_RANKING_NA_SALARIO_MEDIO_SM
+
+		annotation SummarizationSetBy = Automatic
+
+	column RAIS_RANKING_UF_SALARIO_MEDIO_SM
+		dataType: int64
+		formatString: 0
+		lineageTag: bc4883db-c402-4847-9839-7c1f229a9a00
+		summarizeBy: sum
+		sourceColumn: RAIS_RANKING_UF_SALARIO_MEDIO_SM
+
+		annotation SummarizationSetBy = Automatic
+
+	column PercePopMercadoDeTrabalho
+		dataType: double
+		lineageTag: 16f3418d-e8ca-4c65-85ac-2584c0ae0f47
+		summarizeBy: sum
+		sourceColumn: PercePopMercadoDeTrabalho
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column V_LINK_MUN
+		dataType: string
+		lineageTag: 64a2767c-132a-4620-9f92-ebeed8a589ad
+		summarizeBy: none
+		sourceColumn: V_LINK_MUN
+
+		annotation SummarizationSetBy = Automatic
+
+	column V_PREFEITO_MUN
+		dataType: string
+		lineageTag: ca0d50f8-bbd9-4c92-8695-4172f5dc7838
+		summarizeBy: none
+		sourceColumn: V_PREFEITO_MUN
+
+		annotation SummarizationSetBy = Automatic
+
+	column percpibEstado
+		dataType: double
+		lineageTag: cc1cd1e9-7878-49f1-8080-9ecf661f6456
+		summarizeBy: sum
+		sourceColumn: percpibEstado
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column SETOR_TOP_1_VA
+		dataType: double
+		lineageTag: 1608b232-7fe7-43e7-bd54-c0059d2cc1e6
+		summarizeBy: sum
+		sourceColumn: SETOR_TOP_1_VA
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column SETOR_TOP_2_VA
+		dataType: double
+		lineageTag: 5615d0b0-aa24-40fb-8c53-d307ee8dff53
+		summarizeBy: sum
+		sourceColumn: SETOR_TOP_2_VA
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column SETOR_TOP_3_VA
+		dataType: double
+		lineageTag: 637b4f22-ba0d-454e-ba29-be6d5b8972e3
+		summarizeBy: sum
+		sourceColumn: SETOR_TOP_3_VA
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column SETOR_TOP_4_VA
+		dataType: double
+		lineageTag: 8f932ac3-48b5-4705-b813-73c92b8d39d5
+		summarizeBy: sum
+		sourceColumn: SETOR_TOP_4_VA
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column SETOR_TOP_5_VA
+		dataType: double
+		lineageTag: 1b594d4e-8bd2-4242-bd5d-fcb65a053348
+		summarizeBy: sum
+		sourceColumn: SETOR_TOP_5_VA
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column SETOR_TOP_1
+		dataType: string
+		lineageTag: bb887ffb-6e6f-4a11-8b08-0c6a3c93dcde
+		summarizeBy: none
+		sourceColumn: SETOR_TOP_1
+
+		annotation SummarizationSetBy = Automatic
+
+	column SETOR_TOP_2
+		dataType: string
+		lineageTag: eb1c0166-db50-4b97-845a-ebf7ecb3bd53
+		summarizeBy: none
+		sourceColumn: SETOR_TOP_2
+
+		annotation SummarizationSetBy = Automatic
+
+	column SETOR_TOP_3
+		dataType: string
+		lineageTag: af9e83f9-2194-4725-bff7-eb4d7158f429
+		summarizeBy: none
+		sourceColumn: SETOR_TOP_3
+
+		annotation SummarizationSetBy = Automatic
+
+	column SETOR_TOP_4
+		dataType: string
+		lineageTag: b4e83e40-c0b3-458c-8270-674d6eee5d6f
+		summarizeBy: none
+		sourceColumn: SETOR_TOP_4
+
+		annotation SummarizationSetBy = Automatic
+
+	column SETOR_TOP_5
+		dataType: string
+		lineageTag: 23f4a6aa-66b7-48f7-82d2-4076316b1a5b
+		summarizeBy: none
+		sourceColumn: SETOR_TOP_5
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Tabela1 = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\Jeferson\Downloads\MKT-Digital_git_fabric\BaseFinal2.xlsx"), null, true),
+				    Tabela1_Table = Fonte{[Item="Tabela1",Kind="Table"]}[Data],
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Tabela1_Table,{{"code_muni", Int64.Type}, {"MUNICÍPIO", type text}, {"NM_CANDIDATO", type text}, {"DS_GENERO", type text}, {"Unidade_Negocios", type text}, {"code_muni_6", Int64.Type}, {"PopulaçãoResidente2022", Int64.Type}, {"Posição Nacional Populacional", Int64.Type}, {"Posição Estadual Populacional", Int64.Type}, {"PIB per capita", type number}, {"Posição NA PIB per capita", Int64.Type}, {"Posição Estadual PIB per capita", Int64.Type}, {"Valor", type number}, {"IDH", type number}, {"Posição Nacional IDH", Int64.Type}, {"Posição Estadual IDH", Int64.Type}, {"Produto Interno Bruto,  a preços correntes (R$ 1.000)", type number}, {"perc pib agropecuaria", type number}, {"perc pib industria", type number}, {"perc pib servicos", type number}, {"perc pib adm publica", type number}, {"perc pib impostos", type number}, {"MEI", Int64.Type}, {"ME", Int64.Type}, {"EPP", Int64.Type}, {"MPE", Int64.Type}, {"perc_mpe_estado", type number}, {"perc_agropecuaria_mpe", type number}, {"perc_industria_mpe", type number}, {"perc_construcao_mpe", type number}, {"perc_comercio_mpe", type number}, {"perc_servicos_mpe", type number}, {"V_SEXO_PREFEITO", type text}, {"RANKING_perc_PIB_estado", Int64.Type}, {"EmpregosFormais", Int64.Type}, {"Remuneracao", type number}, {"V_SALARIO_MEDIO_SM", type number}, {"RAIS_RANKING_NA_SALARIO_MEDIO_SM", Int64.Type}, {"RAIS_RANKING_UF_SALARIO_MEDIO_SM", Int64.Type}, {"PercePopMercadoDeTrabalho", type number}, {"V_LINK_MUN", type text}, {"V_PREFEITO_MUN", type text}, {"percpibEstado", type number}, {"SETOR_TOP_1_VA", type number}, {"SETOR_TOP_2_VA", type number}, {"SETOR_TOP_3_VA", type number}, {"SETOR_TOP_4_VA", type number}, {"SETOR_TOP_5_VA", type number}, {"SETOR_TOP_1", type text}, {"SETOR_TOP_2", type text}, {"SETOR_TOP_3", type text}, {"SETOR_TOP_4", type text}, {"SETOR_TOP_5", type text}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

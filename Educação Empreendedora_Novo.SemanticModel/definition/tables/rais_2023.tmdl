@@ -1,0 +1,62 @@
+table rais_2023
+	lineageTag: 6bf06640-41fd-4f16-9f94-a7ad0e8a9ad5
+
+	column code_muni_6
+		dataType: string
+		lineageTag: b718cc8a-8a20-4601-9a14-e15d39997c57
+		summarizeBy: none
+		sourceColumn: code_muni_6
+
+		annotation SummarizationSetBy = Automatic
+
+	column empregos_formais
+		dataType: int64
+		formatString: 0
+		lineageTag: 7802db01-0b58-4235-a4d3-fbe7ec054658
+		summarizeBy: sum
+		sourceColumn: empregos_formais
+
+		annotation SummarizationSetBy = Automatic
+
+	column remuneracao
+		dataType: double
+		lineageTag: 8641357b-dfcb-4d61-ac4d-63fb685a5bc2
+		summarizeBy: none
+		sourceColumn: remuneracao
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column v_salario_medio_sm
+		dataType: double
+		lineageTag: 7ea369f0-bbfd-49ea-bcd9-5233a8617fad
+		summarizeBy: sum
+		sourceColumn: v_salario_medio_sm
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column rais_ranking_na_salario_medio_sm
+		dataType: int64
+		formatString: 0
+		lineageTag: f61a131d-6002-4f6d-b721-89e8c2076f69
+		summarizeBy: sum
+		sourceColumn: rais_ranking_na_salario_medio_sm
+
+		annotation SummarizationSetBy = Automatic
+
+	partition rais_2023 = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database("10.11.4.21", "dw_uim"),
+				    dbo_rais_2023 = Source{[Schema="dbo",Item="rais_2023"]}[Data]
+				in
+				    dbo_rais_2023
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

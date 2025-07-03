@@ -1,0 +1,84 @@
+table pib_mun
+	lineageTag: f7e8e4cd-bdd3-4c0d-a3be-1f049d6e3fbe
+
+	column code_muni
+		dataType: string
+		lineageTag: 361e7fae-878c-4ea5-9b91-9b18713faf83
+		summarizeBy: none
+		sourceColumn: code_muni
+
+		annotation SummarizationSetBy = Automatic
+
+	column pib_total_mil_reais
+		dataType: double
+		lineageTag: e8b0aad9-4e74-44a0-a155-93f7fdd5c593
+		summarizeBy: sum
+		sourceColumn: pib_total_mil_reais
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column perc_pib_agropecuaria
+		dataType: double
+		lineageTag: a0e4c4fe-0782-4a0c-83a3-2dd4843cabd3
+		summarizeBy: sum
+		sourceColumn: perc_pib_agropecuaria
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column perc_pib_industria
+		dataType: double
+		lineageTag: 44414299-0768-4d76-a06d-4ef9c9b2dc46
+		summarizeBy: sum
+		sourceColumn: perc_pib_industria
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column perc_pib_servicos
+		dataType: double
+		lineageTag: 9795332c-9955-48f3-9c50-fb8c67ca9c8c
+		summarizeBy: sum
+		sourceColumn: perc_pib_servicos
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column perc_pib_adm_publica
+		dataType: double
+		lineageTag: 73590d86-b1cc-46ab-9539-1dca90f91718
+		summarizeBy: sum
+		sourceColumn: perc_pib_adm_publica
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column perc_pib_impostos
+		dataType: double
+		lineageTag: 40be2581-be29-49ae-82a0-c65d9cfa6603
+		summarizeBy: sum
+		sourceColumn: perc_pib_impostos
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition pib_mun = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database("10.11.4.21", "dw_uim"),
+				    dbo_pib_mun = Source{[Schema="dbo",Item="pib_mun"]}[Data]
+				in
+				    dbo_pib_mun
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

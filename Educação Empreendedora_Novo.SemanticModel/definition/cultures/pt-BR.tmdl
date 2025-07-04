@@ -4688,11 +4688,2654 @@ cultureInfo pt-BR
 			            "State": "Generated",
 			            "Weight": 0.99
 			          }
+			        },
+			        {
+			          "Unidade de Negócio": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    }
 			  },
 			  "Relationships": {
+			    "municipio_has_pop_residente_2022": {
+			      "Binding": {
+			        "ConceptualEntity": "municipio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "municipio": {
+			          "Target": {
+			            "Entity": "municipio"
+			          }
+			        },
+			        "pop_residente_2022": {
+			          "Target": {
+			            "Entity": "pop_residente_2022"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "municipio"
+			            },
+			            "Object": {
+			              "Role": "pop_residente_2022"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "municipios_have_pop_residente_2022"
+			        }
+			      ]
+			    },
+			    "municipio_has_mpe_2025": {
+			      "Binding": {
+			        "ConceptualEntity": "municipio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "municipio": {
+			          "Target": {
+			            "Entity": "municipio"
+			          }
+			        },
+			        "mpe_2025": {
+			          "Target": {
+			            "Entity": "mpe_2025"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "municipio"
+			            },
+			            "Object": {
+			              "Role": "mpe_2025"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "municipios_have_mpe_2025"
+			        }
+			      ]
+			    },
+			    "municipio_has_densidade_demografica": {
+			      "Binding": {
+			        "ConceptualEntity": "municipio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "municipio": {
+			          "Target": {
+			            "Entity": "municipio"
+			          }
+			        },
+			        "densidade_demografica": {
+			          "Target": {
+			            "Entity": "densidade_demografica"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "municipio"
+			            },
+			            "Object": {
+			              "Role": "densidade_demografica"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "municipios_have_densidade_demograficas"
+			        }
+			      ]
+			    },
+			    "municipio_has_idh_2010": {
+			      "Binding": {
+			        "ConceptualEntity": "municipio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "municipio": {
+			          "Target": {
+			            "Entity": "municipio"
+			          }
+			        },
+			        "idh_2010": {
+			          "Target": {
+			            "Entity": "idh_2010"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "municipio"
+			            },
+			            "Object": {
+			              "Role": "idh_2010"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "municipios_have_idh_2010"
+			        }
+			      ]
+			    },
+			    "municipio_has_receitas_fiscais_externa": {
+			      "Binding": {
+			        "ConceptualEntity": "municipio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "municipio": {
+			          "Target": {
+			            "Entity": "municipio"
+			          }
+			        },
+			        "receitas_fiscais_externa": {
+			          "Target": {
+			            "Entity": "receitas_fiscais_externa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "municipio"
+			            },
+			            "Object": {
+			              "Role": "receitas_fiscais_externa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "municipios_have_receitas_fiscais_externas"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "receitas_fiscais_externa"
+			            },
+			            "Object": {
+			              "Role": "municipio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "receitas_fiscais_externas_have_municipios"
+			        }
+			      ]
+			    },
+			    "municipio_has_barra_de_progresso": {
+			      "Binding": {
+			        "ConceptualEntity": "municipio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "municipio": {
+			          "Target": {
+			            "Entity": "municipio"
+			          }
+			        },
+			        "barra_de_progresso": {
+			          "Target": {
+			            "Entity": "barra_de_progresso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "municipio"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "municipios_have_barra_de_progresso"
+			        }
+			      ]
+			    },
+			    "mpe_2025_has_municipio": {
+			      "Binding": {
+			        "ConceptualEntity": "mpe_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mpe_2025": {
+			          "Target": {
+			            "Entity": "mpe_2025"
+			          }
+			        },
+			        "municipio": {
+			          "Target": {
+			            "Entity": "municipio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mpe_2025"
+			            },
+			            "Object": {
+			              "Role": "municipio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mpe_2025_have_municipios"
+			        }
+			      ]
+			    },
+			    "rais_2023_has_tabela_1": {
+			      "Binding": {
+			        "ConceptualEntity": "rais_2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rais_2023": {
+			          "Target": {
+			            "Entity": "rais_2023"
+			          }
+			        },
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rais_2023"
+			            },
+			            "Object": {
+			              "Role": "tabela_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rais_2023_have_tabela_1"
+			        }
+			      ]
+			    },
+			    "pib_mun_has_municipio": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_mun"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_mun": {
+			          "Target": {
+			            "Entity": "pib_mun"
+			          }
+			        },
+			        "municipio": {
+			          "Target": {
+			            "Entity": "municipio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_mun"
+			            },
+			            "Object": {
+			              "Role": "municipio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_muns_have_municipios"
+			        }
+			      ]
+			    },
+			    "idh_2010_has_municipio": {
+			      "Binding": {
+			        "ConceptualEntity": "idh_2010"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "idh_2010": {
+			          "Target": {
+			            "Entity": "idh_2010"
+			          }
+			        },
+			        "municipio": {
+			          "Target": {
+			            "Entity": "municipio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "idh_2010"
+			            },
+			            "Object": {
+			              "Role": "municipio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "idh_2010_have_municipios"
+			        }
+			      ]
+			    },
+			    "densidade_demografica_has_municipio": {
+			      "Binding": {
+			        "ConceptualEntity": "densidade_demografica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "densidade_demografica": {
+			          "Target": {
+			            "Entity": "densidade_demografica"
+			          }
+			        },
+			        "municipio": {
+			          "Target": {
+			            "Entity": "municipio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "densidade_demografica"
+			            },
+			            "Object": {
+			              "Role": "municipio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "densidade_demograficas_have_municipios"
+			        }
+			      ]
+			    },
+			    "pop_residente_2022_has_municipio1": {
+			      "Binding": {
+			        "ConceptualEntity": "pop_residente_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pop_residente_2022": {
+			          "Target": {
+			            "Entity": "pop_residente_2022"
+			          }
+			        },
+			        "municipio": {
+			          "Target": {
+			            "Entity": "municipio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pop_residente_2022"
+			            },
+			            "Object": {
+			              "Role": "municipio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pop_residente_2022_have_municipios"
+			        }
+			      ]
+			    },
+			    "barra_de_progresso_has_municipio": {
+			      "Binding": {
+			        "ConceptualEntity": "Barra de Progresso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "barra_de_progresso": {
+			          "Target": {
+			            "Entity": "barra_de_progresso"
+			          }
+			        },
+			        "municipio": {
+			          "Target": {
+			            "Entity": "municipio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "barra_de_progresso"
+			            },
+			            "Object": {
+			              "Role": "municipio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "barra_de_progresso_have_municipios"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_rais_2023": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabela1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabela_1": {
+			          "Target": {
+			            "Entity": "tabela_1"
+			          }
+			        },
+			        "rais_2023": {
+			          "Target": {
+			            "Entity": "rais_2023"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabela_1"
+			            },
+			            "Object": {
+			              "Role": "rais_2023"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabela_1_have_rais_2023"
+			        }
+			      ]
+			    },
+			    "municipio_has_ds_genero": {
+			      "Binding": {
+			        "ConceptualEntity": "municipio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "municipio": {
+			          "Target": {
+			            "Entity": "municipio"
+			          }
+			        },
+			        "municipio.ds_genero": {
+			          "Target": {
+			            "Entity": "municipio.ds_genero"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "municipio"
+			            },
+			            "Object": {
+			              "Role": "municipio.ds_genero"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "municipios_have_ds_generos"
+			        }
+			      ]
+			    },
+			    "municipio_has_nm_candidato": {
+			      "Binding": {
+			        "ConceptualEntity": "municipio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "municipio": {
+			          "Target": {
+			            "Entity": "municipio"
+			          }
+			        },
+			        "municipio.nm_candidato": {
+			          "Target": {
+			            "Entity": "municipio.nm_candidato"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "municipio"
+			            },
+			            "Object": {
+			              "Role": "municipio.nm_candidato"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "municipios_have_nm_candidatos"
+			        }
+			      ]
+			    },
+			    "municipio_has_municipio": {
+			      "Binding": {
+			        "ConceptualEntity": "municipio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "municipio": {
+			          "Target": {
+			            "Entity": "municipio"
+			          }
+			        },
+			        "municipio.municipio": {
+			          "Target": {
+			            "Entity": "municipio.municipio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "municipio"
+			            },
+			            "Object": {
+			              "Role": "municipio.municipio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "municipios_have_municipios"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "municipio"
+			            },
+			            "Name": {
+			              "Role": "municipio.municipio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "municipios_are_names_IDs_of_municipios"
+			        }
+			      ]
+			    },
+			    "municipio_has_code_muni": {
+			      "Binding": {
+			        "ConceptualEntity": "municipio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "municipio": {
+			          "Target": {
+			            "Entity": "municipio"
+			          }
+			        },
+			        "municipio.code_muni": {
+			          "Target": {
+			            "Entity": "municipio.code_muni"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "municipio"
+			            },
+			            "Object": {
+			              "Role": "municipio.code_muni"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "municipios_have_code_munis"
+			        }
+			      ]
+			    },
+			    "estimativas_sidra_has_ano_referencia": {
+			      "Binding": {
+			        "ConceptualEntity": "estimativas_sidra"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "estimativas_sidra": {
+			          "Target": {
+			            "Entity": "estimativas_sidra"
+			          }
+			        },
+			        "estimativas_sidra.ano_referencia": {
+			          "Target": {
+			            "Entity": "estimativas_sidra.ano_referencia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "estimativas_sidra"
+			            },
+			            "Object": {
+			              "Role": "estimativas_sidra.ano_referencia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "estimativas_sidra_have_ano_referencias"
+			        }
+			      ]
+			    },
+			    "estimativas_sidra_has_ano_referencia_codigo": {
+			      "Binding": {
+			        "ConceptualEntity": "estimativas_sidra"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "estimativas_sidra": {
+			          "Target": {
+			            "Entity": "estimativas_sidra"
+			          }
+			        },
+			        "estimativas_sidra.ano_referencia_codigo": {
+			          "Target": {
+			            "Entity": "estimativas_sidra.ano_referencia_codigo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "estimativas_sidra"
+			            },
+			            "Object": {
+			              "Role": "estimativas_sidra.ano_referencia_codigo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "estimativas_sidra_have_ano_referencia_codigos"
+			        }
+			      ]
+			    },
+			    "estimativas_sidra_has_idade": {
+			      "Binding": {
+			        "ConceptualEntity": "estimativas_sidra"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "estimativas_sidra": {
+			          "Target": {
+			            "Entity": "estimativas_sidra"
+			          }
+			        },
+			        "estimativas_sidra.idade": {
+			          "Target": {
+			            "Entity": "estimativas_sidra.idade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "estimativas_sidra"
+			            },
+			            "Object": {
+			              "Role": "estimativas_sidra.idade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "estimativas_sidra_have_idades"
+			        }
+			      ]
+			    },
+			    "estimativas_sidra_has_idade_codigo": {
+			      "Binding": {
+			        "ConceptualEntity": "estimativas_sidra"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "estimativas_sidra": {
+			          "Target": {
+			            "Entity": "estimativas_sidra"
+			          }
+			        },
+			        "estimativas_sidra.idade_codigo": {
+			          "Target": {
+			            "Entity": "estimativas_sidra.idade_codigo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "estimativas_sidra"
+			            },
+			            "Object": {
+			              "Role": "estimativas_sidra.idade_codigo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "estimativas_sidra_have_idade_codigos"
+			        }
+			      ]
+			    },
+			    "estimativas_sidra_has_sexo": {
+			      "Binding": {
+			        "ConceptualEntity": "estimativas_sidra"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "estimativas_sidra": {
+			          "Target": {
+			            "Entity": "estimativas_sidra"
+			          }
+			        },
+			        "estimativas_sidra.sexo": {
+			          "Target": {
+			            "Entity": "estimativas_sidra.sexo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "estimativas_sidra"
+			            },
+			            "Object": {
+			              "Role": "estimativas_sidra.sexo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "estimativas_sidra_have_sexos"
+			        }
+			      ]
+			    },
+			    "estimativas_sidra_has_sexo_codigo": {
+			      "Binding": {
+			        "ConceptualEntity": "estimativas_sidra"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "estimativas_sidra": {
+			          "Target": {
+			            "Entity": "estimativas_sidra"
+			          }
+			        },
+			        "estimativas_sidra.sexo_codigo": {
+			          "Target": {
+			            "Entity": "estimativas_sidra.sexo_codigo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "estimativas_sidra"
+			            },
+			            "Object": {
+			              "Role": "estimativas_sidra.sexo_codigo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "estimativas_sidra_have_sexo_codigos"
+			        }
+			      ]
+			    },
+			    "estimativas_sidra_has_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "estimativas_sidra"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "estimativas_sidra": {
+			          "Target": {
+			            "Entity": "estimativas_sidra"
+			          }
+			        },
+			        "estimativas_sidra.ano": {
+			          "Target": {
+			            "Entity": "estimativas_sidra.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "estimativas_sidra"
+			            },
+			            "Object": {
+			              "Role": "estimativas_sidra.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "estimativas_sidra_have_anos"
+			        }
+			      ]
+			    },
+			    "estimativas_sidra_has_ano_codigo": {
+			      "Binding": {
+			        "ConceptualEntity": "estimativas_sidra"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "estimativas_sidra": {
+			          "Target": {
+			            "Entity": "estimativas_sidra"
+			          }
+			        },
+			        "estimativas_sidra.ano_codigo": {
+			          "Target": {
+			            "Entity": "estimativas_sidra.ano_codigo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "estimativas_sidra"
+			            },
+			            "Object": {
+			              "Role": "estimativas_sidra.ano_codigo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "estimativas_sidra_have_ano_codigos"
+			        }
+			      ]
+			    },
+			    "estimativas_sidra_has_variavel": {
+			      "Binding": {
+			        "ConceptualEntity": "estimativas_sidra"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "estimativas_sidra": {
+			          "Target": {
+			            "Entity": "estimativas_sidra"
+			          }
+			        },
+			        "estimativas_sidra.variavel": {
+			          "Target": {
+			            "Entity": "estimativas_sidra.variavel"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "estimativas_sidra"
+			            },
+			            "Object": {
+			              "Role": "estimativas_sidra.variavel"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "estimativas_sidra_have_variavels"
+			        }
+			      ]
+			    },
+			    "estimativas_sidra_has_variavel_codigo": {
+			      "Binding": {
+			        "ConceptualEntity": "estimativas_sidra"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "estimativas_sidra": {
+			          "Target": {
+			            "Entity": "estimativas_sidra"
+			          }
+			        },
+			        "estimativas_sidra.variavel_codigo": {
+			          "Target": {
+			            "Entity": "estimativas_sidra.variavel_codigo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "estimativas_sidra"
+			            },
+			            "Object": {
+			              "Role": "estimativas_sidra.variavel_codigo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "estimativas_sidra_have_variavel_codigos"
+			        }
+			      ]
+			    },
+			    "estimativas_sidra_has_uf": {
+			      "Binding": {
+			        "ConceptualEntity": "estimativas_sidra"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "estimativas_sidra": {
+			          "Target": {
+			            "Entity": "estimativas_sidra"
+			          }
+			        },
+			        "estimativas_sidra.uf": {
+			          "Target": {
+			            "Entity": "estimativas_sidra.uf"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "estimativas_sidra"
+			            },
+			            "Object": {
+			              "Role": "estimativas_sidra.uf"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "estimativas_sidra_have_ufs"
+			        }
+			      ]
+			    },
+			    "estimativas_sidra_has_uf_codigo": {
+			      "Binding": {
+			        "ConceptualEntity": "estimativas_sidra"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "estimativas_sidra": {
+			          "Target": {
+			            "Entity": "estimativas_sidra"
+			          }
+			        },
+			        "estimativas_sidra.uf_codigo": {
+			          "Target": {
+			            "Entity": "estimativas_sidra.uf_codigo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "estimativas_sidra"
+			            },
+			            "Object": {
+			              "Role": "estimativas_sidra.uf_codigo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "estimativas_sidra_have_uf_codigos"
+			        }
+			      ]
+			    },
+			    "estimativas_sidra_has_valor": {
+			      "Binding": {
+			        "ConceptualEntity": "estimativas_sidra"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "estimativas_sidra": {
+			          "Target": {
+			            "Entity": "estimativas_sidra"
+			          }
+			        },
+			        "estimativas_sidra.valor": {
+			          "Target": {
+			            "Entity": "estimativas_sidra.valor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "estimativas_sidra"
+			            },
+			            "Object": {
+			              "Role": "estimativas_sidra.valor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "estimativas_sidra_have_valor"
+			        }
+			      ]
+			    },
+			    "estimativas_sidra_has_unidade_medida": {
+			      "Binding": {
+			        "ConceptualEntity": "estimativas_sidra"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "estimativas_sidra": {
+			          "Target": {
+			            "Entity": "estimativas_sidra"
+			          }
+			        },
+			        "estimativas_sidra.unidade_medida": {
+			          "Target": {
+			            "Entity": "estimativas_sidra.unidade_medida"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "estimativas_sidra"
+			            },
+			            "Object": {
+			              "Role": "estimativas_sidra.unidade_medida"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "estimativas_sidra_have_unidade_medidas"
+			        }
+			      ]
+			    },
+			    "estimativas_sidra_has_unidade_medida_codigo": {
+			      "Binding": {
+			        "ConceptualEntity": "estimativas_sidra"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "estimativas_sidra": {
+			          "Target": {
+			            "Entity": "estimativas_sidra"
+			          }
+			        },
+			        "estimativas_sidra.unidade_medida_codigo": {
+			          "Target": {
+			            "Entity": "estimativas_sidra.unidade_medida_codigo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "estimativas_sidra"
+			            },
+			            "Object": {
+			              "Role": "estimativas_sidra.unidade_medida_codigo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "estimativas_sidra_have_unidade_medida_codigos"
+			        }
+			      ]
+			    },
+			    "estimativas_sidra_has_nivel_territorial": {
+			      "Binding": {
+			        "ConceptualEntity": "estimativas_sidra"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "estimativas_sidra": {
+			          "Target": {
+			            "Entity": "estimativas_sidra"
+			          }
+			        },
+			        "estimativas_sidra.nivel_territorial": {
+			          "Target": {
+			            "Entity": "estimativas_sidra.nivel_territorial"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "estimativas_sidra"
+			            },
+			            "Object": {
+			              "Role": "estimativas_sidra.nivel_territorial"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "estimativas_sidra_have_nivel_territorials"
+			        }
+			      ]
+			    },
+			    "estimativas_sidra_has_nivel_territorial_codigo": {
+			      "Binding": {
+			        "ConceptualEntity": "estimativas_sidra"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "estimativas_sidra": {
+			          "Target": {
+			            "Entity": "estimativas_sidra"
+			          }
+			        },
+			        "estimativas_sidra.nivel_territorial_codigo": {
+			          "Target": {
+			            "Entity": "estimativas_sidra.nivel_territorial_codigo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "estimativas_sidra"
+			            },
+			            "Object": {
+			              "Role": "estimativas_sidra.nivel_territorial_codigo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "estimativas_sidra_have_nivel_territorial_codigos"
+			        }
+			      ]
+			    },
+			    "mpe_2025_has_perc_servicos_mpe": {
+			      "Binding": {
+			        "ConceptualEntity": "mpe_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mpe_2025": {
+			          "Target": {
+			            "Entity": "mpe_2025"
+			          }
+			        },
+			        "mpe_2025.perc_servicos_mpe": {
+			          "Target": {
+			            "Entity": "mpe_2025.perc_servicos_mpe"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mpe_2025"
+			            },
+			            "Object": {
+			              "Role": "mpe_2025.perc_servicos_mpe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mpe_2025_have_perc_servicos_mpes"
+			        }
+			      ]
+			    },
+			    "mpe_2025_has_perc_comercio_mpe": {
+			      "Binding": {
+			        "ConceptualEntity": "mpe_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mpe_2025": {
+			          "Target": {
+			            "Entity": "mpe_2025"
+			          }
+			        },
+			        "mpe_2025.perc_comercio_mpe": {
+			          "Target": {
+			            "Entity": "mpe_2025.perc_comercio_mpe"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mpe_2025"
+			            },
+			            "Object": {
+			              "Role": "mpe_2025.perc_comercio_mpe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mpe_2025_have_perc_comercio_mpes"
+			        }
+			      ]
+			    },
+			    "mpe_2025_has_perc_construcao_mpe": {
+			      "Binding": {
+			        "ConceptualEntity": "mpe_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mpe_2025": {
+			          "Target": {
+			            "Entity": "mpe_2025"
+			          }
+			        },
+			        "mpe_2025.perc_construcao_mpe": {
+			          "Target": {
+			            "Entity": "mpe_2025.perc_construcao_mpe"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mpe_2025"
+			            },
+			            "Object": {
+			              "Role": "mpe_2025.perc_construcao_mpe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mpe_2025_have_perc_construcao_mpes"
+			        }
+			      ]
+			    },
+			    "mpe_2025_has_perc_industria_mpe": {
+			      "Binding": {
+			        "ConceptualEntity": "mpe_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mpe_2025": {
+			          "Target": {
+			            "Entity": "mpe_2025"
+			          }
+			        },
+			        "mpe_2025.perc_industria_mpe": {
+			          "Target": {
+			            "Entity": "mpe_2025.perc_industria_mpe"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mpe_2025"
+			            },
+			            "Object": {
+			              "Role": "mpe_2025.perc_industria_mpe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mpe_2025_have_perc_industria_mpes"
+			        }
+			      ]
+			    },
+			    "mpe_2025_has_perc_agropecuaria_mpe": {
+			      "Binding": {
+			        "ConceptualEntity": "mpe_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mpe_2025": {
+			          "Target": {
+			            "Entity": "mpe_2025"
+			          }
+			        },
+			        "mpe_2025.perc_agropecuaria_mpe": {
+			          "Target": {
+			            "Entity": "mpe_2025.perc_agropecuaria_mpe"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mpe_2025"
+			            },
+			            "Object": {
+			              "Role": "mpe_2025.perc_agropecuaria_mpe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mpe_2025_have_perc_agropecuaria_mpes"
+			        }
+			      ]
+			    },
+			    "mpe_2025_has_perc_mpe_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "mpe_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mpe_2025": {
+			          "Target": {
+			            "Entity": "mpe_2025"
+			          }
+			        },
+			        "mpe_2025.perc_mpe_estado": {
+			          "Target": {
+			            "Entity": "mpe_2025.perc_mpe_estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mpe_2025"
+			            },
+			            "Object": {
+			              "Role": "mpe_2025.perc_mpe_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mpe_2025_have_perc_mpe_estado"
+			        }
+			      ]
+			    },
+			    "mpe_2025_has_mpe": {
+			      "Binding": {
+			        "ConceptualEntity": "mpe_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mpe_2025": {
+			          "Target": {
+			            "Entity": "mpe_2025"
+			          }
+			        },
+			        "mpe_2025.mpe": {
+			          "Target": {
+			            "Entity": "mpe_2025.mpe"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mpe_2025"
+			            },
+			            "Object": {
+			              "Role": "mpe_2025.mpe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mpe_2025_have_mpes"
+			        }
+			      ]
+			    },
+			    "mpe_2025_has_code_muni": {
+			      "Binding": {
+			        "ConceptualEntity": "mpe_2025"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mpe_2025": {
+			          "Target": {
+			            "Entity": "mpe_2025"
+			          }
+			        },
+			        "mpe_2025.code_muni": {
+			          "Target": {
+			            "Entity": "mpe_2025.code_muni"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mpe_2025"
+			            },
+			            "Object": {
+			              "Role": "mpe_2025.code_muni"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mpe_2025_have_code_munis"
+			        }
+			      ]
+			    },
+			    "rais_2023_has_rais_ranking_na_salario_medio_sm": {
+			      "Binding": {
+			        "ConceptualEntity": "rais_2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rais_2023": {
+			          "Target": {
+			            "Entity": "rais_2023"
+			          }
+			        },
+			        "rais_2023.rais_ranking_na_salario_medio_sm": {
+			          "Target": {
+			            "Entity": "rais_2023.rais_ranking_na_salario_medio_sm"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rais_2023"
+			            },
+			            "Object": {
+			              "Role": "rais_2023.rais_ranking_na_salario_medio_sm"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rais_2023_have_rais_ranking_na_salario_medio_sm"
+			        }
+			      ]
+			    },
+			    "rais_2023_has_v_salario_medio_sm": {
+			      "Binding": {
+			        "ConceptualEntity": "rais_2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rais_2023": {
+			          "Target": {
+			            "Entity": "rais_2023"
+			          }
+			        },
+			        "rais_2023.v_salario_medio_sm": {
+			          "Target": {
+			            "Entity": "rais_2023.v_salario_medio_sm"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rais_2023"
+			            },
+			            "Object": {
+			              "Role": "rais_2023.v_salario_medio_sm"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rais_2023_have_v_salario_medio_sm"
+			        }
+			      ]
+			    },
+			    "rais_2023_has_remuneracao": {
+			      "Binding": {
+			        "ConceptualEntity": "rais_2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rais_2023": {
+			          "Target": {
+			            "Entity": "rais_2023"
+			          }
+			        },
+			        "rais_2023.remuneracao": {
+			          "Target": {
+			            "Entity": "rais_2023.remuneracao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rais_2023"
+			            },
+			            "Object": {
+			              "Role": "rais_2023.remuneracao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rais_2023_have_remuneracaos"
+			        }
+			      ]
+			    },
+			    "rais_2023_has_empregos_formais": {
+			      "Binding": {
+			        "ConceptualEntity": "rais_2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rais_2023": {
+			          "Target": {
+			            "Entity": "rais_2023"
+			          }
+			        },
+			        "rais_2023.empregos_formais": {
+			          "Target": {
+			            "Entity": "rais_2023.empregos_formais"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rais_2023"
+			            },
+			            "Object": {
+			              "Role": "rais_2023.empregos_formais"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rais_2023_have_empregos_formaises"
+			        }
+			      ]
+			    },
+			    "rais_2023_has_code_muni_6": {
+			      "Binding": {
+			        "ConceptualEntity": "rais_2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rais_2023": {
+			          "Target": {
+			            "Entity": "rais_2023"
+			          }
+			        },
+			        "rais_2023.code_muni_6": {
+			          "Target": {
+			            "Entity": "rais_2023.code_muni_6"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rais_2023"
+			            },
+			            "Object": {
+			              "Role": "rais_2023.code_muni_6"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rais_2023_have_code_muni_6"
+			        }
+			      ]
+			    },
+			    "pib_mun_has_perc_pib_imposto": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_mun"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_mun": {
+			          "Target": {
+			            "Entity": "pib_mun"
+			          }
+			        },
+			        "pib_mun.perc_pib_imposto": {
+			          "Target": {
+			            "Entity": "pib_mun.perc_pib_imposto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_mun"
+			            },
+			            "Object": {
+			              "Role": "pib_mun.perc_pib_imposto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_muns_have_perc_pib_impostos"
+			        }
+			      ]
+			    },
+			    "pib_mun_has_perc_pib_adm_publica": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_mun"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_mun": {
+			          "Target": {
+			            "Entity": "pib_mun"
+			          }
+			        },
+			        "pib_mun.perc_pib_adm_publica": {
+			          "Target": {
+			            "Entity": "pib_mun.perc_pib_adm_publica"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_mun"
+			            },
+			            "Object": {
+			              "Role": "pib_mun.perc_pib_adm_publica"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_muns_have_perc_pib_adm_publicas"
+			        }
+			      ]
+			    },
+			    "pib_mun_has_perc_pib_servico": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_mun"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_mun": {
+			          "Target": {
+			            "Entity": "pib_mun"
+			          }
+			        },
+			        "pib_mun.perc_pib_servico": {
+			          "Target": {
+			            "Entity": "pib_mun.perc_pib_servico"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_mun"
+			            },
+			            "Object": {
+			              "Role": "pib_mun.perc_pib_servico"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_muns_have_perc_pib_servicos"
+			        }
+			      ]
+			    },
+			    "pib_mun_has_perc_pib_industria": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_mun"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_mun": {
+			          "Target": {
+			            "Entity": "pib_mun"
+			          }
+			        },
+			        "pib_mun.perc_pib_industria": {
+			          "Target": {
+			            "Entity": "pib_mun.perc_pib_industria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_mun"
+			            },
+			            "Object": {
+			              "Role": "pib_mun.perc_pib_industria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_muns_have_perc_pib_industrias"
+			        }
+			      ]
+			    },
+			    "pib_mun_has_perc_pib_agropecuaria": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_mun"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_mun": {
+			          "Target": {
+			            "Entity": "pib_mun"
+			          }
+			        },
+			        "pib_mun.perc_pib_agropecuaria": {
+			          "Target": {
+			            "Entity": "pib_mun.perc_pib_agropecuaria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_mun"
+			            },
+			            "Object": {
+			              "Role": "pib_mun.perc_pib_agropecuaria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_muns_have_perc_pib_agropecuarias"
+			        }
+			      ]
+			    },
+			    "pib_mun_has_pib_total_mil_reais": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_mun"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_mun": {
+			          "Target": {
+			            "Entity": "pib_mun"
+			          }
+			        },
+			        "pib_mun.pib_total_mil_reais": {
+			          "Target": {
+			            "Entity": "pib_mun.pib_total_mil_reais"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_mun"
+			            },
+			            "Object": {
+			              "Role": "pib_mun.pib_total_mil_reais"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_muns_have_pib_total_mil_reaises"
+			        }
+			      ]
+			    },
+			    "pib_mun_has_code_muni": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_mun"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_mun": {
+			          "Target": {
+			            "Entity": "pib_mun"
+			          }
+			        },
+			        "pib_mun.code_muni": {
+			          "Target": {
+			            "Entity": "pib_mun.code_muni"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_mun"
+			            },
+			            "Object": {
+			              "Role": "pib_mun.code_muni"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_muns_have_code_munis"
+			        }
+			      ]
+			    },
+			    "idh_2010_has_posicao_estadual_idh": {
+			      "Binding": {
+			        "ConceptualEntity": "idh_2010"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "idh_2010": {
+			          "Target": {
+			            "Entity": "idh_2010"
+			          }
+			        },
+			        "idh_2010.posicao_estadual_idh": {
+			          "Target": {
+			            "Entity": "idh_2010.posicao_estadual_idh"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "idh_2010"
+			            },
+			            "Object": {
+			              "Role": "idh_2010.posicao_estadual_idh"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "idh_2010_have_posicao_estadual_idhs"
+			        }
+			      ]
+			    },
+			    "idh_2010_has_posicao_nacional_idh": {
+			      "Binding": {
+			        "ConceptualEntity": "idh_2010"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "idh_2010": {
+			          "Target": {
+			            "Entity": "idh_2010"
+			          }
+			        },
+			        "idh_2010.posicao_nacional_idh": {
+			          "Target": {
+			            "Entity": "idh_2010.posicao_nacional_idh"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "idh_2010"
+			            },
+			            "Object": {
+			              "Role": "idh_2010.posicao_nacional_idh"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "idh_2010_have_posicao_nacional_idhs"
+			        }
+			      ]
+			    },
+			    "idh_2010_has_idh": {
+			      "Binding": {
+			        "ConceptualEntity": "idh_2010"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "idh_2010": {
+			          "Target": {
+			            "Entity": "idh_2010"
+			          }
+			        },
+			        "idh_2010.idh": {
+			          "Target": {
+			            "Entity": "idh_2010.idh"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "idh_2010"
+			            },
+			            "Object": {
+			              "Role": "idh_2010.idh"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "idh_2010_have_idhs"
+			        }
+			      ]
+			    },
+			    "idh_2010_has_code_muni": {
+			      "Binding": {
+			        "ConceptualEntity": "idh_2010"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "idh_2010": {
+			          "Target": {
+			            "Entity": "idh_2010"
+			          }
+			        },
+			        "idh_2010.code_muni": {
+			          "Target": {
+			            "Entity": "idh_2010.code_muni"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "idh_2010"
+			            },
+			            "Object": {
+			              "Role": "idh_2010.code_muni"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "idh_2010_have_code_munis"
+			        }
+			      ]
+			    },
+			    "receitas_fiscais_externa_has_prop_receitas_fiscais_externo": {
+			      "Binding": {
+			        "ConceptualEntity": "receitas_fiscais_externas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "receitas_fiscais_externa": {
+			          "Target": {
+			            "Entity": "receitas_fiscais_externa"
+			          }
+			        },
+			        "receitas_fiscais_externa.prop_receitas_fiscais_externo": {
+			          "Target": {
+			            "Entity": "receitas_fiscais_externa.prop_receitas_fiscais_externo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "receitas_fiscais_externa"
+			            },
+			            "Object": {
+			              "Role": "receitas_fiscais_externa.prop_receitas_fiscais_externo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "receitas_fiscais_externas_have_prop_receitas_fiscais_externos"
+			        }
+			      ]
+			    },
+			    "receitas_fiscais_externa_has_municipio": {
+			      "Binding": {
+			        "ConceptualEntity": "receitas_fiscais_externas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "receitas_fiscais_externa": {
+			          "Target": {
+			            "Entity": "receitas_fiscais_externa"
+			          }
+			        },
+			        "receitas_fiscais_externa.municipio": {
+			          "Target": {
+			            "Entity": "receitas_fiscais_externa.municipio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "receitas_fiscais_externa"
+			            },
+			            "Object": {
+			              "Role": "receitas_fiscais_externa.municipio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "receitas_fiscais_externas_have_municipios1"
+			        }
+			      ]
+			    },
+			    "densidade_demografica_has_densidade_demográfica": {
+			      "Binding": {
+			        "ConceptualEntity": "densidade_demografica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "densidade_demografica": {
+			          "Target": {
+			            "Entity": "densidade_demografica"
+			          }
+			        },
+			        "densidade_demografica.densidade_demográfica": {
+			          "Target": {
+			            "Entity": "densidade_demografica.densidade_demográfica"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "densidade_demografica"
+			            },
+			            "Object": {
+			              "Role": "densidade_demografica.densidade_demográfica"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "densidade_demograficas_have_densidade_demográfica"
+			        }
+			      ]
+			    },
+			    "densidade_demografica_has_densidade_demografica": {
+			      "Binding": {
+			        "ConceptualEntity": "densidade_demografica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "densidade_demografica": {
+			          "Target": {
+			            "Entity": "densidade_demografica"
+			          }
+			        },
+			        "densidade_demografica.densidade_demografica": {
+			          "Target": {
+			            "Entity": "densidade_demografica.densidade_demografica"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "densidade_demografica"
+			            },
+			            "Object": {
+			              "Role": "densidade_demografica.densidade_demografica"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "densidade_demograficas_have_densidade_demograficas"
+			        }
+			      ]
+			    },
+			    "densidade_demografica_has_code_muni": {
+			      "Binding": {
+			        "ConceptualEntity": "densidade_demografica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "densidade_demografica": {
+			          "Target": {
+			            "Entity": "densidade_demografica"
+			          }
+			        },
+			        "densidade_demografica.code_muni": {
+			          "Target": {
+			            "Entity": "densidade_demografica.code_muni"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "densidade_demografica"
+			            },
+			            "Object": {
+			              "Role": "densidade_demografica.code_muni"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "densidade_demograficas_have_code_munis"
+			        }
+			      ]
+			    },
+			    "pib_per_capita_has_posicao_estadual_pib_per_capita": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_per_capita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_per_capita": {
+			          "Target": {
+			            "Entity": "pib_per_capita"
+			          }
+			        },
+			        "pib_per_capita.posicao_estadual_pib_per_capita": {
+			          "Target": {
+			            "Entity": "pib_per_capita.posicao_estadual_pib_per_capita"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_per_capita"
+			            },
+			            "Object": {
+			              "Role": "pib_per_capita.posicao_estadual_pib_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_per_capita_have_posicao_estadual_pib_per_capita"
+			        }
+			      ]
+			    },
+			    "pib_per_capita_has_posicao_na_pib_per_capita": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_per_capita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_per_capita": {
+			          "Target": {
+			            "Entity": "pib_per_capita"
+			          }
+			        },
+			        "pib_per_capita.posicao_na_pib_per_capita": {
+			          "Target": {
+			            "Entity": "pib_per_capita.posicao_na_pib_per_capita"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_per_capita"
+			            },
+			            "Object": {
+			              "Role": "pib_per_capita.posicao_na_pib_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_per_capita_have_posicao_na_pib_per_capita"
+			        }
+			      ]
+			    },
+			    "pib_per_capita_has_pib_per_capita": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_per_capita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_per_capita": {
+			          "Target": {
+			            "Entity": "pib_per_capita"
+			          }
+			        },
+			        "pib_per_capita.pib_per_capita": {
+			          "Target": {
+			            "Entity": "pib_per_capita.pib_per_capita"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_per_capita"
+			            },
+			            "Object": {
+			              "Role": "pib_per_capita.pib_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_per_capita_have_pib_per_capita"
+			        }
+			      ]
+			    },
+			    "pib_per_capita_has_code_muni": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_per_capita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_per_capita": {
+			          "Target": {
+			            "Entity": "pib_per_capita"
+			          }
+			        },
+			        "pib_per_capita.code_muni": {
+			          "Target": {
+			            "Entity": "pib_per_capita.code_muni"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_per_capita"
+			            },
+			            "Object": {
+			              "Role": "pib_per_capita.code_muni"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_per_capita_have_code_munis"
+			        }
+			      ]
+			    },
+			    "pop_residente_2022_has_posicao_estadual_populacional": {
+			      "Binding": {
+			        "ConceptualEntity": "pop_residente_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pop_residente_2022": {
+			          "Target": {
+			            "Entity": "pop_residente_2022"
+			          }
+			        },
+			        "pop_residente_2022.posicao_estadual_populacional": {
+			          "Target": {
+			            "Entity": "pop_residente_2022.posicao_estadual_populacional"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pop_residente_2022"
+			            },
+			            "Object": {
+			              "Role": "pop_residente_2022.posicao_estadual_populacional"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pop_residente_2022_have_posicao_estadual_populacionals"
+			        }
+			      ]
+			    },
+			    "pop_residente_2022_has_posicao_nacional_populacional": {
+			      "Binding": {
+			        "ConceptualEntity": "pop_residente_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pop_residente_2022": {
+			          "Target": {
+			            "Entity": "pop_residente_2022"
+			          }
+			        },
+			        "pop_residente_2022.posicao_nacional_populacional": {
+			          "Target": {
+			            "Entity": "pop_residente_2022.posicao_nacional_populacional"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pop_residente_2022"
+			            },
+			            "Object": {
+			              "Role": "pop_residente_2022.posicao_nacional_populacional"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pop_residente_2022_have_posicao_nacional_populacionals"
+			        }
+			      ]
+			    },
+			    "pop_residente_2022_has_populacao_residente_2022": {
+			      "Binding": {
+			        "ConceptualEntity": "pop_residente_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pop_residente_2022": {
+			          "Target": {
+			            "Entity": "pop_residente_2022"
+			          }
+			        },
+			        "pop_residente_2022.populacao_residente_2022": {
+			          "Target": {
+			            "Entity": "pop_residente_2022.populacao_residente_2022"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pop_residente_2022"
+			            },
+			            "Object": {
+			              "Role": "pop_residente_2022.populacao_residente_2022"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pop_residente_2022_have_populacao_residente_2022"
+			        }
+			      ]
+			    },
+			    "pop_residente_2022_has_municipio": {
+			      "Binding": {
+			        "ConceptualEntity": "pop_residente_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pop_residente_2022": {
+			          "Target": {
+			            "Entity": "pop_residente_2022"
+			          }
+			        },
+			        "pop_residente_2022.municipio": {
+			          "Target": {
+			            "Entity": "pop_residente_2022.municipio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pop_residente_2022"
+			            },
+			            "Object": {
+			              "Role": "pop_residente_2022.municipio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pop_residente_2022_have_municipios1"
+			        }
+			      ]
+			    },
+			    "pop_residente_2022_has_code_muni": {
+			      "Binding": {
+			        "ConceptualEntity": "pop_residente_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pop_residente_2022": {
+			          "Target": {
+			            "Entity": "pop_residente_2022"
+			          }
+			        },
+			        "pop_residente_2022.code_muni": {
+			          "Target": {
+			            "Entity": "pop_residente_2022.code_muni"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pop_residente_2022"
+			            },
+			            "Object": {
+			              "Role": "pop_residente_2022.code_muni"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pop_residente_2022_have_code_munis"
+			        }
+			      ]
+			    },
+			    "barra_de_progresso_has_texto_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Barra de Progresso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "barra_de_progresso": {
+			          "Target": {
+			            "Entity": "barra_de_progresso"
+			          }
+			        },
+			        "barra_de_progresso.texto_1": {
+			          "Target": {
+			            "Entity": "barra_de_progresso.texto_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "barra_de_progresso"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso.texto_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "barra_de_progresso_have_texto_1"
+			        }
+			      ]
+			    },
+			    "barra_de_progresso_has_no_estado_": {
+			      "Binding": {
+			        "ConceptualEntity": "Barra de Progresso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "barra_de_progresso": {
+			          "Target": {
+			            "Entity": "barra_de_progresso"
+			          }
+			        },
+			        "barra_de_progresso.no_estado_": {
+			          "Target": {
+			            "Entity": "barra_de_progresso.no_estado_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "barra_de_progresso"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso.no_estado_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "barra_de_progresso_have_no_estado_"
+			        }
+			      ]
+			    },
+			    "pop_residente_2022_has_barra_de_progresso_posição_no_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "pop_residente_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pop_residente_2022": {
+			          "Target": {
+			            "Entity": "pop_residente_2022"
+			          }
+			        },
+			        "barra_de_progresso.posição_no_estado": {
+			          "Target": {
+			            "Entity": "barra_de_progresso.posição_no_estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pop_residente_2022"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso.posição_no_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pop_residente_2022_have__posição_no_estado"
+			        }
+			      ]
+			    },
+			    "barra_de_progresso_has_posição_no_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "Barra de Progresso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "barra_de_progresso": {
+			          "Target": {
+			            "Entity": "barra_de_progresso"
+			          }
+			        },
+			        "barra_de_progresso.posição_no_estado": {
+			          "Target": {
+			            "Entity": "barra_de_progresso.posição_no_estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "barra_de_progresso"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso.posição_no_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "barra_de_progresso_have__posição_no_estado"
+			        }
+			      ]
+			    },
+			    "pop_residente_2022_has_barra_de_progresso_barra_progresso__no_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "pop_residente_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pop_residente_2022": {
+			          "Target": {
+			            "Entity": "pop_residente_2022"
+			          }
+			        },
+			        "barra_de_progresso.barra_progresso__no_estado": {
+			          "Target": {
+			            "Entity": "barra_de_progresso.barra_progresso__no_estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pop_residente_2022"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso.barra_progresso__no_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pop_residente_2022_have_barra_progresso__no_estado"
+			        }
+			      ]
+			    },
+			    "municipio_has_barra_de_progresso_barra_progresso__no_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "municipio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "municipio": {
+			          "Target": {
+			            "Entity": "municipio"
+			          }
+			        },
+			        "barra_de_progresso.barra_progresso__no_estado": {
+			          "Target": {
+			            "Entity": "barra_de_progresso.barra_progresso__no_estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "municipio"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso.barra_progresso__no_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "municipios_have_barra_progresso__no_estado"
+			        }
+			      ]
+			    },
 			    "barra_de_progresso_has_barra_progresso__no_estado": {
 			      "Binding": {
 			        "ConceptualEntity": "Barra de Progresso"
@@ -6834,7 +9477,7 @@ cultureInfo pt-BR
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "tabela_1_have_PIB_per_capita"
+			          "ID": "tabela_1_have_pib_per_capita"
 			        }
 			      ]
 			    },
@@ -7132,2639 +9775,6 @@ cultureInfo pt-BR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "tabela_1_have_code_munis"
-			        }
-			      ]
-			    },
-			    "municipio_is_named_municipio": {
-			      "Binding": {
-			        "ConceptualEntity": "municipio"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "municipio": {
-			          "Target": {
-			            "Entity": "municipio"
-			          }
-			        },
-			        "municipio.municipio": {
-			          "Target": {
-			            "Entity": "municipio.municipio"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Name": {
-			            "Subject": {
-			              "Role": "municipio"
-			            },
-			            "Name": {
-			              "Role": "municipio.municipio"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "municipios_are_names_IDs_of_municipios"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "municipio"
-			            },
-			            "Object": {
-			              "Role": "municipio.municipio"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "municipios_have_municipios"
-			        }
-			      ]
-			    },
-			    "municipio_has_barra_de_progresso_barra_progresso__no_estado": {
-			      "Binding": {
-			        "ConceptualEntity": "municipio"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "municipio": {
-			          "Target": {
-			            "Entity": "municipio"
-			          }
-			        },
-			        "barra_de_progresso.barra_progresso__no_estado": {
-			          "Target": {
-			            "Entity": "barra_de_progresso.barra_progresso__no_estado"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "municipio"
-			            },
-			            "Object": {
-			              "Role": "barra_de_progresso.barra_progresso__no_estado"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "municipios_have_barra_progresso__no_estado"
-			        }
-			      ]
-			    },
-			    "pop_residente_2022_has_barra_de_progresso_barra_progresso__no_estado": {
-			      "Binding": {
-			        "ConceptualEntity": "pop_residente_2022"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "pop_residente_2022": {
-			          "Target": {
-			            "Entity": "pop_residente_2022"
-			          }
-			        },
-			        "barra_de_progresso.barra_progresso__no_estado": {
-			          "Target": {
-			            "Entity": "barra_de_progresso.barra_progresso__no_estado"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "pop_residente_2022"
-			            },
-			            "Object": {
-			              "Role": "barra_de_progresso.barra_progresso__no_estado"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "pop_residente_2022_have_barra_progresso__no_estado"
-			        }
-			      ]
-			    },
-			    "barra_de_progresso_has_posição_no_estado": {
-			      "Binding": {
-			        "ConceptualEntity": "Barra de Progresso"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "barra_de_progresso": {
-			          "Target": {
-			            "Entity": "barra_de_progresso"
-			          }
-			        },
-			        "barra_de_progresso.posição_no_estado": {
-			          "Target": {
-			            "Entity": "barra_de_progresso.posição_no_estado"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "barra_de_progresso"
-			            },
-			            "Object": {
-			              "Role": "barra_de_progresso.posição_no_estado"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "barra_de_progresso_have__posição_no_estado"
-			        }
-			      ]
-			    },
-			    "pop_residente_2022_has_barra_de_progresso_posição_no_estado": {
-			      "Binding": {
-			        "ConceptualEntity": "pop_residente_2022"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "pop_residente_2022": {
-			          "Target": {
-			            "Entity": "pop_residente_2022"
-			          }
-			        },
-			        "barra_de_progresso.posição_no_estado": {
-			          "Target": {
-			            "Entity": "barra_de_progresso.posição_no_estado"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "pop_residente_2022"
-			            },
-			            "Object": {
-			              "Role": "barra_de_progresso.posição_no_estado"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "pop_residente_2022_have__posição_no_estado"
-			        }
-			      ]
-			    },
-			    "barra_de_progresso_has_no_estado_": {
-			      "Binding": {
-			        "ConceptualEntity": "Barra de Progresso"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "barra_de_progresso": {
-			          "Target": {
-			            "Entity": "barra_de_progresso"
-			          }
-			        },
-			        "barra_de_progresso.no_estado_": {
-			          "Target": {
-			            "Entity": "barra_de_progresso.no_estado_"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "barra_de_progresso"
-			            },
-			            "Object": {
-			              "Role": "barra_de_progresso.no_estado_"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "barra_de_progresso_have_no_estado_"
-			        }
-			      ]
-			    },
-			    "barra_de_progresso_has_texto_1": {
-			      "Binding": {
-			        "ConceptualEntity": "Barra de Progresso"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "barra_de_progresso": {
-			          "Target": {
-			            "Entity": "barra_de_progresso"
-			          }
-			        },
-			        "barra_de_progresso.texto_1": {
-			          "Target": {
-			            "Entity": "barra_de_progresso.texto_1"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "barra_de_progresso"
-			            },
-			            "Object": {
-			              "Role": "barra_de_progresso.texto_1"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "barra_de_progresso_have_texto_1"
-			        }
-			      ]
-			    },
-			    "pop_residente_2022_has_code_muni": {
-			      "Binding": {
-			        "ConceptualEntity": "pop_residente_2022"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "pop_residente_2022": {
-			          "Target": {
-			            "Entity": "pop_residente_2022"
-			          }
-			        },
-			        "pop_residente_2022.code_muni": {
-			          "Target": {
-			            "Entity": "pop_residente_2022.code_muni"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "pop_residente_2022"
-			            },
-			            "Object": {
-			              "Role": "pop_residente_2022.code_muni"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "pop_residente_2022_have_code_munis"
-			        }
-			      ]
-			    },
-			    "pop_residente_2022_has_municipio": {
-			      "Binding": {
-			        "ConceptualEntity": "pop_residente_2022"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "pop_residente_2022": {
-			          "Target": {
-			            "Entity": "pop_residente_2022"
-			          }
-			        },
-			        "pop_residente_2022.municipio": {
-			          "Target": {
-			            "Entity": "pop_residente_2022.municipio"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "pop_residente_2022"
-			            },
-			            "Object": {
-			              "Role": "pop_residente_2022.municipio"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "pop_residente_2022_have_municipios"
-			        }
-			      ]
-			    },
-			    "pop_residente_2022_has_populacao_residente_2022": {
-			      "Binding": {
-			        "ConceptualEntity": "pop_residente_2022"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "pop_residente_2022": {
-			          "Target": {
-			            "Entity": "pop_residente_2022"
-			          }
-			        },
-			        "pop_residente_2022.populacao_residente_2022": {
-			          "Target": {
-			            "Entity": "pop_residente_2022.populacao_residente_2022"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "pop_residente_2022"
-			            },
-			            "Object": {
-			              "Role": "pop_residente_2022.populacao_residente_2022"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "pop_residente_2022_have_populacao_residente_2022"
-			        }
-			      ]
-			    },
-			    "pop_residente_2022_has_posicao_nacional_populacional": {
-			      "Binding": {
-			        "ConceptualEntity": "pop_residente_2022"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "pop_residente_2022": {
-			          "Target": {
-			            "Entity": "pop_residente_2022"
-			          }
-			        },
-			        "pop_residente_2022.posicao_nacional_populacional": {
-			          "Target": {
-			            "Entity": "pop_residente_2022.posicao_nacional_populacional"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "pop_residente_2022"
-			            },
-			            "Object": {
-			              "Role": "pop_residente_2022.posicao_nacional_populacional"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "pop_residente_2022_have_posicao_nacional_populacionals"
-			        }
-			      ]
-			    },
-			    "pop_residente_2022_has_posicao_estadual_populacional": {
-			      "Binding": {
-			        "ConceptualEntity": "pop_residente_2022"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "pop_residente_2022": {
-			          "Target": {
-			            "Entity": "pop_residente_2022"
-			          }
-			        },
-			        "pop_residente_2022.posicao_estadual_populacional": {
-			          "Target": {
-			            "Entity": "pop_residente_2022.posicao_estadual_populacional"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "pop_residente_2022"
-			            },
-			            "Object": {
-			              "Role": "pop_residente_2022.posicao_estadual_populacional"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "pop_residente_2022_have_posicao_estadual_populacionals"
-			        }
-			      ]
-			    },
-			    "pib_per_capita_has_code_muni": {
-			      "Binding": {
-			        "ConceptualEntity": "pib_per_capita"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "pib_per_capita": {
-			          "Target": {
-			            "Entity": "pib_per_capita"
-			          }
-			        },
-			        "pib_per_capita.code_muni": {
-			          "Target": {
-			            "Entity": "pib_per_capita.code_muni"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "pib_per_capita"
-			            },
-			            "Object": {
-			              "Role": "pib_per_capita.code_muni"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "PIB_per_capita_have_code_munis"
-			        }
-			      ]
-			    },
-			    "pib_per_capita_has_pib_per_capita": {
-			      "Binding": {
-			        "ConceptualEntity": "pib_per_capita"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "pib_per_capita": {
-			          "Target": {
-			            "Entity": "pib_per_capita"
-			          }
-			        },
-			        "pib_per_capita.pib_per_capita": {
-			          "Target": {
-			            "Entity": "pib_per_capita.pib_per_capita"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "pib_per_capita"
-			            },
-			            "Object": {
-			              "Role": "pib_per_capita.pib_per_capita"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "PIB_per_capita_have_PIB_per_capita"
-			        }
-			      ]
-			    },
-			    "pib_per_capita_has_posicao_na_pib_per_capita": {
-			      "Binding": {
-			        "ConceptualEntity": "pib_per_capita"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "pib_per_capita": {
-			          "Target": {
-			            "Entity": "pib_per_capita"
-			          }
-			        },
-			        "pib_per_capita.posicao_na_pib_per_capita": {
-			          "Target": {
-			            "Entity": "pib_per_capita.posicao_na_pib_per_capita"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "pib_per_capita"
-			            },
-			            "Object": {
-			              "Role": "pib_per_capita.posicao_na_pib_per_capita"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "PIB_per_capita_have_posicao_na_pib_per_capita"
-			        }
-			      ]
-			    },
-			    "pib_per_capita_has_posicao_estadual_pib_per_capita": {
-			      "Binding": {
-			        "ConceptualEntity": "pib_per_capita"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "pib_per_capita": {
-			          "Target": {
-			            "Entity": "pib_per_capita"
-			          }
-			        },
-			        "pib_per_capita.posicao_estadual_pib_per_capita": {
-			          "Target": {
-			            "Entity": "pib_per_capita.posicao_estadual_pib_per_capita"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "pib_per_capita"
-			            },
-			            "Object": {
-			              "Role": "pib_per_capita.posicao_estadual_pib_per_capita"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "PIB_per_capita_have_posicao_estadual_pib_per_capita"
-			        }
-			      ]
-			    },
-			    "densidade_demografica_has_code_muni": {
-			      "Binding": {
-			        "ConceptualEntity": "densidade_demografica"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "densidade_demografica": {
-			          "Target": {
-			            "Entity": "densidade_demografica"
-			          }
-			        },
-			        "densidade_demografica.code_muni": {
-			          "Target": {
-			            "Entity": "densidade_demografica.code_muni"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "densidade_demografica"
-			            },
-			            "Object": {
-			              "Role": "densidade_demografica.code_muni"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "densidade_demograficas_have_code_munis"
-			        }
-			      ]
-			    },
-			    "densidade_demografica_has_densidade_demografica": {
-			      "Binding": {
-			        "ConceptualEntity": "densidade_demografica"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "densidade_demografica": {
-			          "Target": {
-			            "Entity": "densidade_demografica"
-			          }
-			        },
-			        "densidade_demografica.densidade_demografica": {
-			          "Target": {
-			            "Entity": "densidade_demografica.densidade_demografica"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "densidade_demografica"
-			            },
-			            "Object": {
-			              "Role": "densidade_demografica.densidade_demografica"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "densidade_demograficas_have_densidade_demograficas"
-			        }
-			      ]
-			    },
-			    "densidade_demografica_has_densidade_demográfica": {
-			      "Binding": {
-			        "ConceptualEntity": "densidade_demografica"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "densidade_demografica": {
-			          "Target": {
-			            "Entity": "densidade_demografica"
-			          }
-			        },
-			        "densidade_demografica.densidade_demográfica": {
-			          "Target": {
-			            "Entity": "densidade_demografica.densidade_demográfica"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "densidade_demografica"
-			            },
-			            "Object": {
-			              "Role": "densidade_demografica.densidade_demográfica"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "densidade_demograficas_have_densidade_demográfica"
-			        }
-			      ]
-			    },
-			    "receitas_fiscais_externa_has_municipio": {
-			      "Binding": {
-			        "ConceptualEntity": "receitas_fiscais_externas"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "receitas_fiscais_externa": {
-			          "Target": {
-			            "Entity": "receitas_fiscais_externa"
-			          }
-			        },
-			        "receitas_fiscais_externa.municipio": {
-			          "Target": {
-			            "Entity": "receitas_fiscais_externa.municipio"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "receitas_fiscais_externa"
-			            },
-			            "Object": {
-			              "Role": "receitas_fiscais_externa.municipio"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "receitas_fiscais_externas_have_municipios"
-			        }
-			      ]
-			    },
-			    "receitas_fiscais_externa_has_prop_receitas_fiscais_externo": {
-			      "Binding": {
-			        "ConceptualEntity": "receitas_fiscais_externas"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "receitas_fiscais_externa": {
-			          "Target": {
-			            "Entity": "receitas_fiscais_externa"
-			          }
-			        },
-			        "receitas_fiscais_externa.prop_receitas_fiscais_externo": {
-			          "Target": {
-			            "Entity": "receitas_fiscais_externa.prop_receitas_fiscais_externo"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "receitas_fiscais_externa"
-			            },
-			            "Object": {
-			              "Role": "receitas_fiscais_externa.prop_receitas_fiscais_externo"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "receitas_fiscais_externas_have_prop_receitas_fiscais_externos"
-			        }
-			      ]
-			    },
-			    "idh_2010_has_code_muni": {
-			      "Binding": {
-			        "ConceptualEntity": "idh_2010"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "idh_2010": {
-			          "Target": {
-			            "Entity": "idh_2010"
-			          }
-			        },
-			        "idh_2010.code_muni": {
-			          "Target": {
-			            "Entity": "idh_2010.code_muni"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "idh_2010"
-			            },
-			            "Object": {
-			              "Role": "idh_2010.code_muni"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "idh_2010_have_code_munis"
-			        }
-			      ]
-			    },
-			    "idh_2010_has_idh": {
-			      "Binding": {
-			        "ConceptualEntity": "idh_2010"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "idh_2010": {
-			          "Target": {
-			            "Entity": "idh_2010"
-			          }
-			        },
-			        "idh_2010.idh": {
-			          "Target": {
-			            "Entity": "idh_2010.idh"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "idh_2010"
-			            },
-			            "Object": {
-			              "Role": "idh_2010.idh"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "idh_2010_have_idhs"
-			        }
-			      ]
-			    },
-			    "idh_2010_has_posicao_nacional_idh": {
-			      "Binding": {
-			        "ConceptualEntity": "idh_2010"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "idh_2010": {
-			          "Target": {
-			            "Entity": "idh_2010"
-			          }
-			        },
-			        "idh_2010.posicao_nacional_idh": {
-			          "Target": {
-			            "Entity": "idh_2010.posicao_nacional_idh"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "idh_2010"
-			            },
-			            "Object": {
-			              "Role": "idh_2010.posicao_nacional_idh"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "idh_2010_have_posicao_nacional_idhs"
-			        }
-			      ]
-			    },
-			    "idh_2010_has_posicao_estadual_idh": {
-			      "Binding": {
-			        "ConceptualEntity": "idh_2010"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "idh_2010": {
-			          "Target": {
-			            "Entity": "idh_2010"
-			          }
-			        },
-			        "idh_2010.posicao_estadual_idh": {
-			          "Target": {
-			            "Entity": "idh_2010.posicao_estadual_idh"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "idh_2010"
-			            },
-			            "Object": {
-			              "Role": "idh_2010.posicao_estadual_idh"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "idh_2010_have_posicao_estadual_idhs"
-			        }
-			      ]
-			    },
-			    "pib_mun_has_code_muni": {
-			      "Binding": {
-			        "ConceptualEntity": "pib_mun"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "pib_mun": {
-			          "Target": {
-			            "Entity": "pib_mun"
-			          }
-			        },
-			        "pib_mun.code_muni": {
-			          "Target": {
-			            "Entity": "pib_mun.code_muni"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "pib_mun"
-			            },
-			            "Object": {
-			              "Role": "pib_mun.code_muni"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "pib_muns_have_code_munis"
-			        }
-			      ]
-			    },
-			    "pib_mun_has_pib_total_mil_reais": {
-			      "Binding": {
-			        "ConceptualEntity": "pib_mun"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "pib_mun": {
-			          "Target": {
-			            "Entity": "pib_mun"
-			          }
-			        },
-			        "pib_mun.pib_total_mil_reais": {
-			          "Target": {
-			            "Entity": "pib_mun.pib_total_mil_reais"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "pib_mun"
-			            },
-			            "Object": {
-			              "Role": "pib_mun.pib_total_mil_reais"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "pib_muns_have_pib_total_mil_reaises"
-			        }
-			      ]
-			    },
-			    "pib_mun_has_perc_pib_agropecuaria": {
-			      "Binding": {
-			        "ConceptualEntity": "pib_mun"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "pib_mun": {
-			          "Target": {
-			            "Entity": "pib_mun"
-			          }
-			        },
-			        "pib_mun.perc_pib_agropecuaria": {
-			          "Target": {
-			            "Entity": "pib_mun.perc_pib_agropecuaria"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "pib_mun"
-			            },
-			            "Object": {
-			              "Role": "pib_mun.perc_pib_agropecuaria"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "pib_muns_have_perc_pib_agropecuarias"
-			        }
-			      ]
-			    },
-			    "pib_mun_has_perc_pib_industria": {
-			      "Binding": {
-			        "ConceptualEntity": "pib_mun"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "pib_mun": {
-			          "Target": {
-			            "Entity": "pib_mun"
-			          }
-			        },
-			        "pib_mun.perc_pib_industria": {
-			          "Target": {
-			            "Entity": "pib_mun.perc_pib_industria"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "pib_mun"
-			            },
-			            "Object": {
-			              "Role": "pib_mun.perc_pib_industria"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "pib_muns_have_perc_pib_industrias"
-			        }
-			      ]
-			    },
-			    "pib_mun_has_perc_pib_servico": {
-			      "Binding": {
-			        "ConceptualEntity": "pib_mun"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "pib_mun": {
-			          "Target": {
-			            "Entity": "pib_mun"
-			          }
-			        },
-			        "pib_mun.perc_pib_servico": {
-			          "Target": {
-			            "Entity": "pib_mun.perc_pib_servico"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "pib_mun"
-			            },
-			            "Object": {
-			              "Role": "pib_mun.perc_pib_servico"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "pib_muns_have_perc_pib_servicos"
-			        }
-			      ]
-			    },
-			    "pib_mun_has_perc_pib_adm_publica": {
-			      "Binding": {
-			        "ConceptualEntity": "pib_mun"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "pib_mun": {
-			          "Target": {
-			            "Entity": "pib_mun"
-			          }
-			        },
-			        "pib_mun.perc_pib_adm_publica": {
-			          "Target": {
-			            "Entity": "pib_mun.perc_pib_adm_publica"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "pib_mun"
-			            },
-			            "Object": {
-			              "Role": "pib_mun.perc_pib_adm_publica"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "pib_muns_have_perc_pib_adm_publicas"
-			        }
-			      ]
-			    },
-			    "pib_mun_has_perc_pib_imposto": {
-			      "Binding": {
-			        "ConceptualEntity": "pib_mun"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "pib_mun": {
-			          "Target": {
-			            "Entity": "pib_mun"
-			          }
-			        },
-			        "pib_mun.perc_pib_imposto": {
-			          "Target": {
-			            "Entity": "pib_mun.perc_pib_imposto"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "pib_mun"
-			            },
-			            "Object": {
-			              "Role": "pib_mun.perc_pib_imposto"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "pib_muns_have_perc_pib_impostos"
-			        }
-			      ]
-			    },
-			    "rais_2023_has_code_muni_6": {
-			      "Binding": {
-			        "ConceptualEntity": "rais_2023"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "rais_2023": {
-			          "Target": {
-			            "Entity": "rais_2023"
-			          }
-			        },
-			        "rais_2023.code_muni_6": {
-			          "Target": {
-			            "Entity": "rais_2023.code_muni_6"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "rais_2023"
-			            },
-			            "Object": {
-			              "Role": "rais_2023.code_muni_6"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "rais_2023_have_code_muni_6"
-			        }
-			      ]
-			    },
-			    "rais_2023_has_empregos_formais": {
-			      "Binding": {
-			        "ConceptualEntity": "rais_2023"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "rais_2023": {
-			          "Target": {
-			            "Entity": "rais_2023"
-			          }
-			        },
-			        "rais_2023.empregos_formais": {
-			          "Target": {
-			            "Entity": "rais_2023.empregos_formais"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "rais_2023"
-			            },
-			            "Object": {
-			              "Role": "rais_2023.empregos_formais"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "rais_2023_have_empregos_formaises"
-			        }
-			      ]
-			    },
-			    "rais_2023_has_remuneracao": {
-			      "Binding": {
-			        "ConceptualEntity": "rais_2023"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "rais_2023": {
-			          "Target": {
-			            "Entity": "rais_2023"
-			          }
-			        },
-			        "rais_2023.remuneracao": {
-			          "Target": {
-			            "Entity": "rais_2023.remuneracao"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "rais_2023"
-			            },
-			            "Object": {
-			              "Role": "rais_2023.remuneracao"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "rais_2023_have_remuneracaos"
-			        }
-			      ]
-			    },
-			    "rais_2023_has_v_salario_medio_sm": {
-			      "Binding": {
-			        "ConceptualEntity": "rais_2023"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "rais_2023": {
-			          "Target": {
-			            "Entity": "rais_2023"
-			          }
-			        },
-			        "rais_2023.v_salario_medio_sm": {
-			          "Target": {
-			            "Entity": "rais_2023.v_salario_medio_sm"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "rais_2023"
-			            },
-			            "Object": {
-			              "Role": "rais_2023.v_salario_medio_sm"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "rais_2023_have_v_salario_medio_sm"
-			        }
-			      ]
-			    },
-			    "rais_2023_has_rais_ranking_na_salario_medio_sm": {
-			      "Binding": {
-			        "ConceptualEntity": "rais_2023"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "rais_2023": {
-			          "Target": {
-			            "Entity": "rais_2023"
-			          }
-			        },
-			        "rais_2023.rais_ranking_na_salario_medio_sm": {
-			          "Target": {
-			            "Entity": "rais_2023.rais_ranking_na_salario_medio_sm"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "rais_2023"
-			            },
-			            "Object": {
-			              "Role": "rais_2023.rais_ranking_na_salario_medio_sm"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "rais_2023_have_rais_ranking_na_salario_medio_sm"
-			        }
-			      ]
-			    },
-			    "mpe_2025_has_code_muni": {
-			      "Binding": {
-			        "ConceptualEntity": "mpe_2025"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "mpe_2025": {
-			          "Target": {
-			            "Entity": "mpe_2025"
-			          }
-			        },
-			        "mpe_2025.code_muni": {
-			          "Target": {
-			            "Entity": "mpe_2025.code_muni"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "mpe_2025"
-			            },
-			            "Object": {
-			              "Role": "mpe_2025.code_muni"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "mpe_2025_have_code_munis"
-			        }
-			      ]
-			    },
-			    "mpe_2025_has_mpe": {
-			      "Binding": {
-			        "ConceptualEntity": "mpe_2025"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "mpe_2025": {
-			          "Target": {
-			            "Entity": "mpe_2025"
-			          }
-			        },
-			        "mpe_2025.mpe": {
-			          "Target": {
-			            "Entity": "mpe_2025.mpe"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "mpe_2025"
-			            },
-			            "Object": {
-			              "Role": "mpe_2025.mpe"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "mpe_2025_have_mpes"
-			        }
-			      ]
-			    },
-			    "mpe_2025_has_perc_mpe_estado": {
-			      "Binding": {
-			        "ConceptualEntity": "mpe_2025"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "mpe_2025": {
-			          "Target": {
-			            "Entity": "mpe_2025"
-			          }
-			        },
-			        "mpe_2025.perc_mpe_estado": {
-			          "Target": {
-			            "Entity": "mpe_2025.perc_mpe_estado"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "mpe_2025"
-			            },
-			            "Object": {
-			              "Role": "mpe_2025.perc_mpe_estado"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "mpe_2025_have_perc_mpe_estado"
-			        }
-			      ]
-			    },
-			    "mpe_2025_has_perc_agropecuaria_mpe": {
-			      "Binding": {
-			        "ConceptualEntity": "mpe_2025"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "mpe_2025": {
-			          "Target": {
-			            "Entity": "mpe_2025"
-			          }
-			        },
-			        "mpe_2025.perc_agropecuaria_mpe": {
-			          "Target": {
-			            "Entity": "mpe_2025.perc_agropecuaria_mpe"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "mpe_2025"
-			            },
-			            "Object": {
-			              "Role": "mpe_2025.perc_agropecuaria_mpe"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "mpe_2025_have_perc_agropecuaria_mpes"
-			        }
-			      ]
-			    },
-			    "mpe_2025_has_perc_industria_mpe": {
-			      "Binding": {
-			        "ConceptualEntity": "mpe_2025"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "mpe_2025": {
-			          "Target": {
-			            "Entity": "mpe_2025"
-			          }
-			        },
-			        "mpe_2025.perc_industria_mpe": {
-			          "Target": {
-			            "Entity": "mpe_2025.perc_industria_mpe"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "mpe_2025"
-			            },
-			            "Object": {
-			              "Role": "mpe_2025.perc_industria_mpe"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "mpe_2025_have_perc_industria_mpes"
-			        }
-			      ]
-			    },
-			    "mpe_2025_has_perc_construcao_mpe": {
-			      "Binding": {
-			        "ConceptualEntity": "mpe_2025"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "mpe_2025": {
-			          "Target": {
-			            "Entity": "mpe_2025"
-			          }
-			        },
-			        "mpe_2025.perc_construcao_mpe": {
-			          "Target": {
-			            "Entity": "mpe_2025.perc_construcao_mpe"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "mpe_2025"
-			            },
-			            "Object": {
-			              "Role": "mpe_2025.perc_construcao_mpe"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "mpe_2025_have_perc_construcao_mpes"
-			        }
-			      ]
-			    },
-			    "mpe_2025_has_perc_comercio_mpe": {
-			      "Binding": {
-			        "ConceptualEntity": "mpe_2025"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "mpe_2025": {
-			          "Target": {
-			            "Entity": "mpe_2025"
-			          }
-			        },
-			        "mpe_2025.perc_comercio_mpe": {
-			          "Target": {
-			            "Entity": "mpe_2025.perc_comercio_mpe"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "mpe_2025"
-			            },
-			            "Object": {
-			              "Role": "mpe_2025.perc_comercio_mpe"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "mpe_2025_have_perc_comercio_mpes"
-			        }
-			      ]
-			    },
-			    "mpe_2025_has_perc_servicos_mpe": {
-			      "Binding": {
-			        "ConceptualEntity": "mpe_2025"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "mpe_2025": {
-			          "Target": {
-			            "Entity": "mpe_2025"
-			          }
-			        },
-			        "mpe_2025.perc_servicos_mpe": {
-			          "Target": {
-			            "Entity": "mpe_2025.perc_servicos_mpe"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "mpe_2025"
-			            },
-			            "Object": {
-			              "Role": "mpe_2025.perc_servicos_mpe"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "mpe_2025_have_perc_servicos_mpes"
-			        }
-			      ]
-			    },
-			    "estimativas_sidra_has_nivel_territorial_codigo": {
-			      "Binding": {
-			        "ConceptualEntity": "estimativas_sidra"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "estimativas_sidra": {
-			          "Target": {
-			            "Entity": "estimativas_sidra"
-			          }
-			        },
-			        "estimativas_sidra.nivel_territorial_codigo": {
-			          "Target": {
-			            "Entity": "estimativas_sidra.nivel_territorial_codigo"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "estimativas_sidra"
-			            },
-			            "Object": {
-			              "Role": "estimativas_sidra.nivel_territorial_codigo"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "estimativas_sidra_have_nivel_territorial_codigos"
-			        }
-			      ]
-			    },
-			    "estimativas_sidra_has_nivel_territorial": {
-			      "Binding": {
-			        "ConceptualEntity": "estimativas_sidra"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "estimativas_sidra": {
-			          "Target": {
-			            "Entity": "estimativas_sidra"
-			          }
-			        },
-			        "estimativas_sidra.nivel_territorial": {
-			          "Target": {
-			            "Entity": "estimativas_sidra.nivel_territorial"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "estimativas_sidra"
-			            },
-			            "Object": {
-			              "Role": "estimativas_sidra.nivel_territorial"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "estimativas_sidra_have_nivel_territorials"
-			        }
-			      ]
-			    },
-			    "estimativas_sidra_has_unidade_medida_codigo": {
-			      "Binding": {
-			        "ConceptualEntity": "estimativas_sidra"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "estimativas_sidra": {
-			          "Target": {
-			            "Entity": "estimativas_sidra"
-			          }
-			        },
-			        "estimativas_sidra.unidade_medida_codigo": {
-			          "Target": {
-			            "Entity": "estimativas_sidra.unidade_medida_codigo"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "estimativas_sidra"
-			            },
-			            "Object": {
-			              "Role": "estimativas_sidra.unidade_medida_codigo"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "estimativas_sidra_have_unidade_medida_codigos"
-			        }
-			      ]
-			    },
-			    "estimativas_sidra_has_unidade_medida": {
-			      "Binding": {
-			        "ConceptualEntity": "estimativas_sidra"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "estimativas_sidra": {
-			          "Target": {
-			            "Entity": "estimativas_sidra"
-			          }
-			        },
-			        "estimativas_sidra.unidade_medida": {
-			          "Target": {
-			            "Entity": "estimativas_sidra.unidade_medida"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "estimativas_sidra"
-			            },
-			            "Object": {
-			              "Role": "estimativas_sidra.unidade_medida"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "estimativas_sidra_have_unidade_medidas"
-			        }
-			      ]
-			    },
-			    "estimativas_sidra_has_valor": {
-			      "Binding": {
-			        "ConceptualEntity": "estimativas_sidra"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "estimativas_sidra": {
-			          "Target": {
-			            "Entity": "estimativas_sidra"
-			          }
-			        },
-			        "estimativas_sidra.valor": {
-			          "Target": {
-			            "Entity": "estimativas_sidra.valor"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "estimativas_sidra"
-			            },
-			            "Object": {
-			              "Role": "estimativas_sidra.valor"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "estimativas_sidra_have_valor"
-			        }
-			      ]
-			    },
-			    "estimativas_sidra_has_uf_codigo": {
-			      "Binding": {
-			        "ConceptualEntity": "estimativas_sidra"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "estimativas_sidra": {
-			          "Target": {
-			            "Entity": "estimativas_sidra"
-			          }
-			        },
-			        "estimativas_sidra.uf_codigo": {
-			          "Target": {
-			            "Entity": "estimativas_sidra.uf_codigo"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "estimativas_sidra"
-			            },
-			            "Object": {
-			              "Role": "estimativas_sidra.uf_codigo"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "estimativas_sidra_have_uf_codigos"
-			        }
-			      ]
-			    },
-			    "estimativas_sidra_has_uf": {
-			      "Binding": {
-			        "ConceptualEntity": "estimativas_sidra"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "estimativas_sidra": {
-			          "Target": {
-			            "Entity": "estimativas_sidra"
-			          }
-			        },
-			        "estimativas_sidra.uf": {
-			          "Target": {
-			            "Entity": "estimativas_sidra.uf"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "estimativas_sidra"
-			            },
-			            "Object": {
-			              "Role": "estimativas_sidra.uf"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "estimativas_sidra_have_ufs"
-			        }
-			      ]
-			    },
-			    "estimativas_sidra_has_variavel_codigo": {
-			      "Binding": {
-			        "ConceptualEntity": "estimativas_sidra"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "estimativas_sidra": {
-			          "Target": {
-			            "Entity": "estimativas_sidra"
-			          }
-			        },
-			        "estimativas_sidra.variavel_codigo": {
-			          "Target": {
-			            "Entity": "estimativas_sidra.variavel_codigo"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "estimativas_sidra"
-			            },
-			            "Object": {
-			              "Role": "estimativas_sidra.variavel_codigo"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "estimativas_sidra_have_variavel_codigos"
-			        }
-			      ]
-			    },
-			    "estimativas_sidra_has_variavel": {
-			      "Binding": {
-			        "ConceptualEntity": "estimativas_sidra"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "estimativas_sidra": {
-			          "Target": {
-			            "Entity": "estimativas_sidra"
-			          }
-			        },
-			        "estimativas_sidra.variavel": {
-			          "Target": {
-			            "Entity": "estimativas_sidra.variavel"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "estimativas_sidra"
-			            },
-			            "Object": {
-			              "Role": "estimativas_sidra.variavel"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "estimativas_sidra_have_variavels"
-			        }
-			      ]
-			    },
-			    "estimativas_sidra_has_ano_codigo": {
-			      "Binding": {
-			        "ConceptualEntity": "estimativas_sidra"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "estimativas_sidra": {
-			          "Target": {
-			            "Entity": "estimativas_sidra"
-			          }
-			        },
-			        "estimativas_sidra.ano_codigo": {
-			          "Target": {
-			            "Entity": "estimativas_sidra.ano_codigo"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "estimativas_sidra"
-			            },
-			            "Object": {
-			              "Role": "estimativas_sidra.ano_codigo"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "estimativas_sidra_have_ano_codigos"
-			        }
-			      ]
-			    },
-			    "estimativas_sidra_has_ano": {
-			      "Binding": {
-			        "ConceptualEntity": "estimativas_sidra"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "estimativas_sidra": {
-			          "Target": {
-			            "Entity": "estimativas_sidra"
-			          }
-			        },
-			        "estimativas_sidra.ano": {
-			          "Target": {
-			            "Entity": "estimativas_sidra.ano"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "estimativas_sidra"
-			            },
-			            "Object": {
-			              "Role": "estimativas_sidra.ano"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "estimativas_sidra_have_anos"
-			        }
-			      ]
-			    },
-			    "estimativas_sidra_has_sexo_codigo": {
-			      "Binding": {
-			        "ConceptualEntity": "estimativas_sidra"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "estimativas_sidra": {
-			          "Target": {
-			            "Entity": "estimativas_sidra"
-			          }
-			        },
-			        "estimativas_sidra.sexo_codigo": {
-			          "Target": {
-			            "Entity": "estimativas_sidra.sexo_codigo"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "estimativas_sidra"
-			            },
-			            "Object": {
-			              "Role": "estimativas_sidra.sexo_codigo"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "estimativas_sidra_have_sexo_codigos"
-			        }
-			      ]
-			    },
-			    "estimativas_sidra_has_sexo": {
-			      "Binding": {
-			        "ConceptualEntity": "estimativas_sidra"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "estimativas_sidra": {
-			          "Target": {
-			            "Entity": "estimativas_sidra"
-			          }
-			        },
-			        "estimativas_sidra.sexo": {
-			          "Target": {
-			            "Entity": "estimativas_sidra.sexo"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "estimativas_sidra"
-			            },
-			            "Object": {
-			              "Role": "estimativas_sidra.sexo"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "estimativas_sidra_have_sexos"
-			        }
-			      ]
-			    },
-			    "estimativas_sidra_has_idade_codigo": {
-			      "Binding": {
-			        "ConceptualEntity": "estimativas_sidra"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "estimativas_sidra": {
-			          "Target": {
-			            "Entity": "estimativas_sidra"
-			          }
-			        },
-			        "estimativas_sidra.idade_codigo": {
-			          "Target": {
-			            "Entity": "estimativas_sidra.idade_codigo"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "estimativas_sidra"
-			            },
-			            "Object": {
-			              "Role": "estimativas_sidra.idade_codigo"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "estimativas_sidra_have_idade_codigos"
-			        }
-			      ]
-			    },
-			    "estimativas_sidra_has_idade": {
-			      "Binding": {
-			        "ConceptualEntity": "estimativas_sidra"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "estimativas_sidra": {
-			          "Target": {
-			            "Entity": "estimativas_sidra"
-			          }
-			        },
-			        "estimativas_sidra.idade": {
-			          "Target": {
-			            "Entity": "estimativas_sidra.idade"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "estimativas_sidra"
-			            },
-			            "Object": {
-			              "Role": "estimativas_sidra.idade"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "estimativas_sidra_have_idades"
-			        }
-			      ]
-			    },
-			    "estimativas_sidra_has_ano_referencia_codigo": {
-			      "Binding": {
-			        "ConceptualEntity": "estimativas_sidra"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "estimativas_sidra": {
-			          "Target": {
-			            "Entity": "estimativas_sidra"
-			          }
-			        },
-			        "estimativas_sidra.ano_referencia_codigo": {
-			          "Target": {
-			            "Entity": "estimativas_sidra.ano_referencia_codigo"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "estimativas_sidra"
-			            },
-			            "Object": {
-			              "Role": "estimativas_sidra.ano_referencia_codigo"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "estimativas_sidra_have_ano_referencia_codigos"
-			        }
-			      ]
-			    },
-			    "estimativas_sidra_has_ano_referencia": {
-			      "Binding": {
-			        "ConceptualEntity": "estimativas_sidra"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "estimativas_sidra": {
-			          "Target": {
-			            "Entity": "estimativas_sidra"
-			          }
-			        },
-			        "estimativas_sidra.ano_referencia": {
-			          "Target": {
-			            "Entity": "estimativas_sidra.ano_referencia"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "estimativas_sidra"
-			            },
-			            "Object": {
-			              "Role": "estimativas_sidra.ano_referencia"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "estimativas_sidra_have_ano_referencias"
-			        }
-			      ]
-			    },
-			    "municipio_has_code_muni": {
-			      "Binding": {
-			        "ConceptualEntity": "municipio"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "municipio": {
-			          "Target": {
-			            "Entity": "municipio"
-			          }
-			        },
-			        "municipio.code_muni": {
-			          "Target": {
-			            "Entity": "municipio.code_muni"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "municipio"
-			            },
-			            "Object": {
-			              "Role": "municipio.code_muni"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "municipios_have_code_munis"
-			        }
-			      ]
-			    },
-			    "municipio_has_nm_candidato": {
-			      "Binding": {
-			        "ConceptualEntity": "municipio"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "municipio": {
-			          "Target": {
-			            "Entity": "municipio"
-			          }
-			        },
-			        "municipio.nm_candidato": {
-			          "Target": {
-			            "Entity": "municipio.nm_candidato"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "municipio"
-			            },
-			            "Object": {
-			              "Role": "municipio.nm_candidato"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "municipios_have_nm_candidatos"
-			        }
-			      ]
-			    },
-			    "municipio_has_ds_genero": {
-			      "Binding": {
-			        "ConceptualEntity": "municipio"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "municipio": {
-			          "Target": {
-			            "Entity": "municipio"
-			          }
-			        },
-			        "municipio.ds_genero": {
-			          "Target": {
-			            "Entity": "municipio.ds_genero"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "municipio"
-			            },
-			            "Object": {
-			              "Role": "municipio.ds_genero"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "municipios_have_ds_generos"
-			        }
-			      ]
-			    },
-			    "tabela_1_has_rais_2023": {
-			      "Binding": {
-			        "ConceptualEntity": "Tabela1"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "tabela_1": {
-			          "Target": {
-			            "Entity": "tabela_1"
-			          }
-			        },
-			        "rais_2023": {
-			          "Target": {
-			            "Entity": "rais_2023"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "tabela_1"
-			            },
-			            "Object": {
-			              "Role": "rais_2023"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "tabela_1_have_rais_2023"
-			        }
-			      ]
-			    },
-			    "barra_de_progresso_has_municipio": {
-			      "Binding": {
-			        "ConceptualEntity": "Barra de Progresso"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "barra_de_progresso": {
-			          "Target": {
-			            "Entity": "barra_de_progresso"
-			          }
-			        },
-			        "municipio": {
-			          "Target": {
-			            "Entity": "municipio"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "barra_de_progresso"
-			            },
-			            "Object": {
-			              "Role": "municipio"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "barra_de_progresso_have_municipios"
-			        }
-			      ]
-			    },
-			    "pop_residente_2022_has_municipio1": {
-			      "Binding": {
-			        "ConceptualEntity": "pop_residente_2022"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "pop_residente_2022": {
-			          "Target": {
-			            "Entity": "pop_residente_2022"
-			          }
-			        },
-			        "municipio": {
-			          "Target": {
-			            "Entity": "municipio"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "pop_residente_2022"
-			            },
-			            "Object": {
-			              "Role": "municipio"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "pop_residente_2022_have_municipios1"
-			        }
-			      ]
-			    },
-			    "densidade_demografica_has_municipio": {
-			      "Binding": {
-			        "ConceptualEntity": "densidade_demografica"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "densidade_demografica": {
-			          "Target": {
-			            "Entity": "densidade_demografica"
-			          }
-			        },
-			        "municipio": {
-			          "Target": {
-			            "Entity": "municipio"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "densidade_demografica"
-			            },
-			            "Object": {
-			              "Role": "municipio"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "densidade_demograficas_have_municipios"
-			        }
-			      ]
-			    },
-			    "idh_2010_has_municipio": {
-			      "Binding": {
-			        "ConceptualEntity": "idh_2010"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "idh_2010": {
-			          "Target": {
-			            "Entity": "idh_2010"
-			          }
-			        },
-			        "municipio": {
-			          "Target": {
-			            "Entity": "municipio"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "idh_2010"
-			            },
-			            "Object": {
-			              "Role": "municipio"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "idh_2010_have_municipios"
-			        }
-			      ]
-			    },
-			    "pib_mun_has_municipio": {
-			      "Binding": {
-			        "ConceptualEntity": "pib_mun"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "pib_mun": {
-			          "Target": {
-			            "Entity": "pib_mun"
-			          }
-			        },
-			        "municipio": {
-			          "Target": {
-			            "Entity": "municipio"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "pib_mun"
-			            },
-			            "Object": {
-			              "Role": "municipio"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "pib_muns_have_municipios"
-			        }
-			      ]
-			    },
-			    "rais_2023_has_tabela_1": {
-			      "Binding": {
-			        "ConceptualEntity": "rais_2023"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "rais_2023": {
-			          "Target": {
-			            "Entity": "rais_2023"
-			          }
-			        },
-			        "tabela_1": {
-			          "Target": {
-			            "Entity": "tabela_1"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "rais_2023"
-			            },
-			            "Object": {
-			              "Role": "tabela_1"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "rais_2023_have_tabela_1"
-			        }
-			      ]
-			    },
-			    "mpe_2025_has_municipio": {
-			      "Binding": {
-			        "ConceptualEntity": "mpe_2025"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "mpe_2025": {
-			          "Target": {
-			            "Entity": "mpe_2025"
-			          }
-			        },
-			        "municipio": {
-			          "Target": {
-			            "Entity": "municipio"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "mpe_2025"
-			            },
-			            "Object": {
-			              "Role": "municipio"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "mpe_2025_have_municipios"
-			        }
-			      ]
-			    },
-			    "municipio_has_barra_de_progresso": {
-			      "Binding": {
-			        "ConceptualEntity": "municipio"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "municipio": {
-			          "Target": {
-			            "Entity": "municipio"
-			          }
-			        },
-			        "barra_de_progresso": {
-			          "Target": {
-			            "Entity": "barra_de_progresso"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "municipio"
-			            },
-			            "Object": {
-			              "Role": "barra_de_progresso"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "municipios_have_barra_de_progresso"
-			        }
-			      ]
-			    },
-			    "municipio_has_receitas_fiscais_externa": {
-			      "Binding": {
-			        "ConceptualEntity": "municipio"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "municipio": {
-			          "Target": {
-			            "Entity": "municipio"
-			          }
-			        },
-			        "receitas_fiscais_externa": {
-			          "Target": {
-			            "Entity": "receitas_fiscais_externa"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "municipio"
-			            },
-			            "Object": {
-			              "Role": "receitas_fiscais_externa"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "municipios_have_receitas_fiscais_externas"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "receitas_fiscais_externa"
-			            },
-			            "Object": {
-			              "Role": "municipio"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "receitas_fiscais_externas_have_municipios1"
-			        }
-			      ]
-			    },
-			    "municipio_has_idh_2010": {
-			      "Binding": {
-			        "ConceptualEntity": "municipio"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "municipio": {
-			          "Target": {
-			            "Entity": "municipio"
-			          }
-			        },
-			        "idh_2010": {
-			          "Target": {
-			            "Entity": "idh_2010"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "municipio"
-			            },
-			            "Object": {
-			              "Role": "idh_2010"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "municipios_have_idh_2010"
-			        }
-			      ]
-			    },
-			    "municipio_has_densidade_demografica": {
-			      "Binding": {
-			        "ConceptualEntity": "municipio"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "municipio": {
-			          "Target": {
-			            "Entity": "municipio"
-			          }
-			        },
-			        "densidade_demografica": {
-			          "Target": {
-			            "Entity": "densidade_demografica"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "municipio"
-			            },
-			            "Object": {
-			              "Role": "densidade_demografica"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "municipios_have_densidade_demograficas"
-			        }
-			      ]
-			    },
-			    "municipio_has_mpe_2025": {
-			      "Binding": {
-			        "ConceptualEntity": "municipio"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "municipio": {
-			          "Target": {
-			            "Entity": "municipio"
-			          }
-			        },
-			        "mpe_2025": {
-			          "Target": {
-			            "Entity": "mpe_2025"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "municipio"
-			            },
-			            "Object": {
-			              "Role": "mpe_2025"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "municipios_have_mpe_2025"
-			        }
-			      ]
-			    },
-			    "municipio_has_pop_residente_2022": {
-			      "Binding": {
-			        "ConceptualEntity": "municipio"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "municipio": {
-			          "Target": {
-			            "Entity": "municipio"
-			          }
-			        },
-			        "pop_residente_2022": {
-			          "Target": {
-			            "Entity": "pop_residente_2022"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "municipio"
-			            },
-			            "Object": {
-			              "Role": "pop_residente_2022"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "municipios_have_pop_residente_2022"
 			        }
 			      ]
 			    },

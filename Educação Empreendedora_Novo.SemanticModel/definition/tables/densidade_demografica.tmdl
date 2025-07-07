@@ -1,13 +1,11 @@
 table densidade_demografica
 	lineageTag: 74716fde-ee87-40e2-876c-7e2f1058c2ef
 
-	measure 'Densidade Demográfica' = ```
-			
-			"Densidade demográfica censo 2022: " & 
-			FORMAT(SELECTEDVALUE(densidade_demografica[densidade_demografica]), "0.00")
-			```
+	measure 'Densidade Demográfica' = SELECTEDVALUE(densidade_demografica[densidade_demografica])
 		displayFolder: Medidas
 		lineageTag: 3fc20179-e3a1-4e88-8b49-27800fe2fd2f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
 	column code_muni
 		dataType: string

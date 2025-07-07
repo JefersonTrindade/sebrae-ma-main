@@ -1,8 +1,9 @@
 table pib_per_capita
 	lineageTag: 1b7918e1-4251-426b-8024-62131294f905
 
-	measure 'Pib Posição no Estado' = SELECTEDVALUE(pib_per_capita[posicao_estadual_pib_per_capita])
-		formatString: 0
+	measure 'Resumo_Posição Estado' =
+			
+			SELECTEDVALUE(pib_per_capita[posicao_estadual_pib_per_capita]) & " de 217"
 		displayFolder: Medidas
 		lineageTag: e9c6c114-509d-45b2-9b4a-eda153d2102f
 
@@ -55,6 +56,18 @@ table pib_per_capita
 			SELECTEDVALUE(pib_per_capita[posicao_na_pib_per_capita]) & " de 5570"
 		displayFolder: Medidas
 		lineageTag: e3827894-485a-43ab-9e14-fa9a84485d2e
+
+	measure 'População - país' =
+			
+			SELECTEDVALUE(pib_per_capita[posicao_na_pib_per_capita]) & " de 5570 entre todos os municípios. "
+		displayFolder: Medidas
+		lineageTag: 88d93cd2-2304-488e-b07b-fc89a43b5834
+
+	measure 'Resumo - Posição no País' =
+			
+			SELECTEDVALUE(pib_per_capita[posicao_na_pib_per_capita]) & " de 5570"
+		displayFolder: Medidas
+		lineageTag: 9717f29f-df91-4fe9-a7ab-a818c3d959fc
 
 	column code_muni
 		dataType: string

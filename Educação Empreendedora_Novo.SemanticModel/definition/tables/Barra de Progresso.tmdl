@@ -2,11 +2,10 @@ table 'Barra de Progresso'
 	lineageTag: ed5600c2-e850-43db-aaef-3ad711dd8429
 
 	measure Populacao_Censo_Texto = ```
-			
-			"População no último censo 2022: " & 
-			FORMAT(SELECTEDVALUE(pop_residente_2022[populacao_residente_2022]), "#,##0")
+			SELECTEDVALUE(pop_residente_2022[populacao_residente_2022])
 			
 			```
+		formatString: 0
 		displayFolder: Medidas
 		lineageTag: adda151a-7356-4c0b-a85a-891d988ba2ac
 
@@ -143,7 +142,7 @@ table 'Barra de Progresso'
 			
 			
 			VAR vValor =            
-			    [Pib Posição no Estado] 
+			    [Resumo_Posição Estado] 
 			
 			VAR vValor_formatado =      
 			    FORMAT( vValor, "0" ) 
@@ -157,7 +156,7 @@ table 'Barra de Progresso'
 			
 			VAR vFonte = "Cambria "
 			
-			VAR vRotulo_categoria_texto = [Município] & " - " & FORMAT( [Pib Posição no Estado], "0")
+			VAR vRotulo_categoria_texto = [Município] & " - " & FORMAT( [Resumo_Posição Estado], "0")
 			/*VAR vRotulo_categoria_texto = [Município]"Rank Atual: "*/
 			VAR vRotulo_categoria_cor = "#0075A2"
 			VAR vRotulo_categoria_tam = 12

@@ -2543,7 +2543,7 @@ cultureInfo pt-BR
 			    "tabela_1.resumo_populacional": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Tabela1",
+			          "ConceptualEntity": "pop_residente_2022",
 			          "ConceptualProperty": "Resumo_Populacional"
 			        }
 			      },

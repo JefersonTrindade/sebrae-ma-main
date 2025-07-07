@@ -32,29 +32,6 @@ table Tabela1
 		displayFolder: Barra de progresso - População
 		lineageTag: 7e7dd6ba-f8ff-47a9-8146-8d5498b19097
 
-	measure Resumo_Populacional = ```
-			
-			VAR Populacao = SELECTEDVALUE(pop_residente_2022[populacao_residente_2022])
-			VAR Densidade = SELECTEDVALUE(densidade_demografica[densidade_demografica])
-			VAR PosicaoEstado_Pop = SELECTEDVALUE(pop_residente_2022[posicao_estadual_populacional])
-			VAR PosicaoEstado_Dens = SELECTEDVALUE(rais_2023[rais_ranking_na_salario_medio_sm])
-			VAR PosicaoPais_Pop = 217
-			VAR PosicaoPais_Dens = SELECTEDVALUE(pop_residente_2022[posicao_nacional_populacional])
-			VAR TotalMunicipiosUF = 217
-			VAR TotalMunicipiosBR = 5570
-			
-			RETURN
-			"Em 2022, a população era de " & FORMAT(Populacao, "#,##0") & 
-			" habitantes e a densidade demográfica era de " & FORMAT(Densidade, "0.00") & 
-			" habitantes por quilômetro quadrado. Na comparação com outros municípios do estado, ficava nas posições " & 
-			PosicaoEstado_Pop & " e " & PosicaoEstado_Dens & " de " & TotalMunicipiosUF & 
-			". Já na comparação com municípios de todo o país, ficava nas posições " & 
-			PosicaoPais_Dens & " de " & TotalMunicipiosBR & "."
-			
-			```
-		displayFolder: Medidas
-		lineageTag: f9a04301-55a7-4150-a7e1-faec11f512dc
-
 	column code_muni
 		dataType: int64
 		formatString: 0

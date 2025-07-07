@@ -1,7 +1,7 @@
 table pop_residente_2022
 	lineageTag: 5463c112-eeda-403a-aea9-3138ac6c8c3f
 
-	measure 'Posição no Estado' = SUM(pop_residente_2022[posicao_estadual_populacional])
+	measure 'Posição no Estado' = SELECTEDVALUE(pop_residente_2022[posicao_estadual_populacional])
 		formatString: 0
 		displayFolder: Medidas
 		lineageTag: 15a506bb-0b20-4dc0-85bc-f267346bf74d
@@ -70,5 +70,5 @@ table pop_residente_2022
 
 	annotation PBI_NavigationStepName = Navigation
 
-	annotation PBI_ResultType = Table
+	annotation PBI_ResultType = Exception
 

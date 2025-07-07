@@ -2254,52 +2254,6 @@ cultureInfo pt-BR
 			        }
 			      ]
 			    },
-			    "tabela_1.posição_no_país": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "Tabela1",
-			          "ConceptualProperty": "% Posição no País"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "% posição no país": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "percentage posição no país": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.617
-			          }
-			        },
-			        {
-			          "pct posição no país": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.599
-			          }
-			        },
-			        {
-			          "% posição number país": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.599
-			          }
-			        }
-			      ]
-			    },
 			    "barra_de_progresso": {
 			      "Definition": {
 			        "Binding": {
@@ -2468,7 +2422,7 @@ cultureInfo pt-BR
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "Barra de Progresso",
-			          "ConceptualProperty": "Barra Progresso - NO PAÍS"
+			          "ConceptualProperty": "Barra Progresso - População no País"
 			        }
 			      },
 			      "State": "Generated",
@@ -2636,7 +2590,7 @@ cultureInfo pt-BR
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "Barra de Progresso",
-			          "ConceptualProperty": "Barra Progresso - No Estado"
+			          "ConceptualProperty": "Barra Progresso - População No Estado"
 			        }
 			      },
 			      "State": "Generated",

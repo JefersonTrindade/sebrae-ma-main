@@ -24,15 +24,6 @@ table Tabela1
 		displayFolder: Barra de progresso - População
 		lineageTag: fb4cf1d0-8309-40f9-a02a-7ac8896ad233
 
-	measure '% Posição no País' = ```
-			
-			DIVIDE([Posição no País], [No pais])
-			
-			```
-		formatString: 0.00%;-0.00%;0.00%
-		displayFolder: Barra de progresso - População
-		lineageTag: f8da3f6b-6ab6-48cf-912f-c40acce68a37
-
 	measure 'Pessoas - Posição no País' = ```
 			
 			FORMAT(SUM(Tabela1[Posição Nacional Populacional]), "N0", "pt-BR") & " Pessoas"
@@ -61,7 +52,7 @@ table Tabela1
 			PosicaoPais_Dens & " de " & TotalMunicipiosBR & "."
 			
 			```
-		displayFolder: Barra de progresso - População
+		displayFolder: Medidas
 		lineageTag: f9a04301-55a7-4150-a7e1-faec11f512dc
 
 	column code_muni

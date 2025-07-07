@@ -39,7 +39,6 @@ relationship fae92145-131a-6e8a-3d31-3b83f18b9602
 	toColumn: municipio.code_muni
 
 relationship 8edda78a-d0ed-a004-9102-323770dff58d
-	isActive: false
 	crossFilteringBehavior: bothDirections
 	fromCardinality: one
 	fromColumn: pib_per_capita.code_muni

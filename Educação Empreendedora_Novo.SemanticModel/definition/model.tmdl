@@ -8,7 +8,7 @@ model Model
 
 annotation __PBI_TimeIntelligenceEnabled = 0
 
-annotation PBIDesktopVersion = 2.144.1155.0 (25.06)+46435b07013d2a234d7fd007083a9e70b8e79f1c
+annotation PBIDesktopVersion = 2.144.1378.0 (25.06)+cba1e61f16ea36d44901f06fa446299040122394
 
 annotation PBI_QueryOrder = ["Tabela1","Barra de Progresso","pop_residente_2022","pib_per_capita","densidade_demografica","receitas_fiscais_externas","idh_2010","pib_mun","rais_2023","mpe_2025","estimativas_sidra","municipio"]
 

@@ -38,11 +38,23 @@ table pib_per_capita
 			"Em 2021, o PIB per capita era de R$ " & 
 			FORMAT(SELECTEDVALUE(pib_per_capita[pib_per_capita]), "#,##0.00") & 
 			". Na comparação com outros municípios do estado, ficava nas posições " & 
-			SELECTEDVALUE(pib_per_capita[posicao_estadual_pib_per_capita]) & " de 217 entre os municípios do estado e na " & 
+			SELECTEDVALUE(pib_per_capita[posicao_estadual_pib_per_capita]) & " de 217 e na posição " & 
 			SELECTEDVALUE(pib_per_capita[posicao_na_pib_per_capita]) & " de 5570 entre todos os municípios. "
 			```
 		displayFolder: Medidas
 		lineageTag: 0c53196b-08a1-4827-a7f7-d863c6ad0063
+
+	measure 'Valor concatenado - Estado' =
+			
+			SELECTEDVALUE(pib_per_capita[posicao_estadual_pib_per_capita]) & " de 217"
+		displayFolder: Medidas
+		lineageTag: 4d2a6ce5-71cc-4001-872b-7dbcca6bd21d
+
+	measure 'Valor concatenado - País' =
+			
+			SELECTEDVALUE(pib_per_capita[posicao_na_pib_per_capita]) & " de 5570"
+		displayFolder: Medidas
+		lineageTag: e3827894-485a-43ab-9e14-fa9a84485d2e
 
 	column code_muni
 		dataType: string

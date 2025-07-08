@@ -14,12 +14,6 @@ relationship 286eea16-c419-3c23-32db-b4cbdab276b9
 	fromColumn: municipio.unidade_negocios
 	toColumn: receitas_fiscais_externas.municipio
 
-relationship 45283e75-1de7-80c2-8be7-e52a68ec9e67
-	crossFilteringBehavior: bothDirections
-	fromCardinality: one
-	fromColumn: idh_2010.code_muni
-	toColumn: municipio.code_muni
-
 relationship d173e515-3e6a-8d46-f1c0-79971ba8a425
 	crossFilteringBehavior: bothDirections
 	fromCardinality: one
@@ -49,4 +43,10 @@ relationship d44ce2c0-589d-1a07-e8fb-d17ca98198cb
 	fromCardinality: one
 	fromColumn: pib_mun.code_muni
 	toColumn: municipio.code_muni
+
+relationship 4545cd14-7bef-809b-0939-281fc29268de
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: municipio.code_muni
+	toColumn: idh_2010.code_muni_corrigido
 

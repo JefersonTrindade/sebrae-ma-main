@@ -360,7 +360,7 @@ table Tabela1
 	column Remuneracao
 		dataType: double
 		lineageTag: df58f73a-cb1d-42c7-8b8b-60077993a15f
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Remuneracao
 
 		annotation SummarizationSetBy = Automatic

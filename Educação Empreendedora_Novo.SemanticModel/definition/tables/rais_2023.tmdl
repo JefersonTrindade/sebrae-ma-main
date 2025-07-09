@@ -1,6 +1,15 @@
 table rais_2023
 	lineageTag: 6bf06640-41fd-4f16-9f94-a7ad0e8a9ad5
 
+	measure 'Resumo_Emregos formais' = ```
+			
+			"Em 2023, o salários médio mensal dos trabalhadores formais no município" & [Nome_municipio] &
+			
+			"é de " & 
+			SELECTEDVALUE(rais_2023[v_salario_medio_sm]) & "e foi registrado " & SELECTEDVALUE(rais_2023[empregos_formais]) & "empregos formais" & "com uma remuneração equivalente a " & SELECTEDVALUE(rais_2023[remuneracao])& "e " & "ocupando a posição " & SELECTEDVALUE(rais_2023[rais_ranking_na_salario_medio_sm]) & "no ranking Nacional."
+			```
+		lineageTag: ebc66bbb-f81c-47fa-992a-02b0636ea0df
+
 	column code_muni_6
 		dataType: string
 		displayFolder: Colunas
@@ -12,7 +21,7 @@ table rais_2023
 
 	column empregos_formais
 		dataType: int64
-		formatString: 0
+		formatString: #,0
 		displayFolder: Colunas
 		lineageTag: 7802db01-0b58-4235-a4d3-fbe7ec054658
 		summarizeBy: sum
@@ -22,14 +31,13 @@ table rais_2023
 
 	column remuneracao
 		dataType: double
+		formatString: #,0.00
 		displayFolder: Colunas
 		lineageTag: 8641357b-dfcb-4d61-ac4d-63fb685a5bc2
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: remuneracao
 
 		annotation SummarizationSetBy = Automatic
-
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
 	column v_salario_medio_sm
 		dataType: double
@@ -44,7 +52,7 @@ table rais_2023
 
 	column rais_ranking_na_salario_medio_sm
 		dataType: int64
-		formatString: 0
+		formatString: #,0
 		displayFolder: Colunas
 		lineageTag: f61a131d-6002-4f6d-b721-89e8c2076f69
 		summarizeBy: sum

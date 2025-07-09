@@ -1,9 +1,3 @@
-relationship AutoDetected_b8fd5ed8-bc69-4356-b898-0624a5aedae2
-	crossFilteringBehavior: bothDirections
-	fromCardinality: one
-	fromColumn: rais_2023.remuneracao
-	toColumn: Tabela1.Remuneracao
-
 relationship c37463d8-3e17-c61d-2f35-fe7c848e676b
 	crossFilteringBehavior: bothDirections
 	fromCardinality: one

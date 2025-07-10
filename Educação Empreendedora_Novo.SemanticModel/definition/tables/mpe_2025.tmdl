@@ -1,41 +1,30 @@
 table mpe_2025
-	lineageTag: 9b3842f4-cdbd-4ab5-aa66-39ea370024e9
+	lineageTag: c5a17f1b-415e-4f7a-829b-9a3904a8759f
+
+	measure Resumo_MPEs = ```
+			
+			"Em 2025, o município de " &  
+			SELECTEDVALUE(municipio[municipio]) & 
+			" conta com um total de " & 
+			FORMAT(SELECTEDVALUE(mpe_2025[mpe]), "#,###") & 
+			" MPEs. O setor líder é: " & 
+			SELECTEDVALUE(mpe_2025[Top_1]) & 
+			". Veja a seguir o ranking completo."
+			
+			```
+		lineageTag: 659a355e-67e9-4bea-8fc4-12711ea820b3
 
 	column code_muni
 		dataType: string
-		displayFolder: Colunas
-		lineageTag: 5953a925-737e-4a10-9c01-48954899dc00
+		lineageTag: 48a7eed8-fd31-4394-a30a-e560b9b4d727
 		summarizeBy: none
 		sourceColumn: code_muni
 
 		annotation SummarizationSetBy = Automatic
 
-	column mpe
-		dataType: double
-		displayFolder: Colunas
-		lineageTag: 04561b45-d02a-4ef9-a2d8-52f165ca6137
-		summarizeBy: sum
-		sourceColumn: mpe
-
-		annotation SummarizationSetBy = Automatic
-
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
-
-	column perc_mpe_estado
-		dataType: double
-		displayFolder: Colunas
-		lineageTag: f81eb6ef-023e-45de-9f34-e82c4a039d4a
-		summarizeBy: sum
-		sourceColumn: perc_mpe_estado
-
-		annotation SummarizationSetBy = Automatic
-
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
-
 	column perc_agropecuaria_mpe
 		dataType: double
-		displayFolder: Colunas
-		lineageTag: f6b7df72-4c0c-4fcd-a391-d6c6b472e3c0
+		lineageTag: 6784db74-e461-4225-ae5d-2b80340e94bc
 		summarizeBy: sum
 		sourceColumn: perc_agropecuaria_mpe
 
@@ -45,8 +34,7 @@ table mpe_2025
 
 	column perc_industria_mpe
 		dataType: double
-		displayFolder: Colunas
-		lineageTag: 7b8fa36e-64c9-4180-a6a4-32f3a30f6ba5
+		lineageTag: a9afa4ed-61cd-4aa3-b26f-bc8186ca6f20
 		summarizeBy: sum
 		sourceColumn: perc_industria_mpe
 
@@ -56,8 +44,7 @@ table mpe_2025
 
 	column perc_construcao_mpe
 		dataType: double
-		displayFolder: Colunas
-		lineageTag: 14df3c24-327e-4e8c-9946-2cd515b13219
+		lineageTag: a21e1922-3b6c-4a87-8a31-19c08e03be13
 		summarizeBy: sum
 		sourceColumn: perc_construcao_mpe
 
@@ -67,8 +54,7 @@ table mpe_2025
 
 	column perc_comercio_mpe
 		dataType: double
-		displayFolder: Colunas
-		lineageTag: 6ef7335a-cabf-4c3c-a893-1db197b1b0d6
+		lineageTag: 5f4453e7-a7a2-4f75-ba3e-590d1ecf30d6
 		summarizeBy: sum
 		sourceColumn: perc_comercio_mpe
 
@@ -78,10 +64,70 @@ table mpe_2025
 
 	column perc_servicos_mpe
 		dataType: double
-		displayFolder: Colunas
-		lineageTag: 14042a6e-670a-41d6-9f8d-dc4ec2f557ac
+		lineageTag: 0f92c6a7-5253-4690-9386-a4e464cee8db
 		summarizeBy: sum
 		sourceColumn: perc_servicos_mpe
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Top_1
+		dataType: string
+		lineageTag: f5812b08-6886-4854-9568-59fd2119394a
+		summarizeBy: none
+		sourceColumn: Top_1
+
+		annotation SummarizationSetBy = Automatic
+
+	column Top_2
+		dataType: string
+		lineageTag: 4776aa1a-260a-4d0e-b939-fe5e31423f60
+		summarizeBy: none
+		sourceColumn: Top_2
+
+		annotation SummarizationSetBy = Automatic
+
+	column Top_3
+		dataType: string
+		lineageTag: 9fecbe87-914f-42c8-bfbc-ce6d14d076b1
+		summarizeBy: none
+		sourceColumn: Top_3
+
+		annotation SummarizationSetBy = Automatic
+
+	column Top_4
+		dataType: string
+		lineageTag: b5535bf3-e74f-4b75-ae07-488497a01c4e
+		summarizeBy: none
+		sourceColumn: Top_4
+
+		annotation SummarizationSetBy = Automatic
+
+	column Top_5
+		dataType: string
+		lineageTag: 1cb3cf4c-5812-4300-bbce-acfd648d8b75
+		summarizeBy: none
+		sourceColumn: Top_5
+
+		annotation SummarizationSetBy = Automatic
+
+	column mpe
+		dataType: double
+		formatString: #,0
+		lineageTag: fdd8319b-f4aa-40c6-a755-b8458312e322
+		summarizeBy: sum
+		sourceColumn: mpe
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column perc_mpe_estado
+		dataType: double
+		lineageTag: e2bf858b-fee2-4774-a4d2-8fe74e4d42c3
+		summarizeBy: sum
+		sourceColumn: perc_mpe_estado
 
 		annotation SummarizationSetBy = Automatic
 
@@ -91,10 +137,9 @@ table mpe_2025
 		mode: import
 		source =
 				let
-				    Source = Sql.Database("10.11.4.21", "dw_uim"),
-				    dbo_mpe_2025 = Source{[Schema="dbo",Item="mpe_2025"]}[Data]
+				    Source = Sql.Database("10.11.4.21", "dw_uim", [Query="SELECT #(lf)#(tab)base.code_muni,#(lf)#(tab)[mpe],#(lf)    [perc_mpe_estado],#(lf)    base.perc_agropecuaria_mpe,#(lf)    base.perc_industria_mpe,#(lf)    base.perc_construcao_mpe,#(lf)    base.perc_comercio_mpe,#(lf)    base.perc_servicos_mpe,#(lf)    MAX(CASE WHEN rn = 1 THEN setor_legivel END) AS Top_1,#(lf)    MAX(CASE WHEN rn = 2 THEN setor_legivel END) AS Top_2,#(lf)    MAX(CASE WHEN rn = 3 THEN setor_legivel END) AS Top_3,#(lf)    MAX(CASE WHEN rn = 4 THEN setor_legivel END) AS Top_4,#(lf)    MAX(CASE WHEN rn = 5 THEN setor_legivel END) AS Top_5#(lf)FROM #(lf)    [dw_uim].[dbo].[mpe_2025] AS base#(lf)CROSS APPLY (#(lf)    SELECT #(lf)        setor_legivel,#(lf)        valor,#(lf)        ROW_NUMBER() OVER (ORDER BY valor DESC) AS rn#(lf)    FROM #(lf)        (VALUES #(lf)            ('Agropecuária', base.perc_agropecuaria_mpe),#(lf)            ('Indústria', base.perc_industria_mpe),#(lf)            ('Construção', base.perc_construcao_mpe),#(lf)            ('Comércio', base.perc_comercio_mpe),#(lf)            ('Serviços', base.perc_servicos_mpe)#(lf)        ) AS setores(setor_legivel, valor)#(lf)) AS ordenado#(lf)GROUP BY #(lf)#(tab)base.code_muni,#(lf)    base.mpe,#(lf)    base.perc_mpe_estado,#(lf)    base.perc_agropecuaria_mpe,#(lf)    base.perc_industria_mpe,#(lf)    base.perc_construcao_mpe,#(lf)    base.perc_comercio_mpe,#(lf)    base.perc_servicos_mpe;#(lf)"])
 				in
-				    dbo_mpe_2025
+				    Source
 
 	annotation PBI_NavigationStepName = Navigation
 

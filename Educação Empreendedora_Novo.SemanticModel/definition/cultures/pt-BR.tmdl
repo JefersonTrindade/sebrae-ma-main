@@ -2405,20 +2405,10 @@ cultureInfo pt-BR
 			            },
 			            "Weight": 0.582
 			          }
-			        },
-			        {
-			          "No país": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
 			        }
 			      ]
 			    },
-			    "barra_de_progresso.barra_progresso__NO_PAÍS": {
+			    "barra_de_progresso.barra_progresso__população_no_país": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "Barra de Progresso",
@@ -2428,56 +2418,24 @@ cultureInfo pt-BR
 			      "State": "Generated",
 			      "Terms": [
 			        {
-			          "barra progresso - NO PAÍS": {
+			          "barra progresso - população no país": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "barra progresso NO PAÍS": {
+			          "barra progresso população no país": {
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
 			        },
 			        {
-			          "PAÍS": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "progresso NO PAÍS": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "barra progresso - number país": {
+			          "barra progresso população number país": {
 			            "Type": "Noun",
 			            "State": "Suggested",
 			            "Source": {
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.605
-			          }
-			        },
-			        {
-			          "barra progresso number país": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.599
-			          }
-			        },
-			        {
-			          "progresso number país": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.591
 			          }
 			        }
 			      ]
@@ -2540,7 +2498,7 @@ cultureInfo pt-BR
 			        }
 			      ]
 			    },
-			    "tabela_1.resumo_populacional": {
+			    "pop_residente_2022.resumo_populacional": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "pop_residente_2022",
@@ -2586,7 +2544,7 @@ cultureInfo pt-BR
 			        }
 			      ]
 			    },
-			    "barra_de_progresso.barra_progresso__no_estado": {
+			    "barra_de_progresso.barra_progresso__população_no_estado": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "Barra de Progresso",
@@ -2596,56 +2554,24 @@ cultureInfo pt-BR
 			      "State": "Generated",
 			      "Terms": [
 			        {
-			          "barra progresso - no estado": {
+			          "barra progresso - população no estado": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "barra progresso no estado": {
+			          "barra progresso população no estado": {
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
 			        },
 			        {
-			          "estado": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "progresso no estado": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "barra progresso - number estado": {
+			          "barra progresso população number estado": {
 			            "Type": "Noun",
 			            "State": "Suggested",
 			            "Source": {
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.605
-			          }
-			        },
-			        {
-			          "barra progresso number estado": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.599
-			          }
-			        },
-			        {
-			          "progresso number estado": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.591
 			          }
 			        }
 			      ]
@@ -2718,16 +2644,6 @@ cultureInfo pt-BR
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.591
-			          }
-			        },
-			        {
-			          "No Estado": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -3777,238 +3693,6 @@ cultureInfo pt-BR
 			        }
 			      ]
 			    },
-			    "mpe_2025": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "mpe_2025"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "mpe 2025": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "mpe_2025": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.99
-			          }
-			        }
-			      ]
-			    },
-			    "mpe_2025.code_muni": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "mpe_2025",
-			          "ConceptualProperty": "code_muni"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "code muni": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "code_muni": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.99
-			          }
-			        },
-			        {
-			          "muni": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "id muni": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.6
-			          }
-			        },
-			        {
-			          "key muni": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.582
-			          }
-			        }
-			      ]
-			    },
-			    "mpe_2025.mpe": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "mpe_2025",
-			          "ConceptualProperty": "mpe"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "mpe": {
-			            "State": "Generated"
-			          }
-			        }
-			      ]
-			    },
-			    "mpe_2025.perc_mpe_estado": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "mpe_2025",
-			          "ConceptualProperty": "perc_mpe_estado"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "perc mpe estado": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "perc_mpe_estado": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.99
-			          }
-			        }
-			      ]
-			    },
-			    "mpe_2025.perc_agropecuaria_mpe": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "mpe_2025",
-			          "ConceptualProperty": "perc_agropecuaria_mpe"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "perc agropecuaria mpe": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "perc_agropecuaria_mpe": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.99
-			          }
-			        }
-			      ]
-			    },
-			    "mpe_2025.perc_industria_mpe": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "mpe_2025",
-			          "ConceptualProperty": "perc_industria_mpe"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "perc industria mpe": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "perc_industria_mpe": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.99
-			          }
-			        }
-			      ]
-			    },
-			    "mpe_2025.perc_construcao_mpe": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "mpe_2025",
-			          "ConceptualProperty": "perc_construcao_mpe"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "perc construcao mpe": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "perc_construcao_mpe": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.99
-			          }
-			        }
-			      ]
-			    },
-			    "mpe_2025.perc_comercio_mpe": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "mpe_2025",
-			          "ConceptualProperty": "perc_comercio_mpe"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "perc comercio mpe": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "perc_comercio_mpe": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.99
-			          }
-			        }
-			      ]
-			    },
-			    "mpe_2025.perc_servicos_mpe": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "mpe_2025",
-			          "ConceptualProperty": "perc_servicos_mpe"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "perc servicos mpe": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "perc servico mpe": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.78
-			          }
-			        },
-			        {
-			          "perc_servicos_mpe": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.99
-			          }
-			        }
-			      ]
-			    },
 			    "estimativas_sidra": {
 			      "Definition": {
 			        "Binding": {
@@ -4654,9 +4338,668 @@ cultureInfo pt-BR
 			          }
 			        }
 			      ]
+			    },
+			    "barra_de_progresso.barra_progresso__PIB_no_estado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Barra de Progresso",
+			          "ConceptualProperty": "Barra Progresso - PIB No Estado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "barra progresso - PIB no estado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "barra progresso PIB no estado": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "estado": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "PIB no estado": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "progresso PIB no estado": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "barra progresso pib number estado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "progresso pib number estado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "pib number estado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "barra_de_progresso.barra_progresso__PIB_no_país": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Barra de Progresso",
+			          "ConceptualProperty": "Barra Progresso - PIB no País"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "barra progresso - PIB no país": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "barra progresso PIB no país": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "país": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "PIB no país": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "progresso PIB no país": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "barra progresso pib number país": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "progresso pib number país": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "pib number país": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "barra_de_progresso.posição_no_país": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Barra de Progresso",
+			          "ConceptualProperty": "% Posição no País"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% posição no país": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage posição no país": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "pct posição no país": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "% posição number país": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "pib_per_capita.Resumo_Posição_estado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "pib_per_capita",
+			          "ConceptualProperty": "Resumo_Posição Estado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Resumo_Posição estado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "pib_per_capita.pib_posição_no_país": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "pib_per_capita",
+			          "ConceptualProperty": "Pib Posição no País"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pib posição no país": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pib posição number país": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "pib_per_capita.pib_per_capta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "pib_per_capita",
+			          "ConceptualProperty": "Pib per capta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pib per capta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "pib_per_capita.pib_posição_no_país1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "pib_per_capita",
+			          "ConceptualProperty": "% Pib Posição no País"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% pib posição no país": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage pib posição no país": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "pct pib posição no país": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "% pib posição number país": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "pib_per_capita.pib_posição_no_estado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "pib_per_capita",
+			          "ConceptualProperty": "% Pib Posição no Estado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% pib posição no estado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage pib posição no estado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "pct pib posição no estado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "% pib posição number estado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "pib_per_capita.resumo_economico": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "pib_per_capita",
+			          "ConceptualProperty": "Resumo_Economico"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "resumo economico": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Resumo_Economico": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "pib_per_capita.valor_concatenado__estado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "pib_per_capita",
+			          "ConceptualProperty": "Valor concatenado - Estado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor concatenado - estado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "valor concatenado estado": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "pib_per_capita.valor_concatenado__país": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "pib_per_capita",
+			          "ConceptualProperty": "Valor concatenado - País"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor concatenado - país": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "valor concatenado país": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "pib_per_capita.população__país": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "pib_per_capita",
+			          "ConceptualProperty": "População - país"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "população - país": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "população país": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "pib_per_capita.resumo__posição_no_país": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "pib_per_capita",
+			          "ConceptualProperty": "Resumo - Posição no País"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "resumo - posição no país": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "resumo posição no país": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "resumo - posição number país": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "resumo posição number país": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "idh_2010.code_muni_corrigido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "idh_2010",
+			          "ConceptualProperty": "code_muni_corrigido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "code muni corrigido": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "code_muni_corrigido": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "id muni corrigido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "key muni corrigido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "idh_2010.resumo_IDH": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "idh_2010",
+			          "ConceptualProperty": "Resumo_IDH"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "resumo IDH": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Resumo_IDH": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "idh_2010.IDH_concatenado__estado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "idh_2010",
+			          "ConceptualProperty": "IDH concatenado - Estado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "IDH concatenado - estado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "IDH concatenado estado": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "idh_2010.IDH_concatenado__país": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "idh_2010",
+			          "ConceptualProperty": "IDH concatenado - País"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "IDH concatenado - país": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "IDH concatenado país": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "rais_2023.Resumo_Emregos_formais": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "rais_2023",
+			          "ConceptualProperty": "Resumo_Emregos formais"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Resumo_Emregos formais": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
 			    }
 			  },
 			  "Relationships": {
+			    "municipio_has_pib_mun": {
+			      "Binding": {
+			        "ConceptualEntity": "municipio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "municipio": {
+			          "Target": {
+			            "Entity": "municipio"
+			          }
+			        },
+			        "pib_mun": {
+			          "Target": {
+			            "Entity": "pib_mun"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "municipio"
+			            },
+			            "Object": {
+			              "Role": "pib_mun"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "municipios_have_pib_muns"
+			        }
+			      ]
+			    },
+			    "municipio_has_pib_per_capita": {
+			      "Binding": {
+			        "ConceptualEntity": "municipio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "municipio": {
+			          "Target": {
+			            "Entity": "municipio"
+			          }
+			        },
+			        "pib_per_capita": {
+			          "Target": {
+			            "Entity": "pib_per_capita"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "municipio"
+			            },
+			            "Object": {
+			              "Role": "pib_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "municipios_have_pib_per_capita"
+			        }
+			      ]
+			    },
 			    "municipio_has_pop_residente_2022": {
 			      "Binding": {
 			        "ConceptualEntity": "municipio"
@@ -4756,39 +5099,6 @@ cultureInfo pt-BR
 			        }
 			      ]
 			    },
-			    "municipio_has_idh_2010": {
-			      "Binding": {
-			        "ConceptualEntity": "municipio"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "municipio": {
-			          "Target": {
-			            "Entity": "municipio"
-			          }
-			        },
-			        "idh_2010": {
-			          "Target": {
-			            "Entity": "idh_2010"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "municipio"
-			            },
-			            "Object": {
-			              "Role": "idh_2010"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "municipios_have_idh_2010"
-			        }
-			      ]
-			    },
 			    "municipio_has_receitas_fiscais_externa": {
 			      "Binding": {
 			        "ConceptualEntity": "municipio"
@@ -4865,72 +5175,6 @@ cultureInfo pt-BR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "municipios_have_barra_de_progresso"
-			        }
-			      ]
-			    },
-			    "mpe_2025_has_municipio": {
-			      "Binding": {
-			        "ConceptualEntity": "mpe_2025"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "mpe_2025": {
-			          "Target": {
-			            "Entity": "mpe_2025"
-			          }
-			        },
-			        "municipio": {
-			          "Target": {
-			            "Entity": "municipio"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "mpe_2025"
-			            },
-			            "Object": {
-			              "Role": "municipio"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "mpe_2025_have_municipios"
-			        }
-			      ]
-			    },
-			    "rais_2023_has_tabela_1": {
-			      "Binding": {
-			        "ConceptualEntity": "rais_2023"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "rais_2023": {
-			          "Target": {
-			            "Entity": "rais_2023"
-			          }
-			        },
-			        "tabela_1": {
-			          "Target": {
-			            "Entity": "tabela_1"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "rais_2023"
-			            },
-			            "Object": {
-			              "Role": "tabela_1"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "rais_2023_have_tabela_1"
 			        }
 			      ]
 			    },
@@ -5033,6 +5277,39 @@ cultureInfo pt-BR
 			        }
 			      ]
 			    },
+			    "pib_per_capita_has_municipio": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_per_capita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_per_capita": {
+			          "Target": {
+			            "Entity": "pib_per_capita"
+			          }
+			        },
+			        "municipio": {
+			          "Target": {
+			            "Entity": "municipio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_per_capita"
+			            },
+			            "Object": {
+			              "Role": "municipio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_per_capita_have_municipios"
+			        }
+			      ]
+			    },
 			    "pop_residente_2022_has_municipio1": {
 			      "Binding": {
 			        "ConceptualEntity": "pop_residente_2022"
@@ -5099,7 +5376,40 @@ cultureInfo pt-BR
 			        }
 			      ]
 			    },
-			    "tabela_1_has_rais_2023": {
+			    "rais_2023_has_Resumo_Emregos_formais": {
+			      "Binding": {
+			        "ConceptualEntity": "rais_2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rais_2023": {
+			          "Target": {
+			            "Entity": "rais_2023"
+			          }
+			        },
+			        "rais_2023.Resumo_Emregos_formais": {
+			          "Target": {
+			            "Entity": "rais_2023.Resumo_Emregos_formais"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rais_2023"
+			            },
+			            "Object": {
+			              "Role": "rais_2023.Resumo_Emregos_formais"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rais_2023_have_Resumo_Emregos_formais"
+			        }
+			      ]
+			    },
+			    "tabela_1_has_rais_2023_Resumo_Emregos_formais": {
 			      "Binding": {
 			        "ConceptualEntity": "Tabela1"
 			      },
@@ -5110,9 +5420,9 @@ cultureInfo pt-BR
 			            "Entity": "tabela_1"
 			          }
 			        },
-			        "rais_2023": {
+			        "rais_2023.Resumo_Emregos_formais": {
 			          "Target": {
-			            "Entity": "rais_2023"
+			            "Entity": "rais_2023.Resumo_Emregos_formais"
 			          }
 			        }
 			      },
@@ -5123,12 +5433,837 @@ cultureInfo pt-BR
 			              "Role": "tabela_1"
 			            },
 			            "Object": {
-			              "Role": "rais_2023"
+			              "Role": "rais_2023.Resumo_Emregos_formais"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "tabela_1_have_rais_2023"
+			          "ID": "tabela_1_have_Resumo_Emregos_formais"
+			        }
+			      ]
+			    },
+			    "idh_2010_has_IDH_concatenado__país": {
+			      "Binding": {
+			        "ConceptualEntity": "idh_2010"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "idh_2010": {
+			          "Target": {
+			            "Entity": "idh_2010"
+			          }
+			        },
+			        "idh_2010.IDH_concatenado__país": {
+			          "Target": {
+			            "Entity": "idh_2010.IDH_concatenado__país"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "idh_2010"
+			            },
+			            "Object": {
+			              "Role": "idh_2010.IDH_concatenado__país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "idh_2010_have_IDH_concatenado__país"
+			        }
+			      ]
+			    },
+			    "idh_2010_has_IDH_concatenado__estado": {
+			      "Binding": {
+			        "ConceptualEntity": "idh_2010"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "idh_2010": {
+			          "Target": {
+			            "Entity": "idh_2010"
+			          }
+			        },
+			        "idh_2010.IDH_concatenado__estado": {
+			          "Target": {
+			            "Entity": "idh_2010.IDH_concatenado__estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "idh_2010"
+			            },
+			            "Object": {
+			              "Role": "idh_2010.IDH_concatenado__estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "idh_2010_have_IDH_concatenado__estado"
+			        }
+			      ]
+			    },
+			    "idh_2010_has_resumo_IDH": {
+			      "Binding": {
+			        "ConceptualEntity": "idh_2010"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "idh_2010": {
+			          "Target": {
+			            "Entity": "idh_2010"
+			          }
+			        },
+			        "idh_2010.resumo_IDH": {
+			          "Target": {
+			            "Entity": "idh_2010.resumo_IDH"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "idh_2010"
+			            },
+			            "Object": {
+			              "Role": "idh_2010.resumo_IDH"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "idh_2010_have_resumo_IDH"
+			        }
+			      ]
+			    },
+			    "idh_2010_has_code_muni_corrigido": {
+			      "Binding": {
+			        "ConceptualEntity": "idh_2010"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "idh_2010": {
+			          "Target": {
+			            "Entity": "idh_2010"
+			          }
+			        },
+			        "idh_2010.code_muni_corrigido": {
+			          "Target": {
+			            "Entity": "idh_2010.code_muni_corrigido"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "idh_2010"
+			            },
+			            "Object": {
+			              "Role": "idh_2010.code_muni_corrigido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "idh_2010_have_code_muni_corrigidos"
+			        }
+			      ]
+			    },
+			    "pib_per_capita_has_resumo__posição_no_país": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_per_capita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_per_capita": {
+			          "Target": {
+			            "Entity": "pib_per_capita"
+			          }
+			        },
+			        "pib_per_capita.resumo__posição_no_país": {
+			          "Target": {
+			            "Entity": "pib_per_capita.resumo__posição_no_país"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_per_capita"
+			            },
+			            "Object": {
+			              "Role": "pib_per_capita.resumo__posição_no_país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_per_capita_have_resumo__posição_no_país"
+			        }
+			      ]
+			    },
+			    "pib_per_capita_has_população__país": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_per_capita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_per_capita": {
+			          "Target": {
+			            "Entity": "pib_per_capita"
+			          }
+			        },
+			        "pib_per_capita.população__país": {
+			          "Target": {
+			            "Entity": "pib_per_capita.população__país"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_per_capita"
+			            },
+			            "Object": {
+			              "Role": "pib_per_capita.população__país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_per_capita_have_população__país"
+			        }
+			      ]
+			    },
+			    "pib_per_capita_has_valor_concatenado__país": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_per_capita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_per_capita": {
+			          "Target": {
+			            "Entity": "pib_per_capita"
+			          }
+			        },
+			        "pib_per_capita.valor_concatenado__país": {
+			          "Target": {
+			            "Entity": "pib_per_capita.valor_concatenado__país"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_per_capita"
+			            },
+			            "Object": {
+			              "Role": "pib_per_capita.valor_concatenado__país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_per_capita_have_valor_concatenado__país"
+			        }
+			      ]
+			    },
+			    "pib_per_capita_has_valor_concatenado__estado": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_per_capita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_per_capita": {
+			          "Target": {
+			            "Entity": "pib_per_capita"
+			          }
+			        },
+			        "pib_per_capita.valor_concatenado__estado": {
+			          "Target": {
+			            "Entity": "pib_per_capita.valor_concatenado__estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_per_capita"
+			            },
+			            "Object": {
+			              "Role": "pib_per_capita.valor_concatenado__estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_per_capita_have_valor_concatenado__estado"
+			        }
+			      ]
+			    },
+			    "pib_per_capita_has_resumo_economico": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_per_capita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_per_capita": {
+			          "Target": {
+			            "Entity": "pib_per_capita"
+			          }
+			        },
+			        "pib_per_capita.resumo_economico": {
+			          "Target": {
+			            "Entity": "pib_per_capita.resumo_economico"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_per_capita"
+			            },
+			            "Object": {
+			              "Role": "pib_per_capita.resumo_economico"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_per_capita_have_resumo_economico"
+			        }
+			      ]
+			    },
+			    "pop_residente_2022_has_pib_per_capita_pib_posição_no_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "pop_residente_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pop_residente_2022": {
+			          "Target": {
+			            "Entity": "pop_residente_2022"
+			          }
+			        },
+			        "pib_per_capita.pib_posição_no_estado": {
+			          "Target": {
+			            "Entity": "pib_per_capita.pib_posição_no_estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pop_residente_2022"
+			            },
+			            "Object": {
+			              "Role": "pib_per_capita.pib_posição_no_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pop_residente_2022_have__pib_posição_no_estado"
+			        }
+			      ]
+			    },
+			    "barra_de_progresso_has_pib_per_capita_pib_posição_no_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "Barra de Progresso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "barra_de_progresso": {
+			          "Target": {
+			            "Entity": "barra_de_progresso"
+			          }
+			        },
+			        "pib_per_capita.pib_posição_no_estado": {
+			          "Target": {
+			            "Entity": "pib_per_capita.pib_posição_no_estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "barra_de_progresso"
+			            },
+			            "Object": {
+			              "Role": "pib_per_capita.pib_posição_no_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "barra_de_progresso_have__pib_posição_no_estado"
+			        }
+			      ]
+			    },
+			    "pib_per_capita_has_pib_posição_no_país1": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_per_capita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_per_capita": {
+			          "Target": {
+			            "Entity": "pib_per_capita"
+			          }
+			        },
+			        "pib_per_capita.pib_posição_no_país1": {
+			          "Target": {
+			            "Entity": "pib_per_capita.pib_posição_no_país1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_per_capita"
+			            },
+			            "Object": {
+			              "Role": "pib_per_capita.pib_posição_no_país1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_per_capita_have__pib_posição_no_país"
+			        }
+			      ]
+			    },
+			    "barra_de_progresso_has_pib_per_capita_pib_posição_no_país1": {
+			      "Binding": {
+			        "ConceptualEntity": "Barra de Progresso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "barra_de_progresso": {
+			          "Target": {
+			            "Entity": "barra_de_progresso"
+			          }
+			        },
+			        "pib_per_capita.pib_posição_no_país1": {
+			          "Target": {
+			            "Entity": "pib_per_capita.pib_posição_no_país1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "barra_de_progresso"
+			            },
+			            "Object": {
+			              "Role": "pib_per_capita.pib_posição_no_país1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "barra_de_progresso_have__pib_posição_no_país"
+			        }
+			      ]
+			    },
+			    "pib_per_capita_has_pib_per_capta": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_per_capita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_per_capita": {
+			          "Target": {
+			            "Entity": "pib_per_capita"
+			          }
+			        },
+			        "pib_per_capita.pib_per_capta": {
+			          "Target": {
+			            "Entity": "pib_per_capita.pib_per_capta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_per_capita"
+			            },
+			            "Object": {
+			              "Role": "pib_per_capita.pib_per_capta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_per_capita_have_pib_per_capta"
+			        }
+			      ]
+			    },
+			    "pib_per_capita_has_pib_posição_no_país": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_per_capita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_per_capita": {
+			          "Target": {
+			            "Entity": "pib_per_capita"
+			          }
+			        },
+			        "pib_per_capita.pib_posição_no_país": {
+			          "Target": {
+			            "Entity": "pib_per_capita.pib_posição_no_país"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_per_capita"
+			            },
+			            "Object": {
+			              "Role": "pib_per_capita.pib_posição_no_país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_per_capita_have_pib_posição_no_país"
+			        }
+			      ]
+			    },
+			    "pib_per_capita_has_Resumo_Posição_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_per_capita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_per_capita": {
+			          "Target": {
+			            "Entity": "pib_per_capita"
+			          }
+			        },
+			        "pib_per_capita.Resumo_Posição_estado": {
+			          "Target": {
+			            "Entity": "pib_per_capita.Resumo_Posição_estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_per_capita"
+			            },
+			            "Object": {
+			              "Role": "pib_per_capita.Resumo_Posição_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_per_capita_have_Resumo_Posição_estado"
+			        }
+			      ]
+			    },
+			    "pop_residente_2022_has_barra_de_progresso_posição_no_país": {
+			      "Binding": {
+			        "ConceptualEntity": "pop_residente_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pop_residente_2022": {
+			          "Target": {
+			            "Entity": "pop_residente_2022"
+			          }
+			        },
+			        "barra_de_progresso.posição_no_país": {
+			          "Target": {
+			            "Entity": "barra_de_progresso.posição_no_país"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pop_residente_2022"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso.posição_no_país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pop_residente_2022_have__posição_no_país"
+			        }
+			      ]
+			    },
+			    "barra_de_progresso_has_posição_no_país": {
+			      "Binding": {
+			        "ConceptualEntity": "Barra de Progresso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "barra_de_progresso": {
+			          "Target": {
+			            "Entity": "barra_de_progresso"
+			          }
+			        },
+			        "barra_de_progresso.posição_no_país": {
+			          "Target": {
+			            "Entity": "barra_de_progresso.posição_no_país"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "barra_de_progresso"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso.posição_no_país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "barra_de_progresso_have__posição_no_país"
+			        }
+			      ]
+			    },
+			    "pib_per_capita_has_barra_de_progresso_barra_progresso__PIB_no_país": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_per_capita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_per_capita": {
+			          "Target": {
+			            "Entity": "pib_per_capita"
+			          }
+			        },
+			        "barra_de_progresso.barra_progresso__PIB_no_país": {
+			          "Target": {
+			            "Entity": "barra_de_progresso.barra_progresso__PIB_no_país"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_per_capita"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso.barra_progresso__PIB_no_país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_per_capita_have_barra_progresso__PIB_no_país"
+			        }
+			      ]
+			    },
+			    "municipio_has_barra_de_progresso_barra_progresso__PIB_no_país": {
+			      "Binding": {
+			        "ConceptualEntity": "municipio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "municipio": {
+			          "Target": {
+			            "Entity": "municipio"
+			          }
+			        },
+			        "barra_de_progresso.barra_progresso__PIB_no_país": {
+			          "Target": {
+			            "Entity": "barra_de_progresso.barra_progresso__PIB_no_país"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "municipio"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso.barra_progresso__PIB_no_país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "municipios_have_barra_progresso__PIB_no_país"
+			        }
+			      ]
+			    },
+			    "barra_de_progresso_has_barra_progresso__PIB_no_país": {
+			      "Binding": {
+			        "ConceptualEntity": "Barra de Progresso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "barra_de_progresso": {
+			          "Target": {
+			            "Entity": "barra_de_progresso"
+			          }
+			        },
+			        "barra_de_progresso.barra_progresso__PIB_no_país": {
+			          "Target": {
+			            "Entity": "barra_de_progresso.barra_progresso__PIB_no_país"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "barra_de_progresso"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso.barra_progresso__PIB_no_país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "barra_de_progresso_have_barra_progresso__PIB_no_país"
+			        }
+			      ]
+			    },
+			    "pop_residente_2022_has_barra_de_progresso_barra_progresso__PIB_no_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "pop_residente_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pop_residente_2022": {
+			          "Target": {
+			            "Entity": "pop_residente_2022"
+			          }
+			        },
+			        "barra_de_progresso.barra_progresso__PIB_no_estado": {
+			          "Target": {
+			            "Entity": "barra_de_progresso.barra_progresso__PIB_no_estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pop_residente_2022"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso.barra_progresso__PIB_no_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pop_residente_2022_have_barra_progresso__PIB_no_estado"
+			        }
+			      ]
+			    },
+			    "pib_per_capita_has_barra_de_progresso_barra_progresso__PIB_no_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "pib_per_capita"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pib_per_capita": {
+			          "Target": {
+			            "Entity": "pib_per_capita"
+			          }
+			        },
+			        "barra_de_progresso.barra_progresso__PIB_no_estado": {
+			          "Target": {
+			            "Entity": "barra_de_progresso.barra_progresso__PIB_no_estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pib_per_capita"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso.barra_progresso__PIB_no_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pib_per_capita_have_barra_progresso__PIB_no_estado"
+			        }
+			      ]
+			    },
+			    "municipio_has_barra_de_progresso_barra_progresso__PIB_no_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "municipio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "municipio": {
+			          "Target": {
+			            "Entity": "municipio"
+			          }
+			        },
+			        "barra_de_progresso.barra_progresso__PIB_no_estado": {
+			          "Target": {
+			            "Entity": "barra_de_progresso.barra_progresso__PIB_no_estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "municipio"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso.barra_progresso__PIB_no_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "municipios_have_barra_progresso__PIB_no_estado"
+			        }
+			      ]
+			    },
+			    "barra_de_progresso_has_barra_progresso__PIB_no_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "Barra de Progresso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "barra_de_progresso": {
+			          "Target": {
+			            "Entity": "barra_de_progresso"
+			          }
+			        },
+			        "barra_de_progresso.barra_progresso__PIB_no_estado": {
+			          "Target": {
+			            "Entity": "barra_de_progresso.barra_progresso__PIB_no_estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "barra_de_progresso"
+			            },
+			            "Object": {
+			              "Role": "barra_de_progresso.barra_progresso__PIB_no_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "barra_de_progresso_have_barra_progresso__PIB_no_estado"
 			        }
 			      ]
 			    },
@@ -5835,270 +6970,6 @@ cultureInfo pt-BR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "estimativas_sidra_have_nivel_territorial_codigos"
-			        }
-			      ]
-			    },
-			    "mpe_2025_has_perc_servicos_mpe": {
-			      "Binding": {
-			        "ConceptualEntity": "mpe_2025"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "mpe_2025": {
-			          "Target": {
-			            "Entity": "mpe_2025"
-			          }
-			        },
-			        "mpe_2025.perc_servicos_mpe": {
-			          "Target": {
-			            "Entity": "mpe_2025.perc_servicos_mpe"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "mpe_2025"
-			            },
-			            "Object": {
-			              "Role": "mpe_2025.perc_servicos_mpe"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "mpe_2025_have_perc_servicos_mpes"
-			        }
-			      ]
-			    },
-			    "mpe_2025_has_perc_comercio_mpe": {
-			      "Binding": {
-			        "ConceptualEntity": "mpe_2025"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "mpe_2025": {
-			          "Target": {
-			            "Entity": "mpe_2025"
-			          }
-			        },
-			        "mpe_2025.perc_comercio_mpe": {
-			          "Target": {
-			            "Entity": "mpe_2025.perc_comercio_mpe"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "mpe_2025"
-			            },
-			            "Object": {
-			              "Role": "mpe_2025.perc_comercio_mpe"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "mpe_2025_have_perc_comercio_mpes"
-			        }
-			      ]
-			    },
-			    "mpe_2025_has_perc_construcao_mpe": {
-			      "Binding": {
-			        "ConceptualEntity": "mpe_2025"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "mpe_2025": {
-			          "Target": {
-			            "Entity": "mpe_2025"
-			          }
-			        },
-			        "mpe_2025.perc_construcao_mpe": {
-			          "Target": {
-			            "Entity": "mpe_2025.perc_construcao_mpe"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "mpe_2025"
-			            },
-			            "Object": {
-			              "Role": "mpe_2025.perc_construcao_mpe"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "mpe_2025_have_perc_construcao_mpes"
-			        }
-			      ]
-			    },
-			    "mpe_2025_has_perc_industria_mpe": {
-			      "Binding": {
-			        "ConceptualEntity": "mpe_2025"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "mpe_2025": {
-			          "Target": {
-			            "Entity": "mpe_2025"
-			          }
-			        },
-			        "mpe_2025.perc_industria_mpe": {
-			          "Target": {
-			            "Entity": "mpe_2025.perc_industria_mpe"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "mpe_2025"
-			            },
-			            "Object": {
-			              "Role": "mpe_2025.perc_industria_mpe"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "mpe_2025_have_perc_industria_mpes"
-			        }
-			      ]
-			    },
-			    "mpe_2025_has_perc_agropecuaria_mpe": {
-			      "Binding": {
-			        "ConceptualEntity": "mpe_2025"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "mpe_2025": {
-			          "Target": {
-			            "Entity": "mpe_2025"
-			          }
-			        },
-			        "mpe_2025.perc_agropecuaria_mpe": {
-			          "Target": {
-			            "Entity": "mpe_2025.perc_agropecuaria_mpe"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "mpe_2025"
-			            },
-			            "Object": {
-			              "Role": "mpe_2025.perc_agropecuaria_mpe"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "mpe_2025_have_perc_agropecuaria_mpes"
-			        }
-			      ]
-			    },
-			    "mpe_2025_has_perc_mpe_estado": {
-			      "Binding": {
-			        "ConceptualEntity": "mpe_2025"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "mpe_2025": {
-			          "Target": {
-			            "Entity": "mpe_2025"
-			          }
-			        },
-			        "mpe_2025.perc_mpe_estado": {
-			          "Target": {
-			            "Entity": "mpe_2025.perc_mpe_estado"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "mpe_2025"
-			            },
-			            "Object": {
-			              "Role": "mpe_2025.perc_mpe_estado"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "mpe_2025_have_perc_mpe_estado"
-			        }
-			      ]
-			    },
-			    "mpe_2025_has_mpe": {
-			      "Binding": {
-			        "ConceptualEntity": "mpe_2025"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "mpe_2025": {
-			          "Target": {
-			            "Entity": "mpe_2025"
-			          }
-			        },
-			        "mpe_2025.mpe": {
-			          "Target": {
-			            "Entity": "mpe_2025.mpe"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "mpe_2025"
-			            },
-			            "Object": {
-			              "Role": "mpe_2025.mpe"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "mpe_2025_have_mpes"
-			        }
-			      ]
-			    },
-			    "mpe_2025_has_code_muni": {
-			      "Binding": {
-			        "ConceptualEntity": "mpe_2025"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "mpe_2025": {
-			          "Target": {
-			            "Entity": "mpe_2025"
-			          }
-			        },
-			        "mpe_2025.code_muni": {
-			          "Target": {
-			            "Entity": "mpe_2025.code_muni"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "mpe_2025"
-			            },
-			            "Object": {
-			              "Role": "mpe_2025.code_muni"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "mpe_2025_have_code_munis"
 			        }
 			      ]
 			    },
@@ -7224,7 +8095,7 @@ cultureInfo pt-BR
 			        }
 			      ]
 			    },
-			    "pop_residente_2022_has_barra_de_progresso_barra_progresso__no_estado": {
+			    "pop_residente_2022_has_barra_de_progresso_barra_progresso__população_no_estado": {
 			      "Binding": {
 			        "ConceptualEntity": "pop_residente_2022"
 			      },
@@ -7235,9 +8106,9 @@ cultureInfo pt-BR
 			            "Entity": "pop_residente_2022"
 			          }
 			        },
-			        "barra_de_progresso.barra_progresso__no_estado": {
+			        "barra_de_progresso.barra_progresso__população_no_estado": {
 			          "Target": {
-			            "Entity": "barra_de_progresso.barra_progresso__no_estado"
+			            "Entity": "barra_de_progresso.barra_progresso__população_no_estado"
 			          }
 			        }
 			      },
@@ -7248,16 +8119,16 @@ cultureInfo pt-BR
 			              "Role": "pop_residente_2022"
 			            },
 			            "Object": {
-			              "Role": "barra_de_progresso.barra_progresso__no_estado"
+			              "Role": "barra_de_progresso.barra_progresso__população_no_estado"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "pop_residente_2022_have_barra_progresso__no_estado"
+			          "ID": "pop_residente_2022_have_barra_progresso__população_no_estado"
 			        }
 			      ]
 			    },
-			    "municipio_has_barra_de_progresso_barra_progresso__no_estado": {
+			    "municipio_has_barra_de_progresso_barra_progresso__população_no_estado": {
 			      "Binding": {
 			        "ConceptualEntity": "municipio"
 			      },
@@ -7268,9 +8139,9 @@ cultureInfo pt-BR
 			            "Entity": "municipio"
 			          }
 			        },
-			        "barra_de_progresso.barra_progresso__no_estado": {
+			        "barra_de_progresso.barra_progresso__população_no_estado": {
 			          "Target": {
-			            "Entity": "barra_de_progresso.barra_progresso__no_estado"
+			            "Entity": "barra_de_progresso.barra_progresso__população_no_estado"
 			          }
 			        }
 			      },
@@ -7281,16 +8152,16 @@ cultureInfo pt-BR
 			              "Role": "municipio"
 			            },
 			            "Object": {
-			              "Role": "barra_de_progresso.barra_progresso__no_estado"
+			              "Role": "barra_de_progresso.barra_progresso__população_no_estado"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "municipios_have_barra_progresso__no_estado"
+			          "ID": "municipios_have_barra_progresso__população_no_estado"
 			        }
 			      ]
 			    },
-			    "barra_de_progresso_has_barra_progresso__no_estado": {
+			    "barra_de_progresso_has_barra_progresso__população_no_estado": {
 			      "Binding": {
 			        "ConceptualEntity": "Barra de Progresso"
 			      },
@@ -7301,9 +8172,9 @@ cultureInfo pt-BR
 			            "Entity": "barra_de_progresso"
 			          }
 			        },
-			        "barra_de_progresso.barra_progresso__no_estado": {
+			        "barra_de_progresso.barra_progresso__população_no_estado": {
 			          "Target": {
-			            "Entity": "barra_de_progresso.barra_progresso__no_estado"
+			            "Entity": "barra_de_progresso.barra_progresso__população_no_estado"
 			          }
 			        }
 			      },
@@ -7314,12 +8185,12 @@ cultureInfo pt-BR
 			              "Role": "barra_de_progresso"
 			            },
 			            "Object": {
-			              "Role": "barra_de_progresso.barra_progresso__no_estado"
+			              "Role": "barra_de_progresso.barra_progresso__população_no_estado"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "barra_de_progresso_have_barra_progresso__no_estado"
+			          "ID": "barra_de_progresso_have_barra_progresso__população_no_estado"
 			        }
 			      ]
 			    },
@@ -7356,20 +8227,20 @@ cultureInfo pt-BR
 			        }
 			      ]
 			    },
-			    "tabela_1_has_resumo_populacional": {
+			    "pop_residente_2022_has_resumo_populacional": {
 			      "Binding": {
-			        "ConceptualEntity": "Tabela1"
+			        "ConceptualEntity": "pop_residente_2022"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "tabela_1": {
+			        "pop_residente_2022": {
 			          "Target": {
-			            "Entity": "tabela_1"
+			            "Entity": "pop_residente_2022"
 			          }
 			        },
-			        "tabela_1.resumo_populacional": {
+			        "pop_residente_2022.resumo_populacional": {
 			          "Target": {
-			            "Entity": "tabela_1.resumo_populacional"
+			            "Entity": "pop_residente_2022.resumo_populacional"
 			          }
 			        }
 			      },
@@ -7377,15 +8248,15 @@ cultureInfo pt-BR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "tabela_1"
+			              "Role": "pop_residente_2022"
 			            },
 			            "Object": {
-			              "Role": "tabela_1.resumo_populacional"
+			              "Role": "pop_residente_2022.resumo_populacional"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "tabela_1_have_resumo_populacional"
+			          "ID": "pop_residente_2022_have_resumo_populacional"
 			        }
 			      ]
 			    },
@@ -7455,7 +8326,7 @@ cultureInfo pt-BR
 			        }
 			      ]
 			    },
-			    "pop_residente_2022_has_barra_de_progresso_barra_progresso__NO_PAÍS": {
+			    "pop_residente_2022_has_barra_de_progresso_barra_progresso__população_no_país": {
 			      "Binding": {
 			        "ConceptualEntity": "pop_residente_2022"
 			      },
@@ -7466,9 +8337,9 @@ cultureInfo pt-BR
 			            "Entity": "pop_residente_2022"
 			          }
 			        },
-			        "barra_de_progresso.barra_progresso__NO_PAÍS": {
+			        "barra_de_progresso.barra_progresso__população_no_país": {
 			          "Target": {
-			            "Entity": "barra_de_progresso.barra_progresso__NO_PAÍS"
+			            "Entity": "barra_de_progresso.barra_progresso__população_no_país"
 			          }
 			        }
 			      },
@@ -7479,16 +8350,16 @@ cultureInfo pt-BR
 			              "Role": "pop_residente_2022"
 			            },
 			            "Object": {
-			              "Role": "barra_de_progresso.barra_progresso__NO_PAÍS"
+			              "Role": "barra_de_progresso.barra_progresso__população_no_país"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "pop_residente_2022_have_barra_progresso__NO_PAÍS"
+			          "ID": "pop_residente_2022_have_barra_progresso__população_no_país"
 			        }
 			      ]
 			    },
-			    "municipio_has_barra_de_progresso_barra_progresso__NO_PAÍS": {
+			    "municipio_has_barra_de_progresso_barra_progresso__população_no_país": {
 			      "Binding": {
 			        "ConceptualEntity": "municipio"
 			      },
@@ -7499,9 +8370,9 @@ cultureInfo pt-BR
 			            "Entity": "municipio"
 			          }
 			        },
-			        "barra_de_progresso.barra_progresso__NO_PAÍS": {
+			        "barra_de_progresso.barra_progresso__população_no_país": {
 			          "Target": {
-			            "Entity": "barra_de_progresso.barra_progresso__NO_PAÍS"
+			            "Entity": "barra_de_progresso.barra_progresso__população_no_país"
 			          }
 			        }
 			      },
@@ -7512,16 +8383,16 @@ cultureInfo pt-BR
 			              "Role": "municipio"
 			            },
 			            "Object": {
-			              "Role": "barra_de_progresso.barra_progresso__NO_PAÍS"
+			              "Role": "barra_de_progresso.barra_progresso__população_no_país"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "municipios_have_barra_progresso__NO_PAÍS"
+			          "ID": "municipios_have_barra_progresso__população_no_país"
 			        }
 			      ]
 			    },
-			    "barra_de_progresso_has_barra_progresso__NO_PAÍS": {
+			    "barra_de_progresso_has_barra_progresso__população_no_país": {
 			      "Binding": {
 			        "ConceptualEntity": "Barra de Progresso"
 			      },
@@ -7532,9 +8403,9 @@ cultureInfo pt-BR
 			            "Entity": "barra_de_progresso"
 			          }
 			        },
-			        "barra_de_progresso.barra_progresso__NO_PAÍS": {
+			        "barra_de_progresso.barra_progresso__população_no_país": {
 			          "Target": {
-			            "Entity": "barra_de_progresso.barra_progresso__NO_PAÍS"
+			            "Entity": "barra_de_progresso.barra_progresso__população_no_país"
 			          }
 			        }
 			      },
@@ -7545,12 +8416,12 @@ cultureInfo pt-BR
 			              "Role": "barra_de_progresso"
 			            },
 			            "Object": {
-			              "Role": "barra_de_progresso.barra_progresso__NO_PAÍS"
+			              "Role": "barra_de_progresso.barra_progresso__população_no_país"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "barra_de_progresso_have_barra_progresso__NO_PAÍS"
+			          "ID": "barra_de_progresso_have_barra_progresso__população_no_país"
 			        }
 			      ]
 			    },
@@ -7683,72 +8554,6 @@ cultureInfo pt-BR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "barra_de_progresso_have_code_munis"
-			        }
-			      ]
-			    },
-			    "pop_residente_2022_has_tabela_1_posição_no_país": {
-			      "Binding": {
-			        "ConceptualEntity": "pop_residente_2022"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "pop_residente_2022": {
-			          "Target": {
-			            "Entity": "pop_residente_2022"
-			          }
-			        },
-			        "tabela_1.posição_no_país": {
-			          "Target": {
-			            "Entity": "tabela_1.posição_no_país"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "pop_residente_2022"
-			            },
-			            "Object": {
-			              "Role": "tabela_1.posição_no_país"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "pop_residente_2022_have__posição_no_país"
-			        }
-			      ]
-			    },
-			    "barra_de_progresso_has_tabela_1_posição_no_país": {
-			      "Binding": {
-			        "ConceptualEntity": "Barra de Progresso"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "barra_de_progresso": {
-			          "Target": {
-			            "Entity": "barra_de_progresso"
-			          }
-			        },
-			        "tabela_1.posição_no_país": {
-			          "Target": {
-			            "Entity": "tabela_1.posição_no_país"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "barra_de_progresso"
-			            },
-			            "Object": {
-			              "Role": "tabela_1.posição_no_país"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "barra_de_progresso_have__posição_no_país"
 			        }
 			      ]
 			    },
@@ -9732,7 +10537,7 @@ cultureInfo pt-BR
 			        }
 			      ]
 			    },
-			    "municipio_has_pib_mun": {
+			    "municipio_has_idh_2010": {
 			      "Binding": {
 			        "ConceptualEntity": "municipio"
 			      },
@@ -9743,9 +10548,9 @@ cultureInfo pt-BR
 			            "Entity": "municipio"
 			          }
 			        },
-			        "pib_mun": {
+			        "idh_2010": {
 			          "Target": {
-			            "Entity": "pib_mun"
+			            "Entity": "idh_2010"
 			          }
 			        }
 			      },
@@ -9756,12 +10561,12 @@ cultureInfo pt-BR
 			              "Role": "municipio"
 			            },
 			            "Object": {
-			              "Role": "pib_mun"
+			              "Role": "idh_2010"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "municipios_have_pib_muns"
+			          "ID": "municipios_have_idh_2010"
 			        }
 			      ]
 			    }

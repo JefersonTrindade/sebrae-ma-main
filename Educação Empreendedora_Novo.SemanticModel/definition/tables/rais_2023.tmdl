@@ -8,6 +8,7 @@ table rais_2023
 			"é de " & 
 			SELECTEDVALUE(rais_2023[v_salario_medio_sm]) & "e foi registrado " & SELECTEDVALUE(rais_2023[empregos_formais]) & "empregos formais" & "com uma remuneração equivalente a " & SELECTEDVALUE(rais_2023[remuneracao])& "e " & "ocupando a posição " & SELECTEDVALUE(rais_2023[rais_ranking_na_salario_medio_sm]) & "no ranking Nacional."
 			```
+		displayFolder: Medidas
 		lineageTag: ebc66bbb-f81c-47fa-992a-02b0636ea0df
 
 	column code_muni_6

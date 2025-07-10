@@ -14,12 +14,6 @@ relationship d173e515-3e6a-8d46-f1c0-79971ba8a425
 	fromColumn: densidade_demografica.code_muni
 	toColumn: municipio.code_muni
 
-relationship b1e29aff-5fc6-41a6-a5a0-460a06802382
-	crossFilteringBehavior: bothDirections
-	fromCardinality: one
-	fromColumn: mpe_2025.code_muni
-	toColumn: municipio.code_muni
-
 relationship fae92145-131a-6e8a-3d31-3b83f18b9602
 	crossFilteringBehavior: bothDirections
 	fromCardinality: one
@@ -43,4 +37,10 @@ relationship 4545cd14-7bef-809b-0939-281fc29268de
 	fromCardinality: one
 	fromColumn: municipio.code_muni
 	toColumn: idh_2010.code_muni_corrigido
+
+relationship AutoDetected_af190fc9-19f9-4058-97c3-3f42056be131
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: mpe_2025.code_muni
+	toColumn: municipio.code_muni
 

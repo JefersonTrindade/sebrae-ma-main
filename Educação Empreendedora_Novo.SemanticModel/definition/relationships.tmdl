@@ -44,3 +44,9 @@ relationship AutoDetected_af190fc9-19f9-4058-97c3-3f42056be131
 	fromColumn: mpe_2025.code_muni
 	toColumn: municipio.code_muni
 
+relationship 1f1c9a71-f912-507b-a38d-60afa7748114
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: rais_2023.code_muni
+	toColumn: municipio.code_muni
+

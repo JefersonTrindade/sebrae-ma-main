@@ -3,19 +3,20 @@ table rais_2023
 
 	measure 'Resumo_Emregos formais' = ```
 			
-			"Em 2023, o salários médio mensal dos trabalhadores formais no município" & [Nome_municipio] &
+			"Em 2023, o salários médio mensal dos trabalhadores formais no município " & SELECTEDVALUE(municipio[municipio]) &
 			
-			"é de " & 
-			SELECTEDVALUE(rais_2023[v_salario_medio_sm]) & "e foi registrado " & SELECTEDVALUE(rais_2023[empregos_formais]) & "empregos formais" & "com uma remuneração equivalente a " & SELECTEDVALUE(rais_2023[remuneracao])& "e " & "ocupando a posição " & SELECTEDVALUE(rais_2023[rais_ranking_na_salario_medio_sm]) & "no ranking Nacional."
+			" é de " & 
+			SELECTEDVALUE(rais_2023[v_salario_medio_sm]) & " e foi registrado " & FORMAT(SELECTEDVALUE(rais_2023[empregos_formais]), "#,###") & " empregos formais " & "com uma remuneração equivalente a " & FORMAT(SELECTEDVALUE(rais_2023[remuneracao]), "R$ #,##0.00") & " e " & "ocupando a posição " & FORMAT(SELECTEDVALUE(rais_2023[rais_ranking_na_salario_medio_sm]), "#,###") & " no ranking Nacional."
 			```
 		displayFolder: Medidas
 		lineageTag: ebc66bbb-f81c-47fa-992a-02b0636ea0df
 
 	column code_muni_6
-		dataType: string
+		dataType: int64
+		formatString: 0
 		displayFolder: Colunas
 		lineageTag: b718cc8a-8a20-4601-9a14-e15d39997c57
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: code_muni_6
 
 		annotation SummarizationSetBy = Automatic
@@ -61,14 +62,26 @@ table rais_2023
 
 		annotation SummarizationSetBy = Automatic
 
+	column code_muni
+		dataType: int64
+		formatString: 0
+		lineageTag: e78bc5e8-e166-4a5e-8da7-2b7607fcb48a
+		summarizeBy: none
+		sourceColumn: code_muni
+
+		annotation SummarizationSetBy = Automatic
+
 	partition rais_2023 = m
 		mode: import
 		source =
 				let
 				    Source = Sql.Database("10.11.4.21", "dw_uim"),
-				    dbo_rais_2023 = Source{[Schema="dbo",Item="rais_2023"]}[Data]
+				    dbo_rais_2023 = Source{[Schema="dbo",Item="rais_2023"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(dbo_rais_2023,{{"code_muni_6", Int64.Type}}),
+				    #"Merged Queries" = Table.NestedJoin(#"Changed Type", {"code_muni_6"}, Tabela1, {"code_muni_6"}, "Tabela1", JoinKind.LeftOuter),
+				    #"Expanded Tabela1" = Table.ExpandTableColumn(#"Merged Queries", "Tabela1", {"code_muni"}, {"code_muni"})
 				in
-				    dbo_rais_2023
+				    #"Expanded Tabela1"
 
 	annotation PBI_NavigationStepName = Navigation
 

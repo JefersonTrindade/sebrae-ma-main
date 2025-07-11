@@ -1,6 +1,74 @@
 table pib_per_capita
 	lineageTag: 1b7918e1-4251-426b-8024-62131294f905
 
+	measure 'Resumo_Posição Estado' =
+			
+			SELECTEDVALUE(pib_per_capita[posicao_estadual_pib_per_capita]) & " de 217"
+		displayFolder: Medidas
+		lineageTag: e9c6c114-509d-45b2-9b4a-eda153d2102f
+
+	measure 'Pib Posição no País' = SUm(pib_per_capita[posicao_na_pib_per_capita])
+		formatString: 0
+		displayFolder: Medidas
+		lineageTag: eb2a9863-68f2-4c82-a356-182c4381f5ca
+
+	measure 'Pib per capta' = SELECTEDVALUE(pib_per_capita[pib_per_capita])
+		displayFolder: Medidas
+		lineageTag: a30c50a0-7490-48b3-b784-621536149998
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure '% Pib Posição no País' =
+			
+			DIVIDE([Pib Posição no País], [No pais])
+		displayFolder: Medidas
+		lineageTag: 73bbfcd1-f110-44c3-9eb0-1e79c64d3c60
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure '% Pib Posição no Estado' =
+			
+			DIVIDE([Posição no Estado], [No Estado_])
+		displayFolder: Medidas
+		lineageTag: 77f645b9-f57e-447e-a595-f4c48fdd7ed9
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Resumo_Economico = ```
+			
+			"Em 2021, o PIB per capita era de R$ " & 
+			FORMAT(SELECTEDVALUE(pib_per_capita[pib_per_capita]), "#,##0.00") & 
+			". Na comparação com outros municípios do estado, ficava nas posições " & 
+			SELECTEDVALUE(pib_per_capita[posicao_estadual_pib_per_capita]) & " de 217 e na posição " & 
+			SELECTEDVALUE(pib_per_capita[posicao_na_pib_per_capita]) & " de 5570 entre todos os municípios. "
+			```
+		displayFolder: Medidas
+		lineageTag: 0c53196b-08a1-4827-a7f7-d863c6ad0063
+
+	measure 'Valor concatenado - Estado' =
+			
+			SELECTEDVALUE(pib_per_capita[posicao_estadual_pib_per_capita]) & " de 217"
+		displayFolder: Medidas
+		lineageTag: 4d2a6ce5-71cc-4001-872b-7dbcca6bd21d
+
+	measure 'Valor concatenado - País' =
+			
+			SELECTEDVALUE(pib_per_capita[posicao_na_pib_per_capita]) & " de 5570"
+		displayFolder: Medidas
+		lineageTag: e3827894-485a-43ab-9e14-fa9a84485d2e
+
+	measure 'População - país' =
+			
+			SELECTEDVALUE(pib_per_capita[posicao_na_pib_per_capita]) & " de 5570 entre todos os municípios. "
+		displayFolder: Medidas
+		lineageTag: 88d93cd2-2304-488e-b07b-fc89a43b5834
+
+	measure 'Resumo - Posição no País' =
+			
+			SELECTEDVALUE(pib_per_capita[posicao_na_pib_per_capita]) & " de 5570"
+		displayFolder: Medidas
+		lineageTag: 9717f29f-df91-4fe9-a7ab-a818c3d959fc
+
 	column code_muni
 		dataType: string
 		displayFolder: Colunas
@@ -49,4 +117,6 @@ table pib_per_capita
 				    dbo_pib_per_capita = Source{[Schema="dbo",Item="pib_per_capita"]}[Data]
 				in
 				    dbo_pib_per_capita
+
+	annotation PBI_NavigationStepName = Navigation
 
